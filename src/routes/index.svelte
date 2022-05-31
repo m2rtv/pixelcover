@@ -18,7 +18,7 @@
         `${todaysData.date}-32px.png`,
         `${todaysData.date}-36px.png`,
     ]
-    let albumImg = `static/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`;
+    let albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`;
 
     // Reset user data, if new day
     if (todaysData.date != $user.lastDate) {
@@ -57,7 +57,7 @@
         // Enhance image
         if ($user.lastGuessNo < albumImgArr.length-1) {
             $user.lastGuessNo += 1;
-            albumImg = `static/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
+            albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
         } else {
             document.getElementById("btnSubmit").disabled = true; 
             $user.gameLost = true;
@@ -96,7 +96,7 @@
             <h2 style="color: var(--black); margin-bottom: 2rem">It's ok. We can't know all the things in the world, right?</h2>
         {/if}
         <p>Check back tomorrow for a new round. The puzzle will be updated at midnight, UTC time.</p>
-        <img src="static/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
+        <img src="/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
         <p>{todaysData.info}</p>
         <p><a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=Ebynq45CScec7Z2Ij50H7A">Listen on Spotify</a></p>
         <!-- <button id="btnSubmit" on:click={guideClose}>Got it, lets play!</button> -->
