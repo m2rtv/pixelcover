@@ -1,13 +1,14 @@
-import dayjs from "dayjs";
 import { writable } from "svelte/store";
 import { browser } from '$app/env';
 
-// Use dayjsPluginUTC for UTC conversion
-import dayjsPluginUTC from 'dayjs-plugin-utc'
-dayjs.extend(dayjsPluginUTC)
+let today = new Date();
+let dd = String(today.getUTCDate());
+let mm = String(today.getUTCMonth());
+let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+let mmm = months[mm];
+let yyyy = today.getUTCFullYear();
 
-// @ts-ignore
-let todaysDate = dayjs.utc().format('MMMDDYY');
+let todaysDate = mmm + dd + yyyy;
 
 let userData = JSON.parse(browser && localStorage.getItem("user")) || {
     firstVisit: true,
@@ -40,7 +41,7 @@ stats.subscribe(
 )
 
 let Data = {
-    May3122: {
+    May312022: {
         date: todaysDate,
         artist: 'Kendrick Lamar',
         artist2: 'Kendrick Lamar',
