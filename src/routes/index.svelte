@@ -28,7 +28,7 @@
         $user.lastGuessAlbum = '';
         $user.guessedArtist = undefined;
         $user.guessedAlbum = undefined;
-        $user.guessedBoth = false;
+        $user.gameWon = false;
     }
 
     let submit = () => {
@@ -66,7 +66,7 @@
 
         // Check if both answers are correct
         if($user.guessedArtist == true && $user.guessedAlbum == true) {
-            $user.guessedBoth = true;
+            $user.gameWon = true;
             $stats.gamesWon+=1;
         }
 
@@ -81,14 +81,14 @@
 </script>
 
 <!-- <Nav /> -->
-{#if $user.guessedBoth || $user.gameLost}
+{#if $user.gameWon || $user.gameLost}
 <div class="modal-finish-wrapper">
     <div id="modal-finish">
         {#if $user.gameLost}
             <h1 style="color: var(--white)">Correct answer:</h1>
             <h1 style="color: var(--white)">{todaysData.artist} - {todaysData.album}</h1>
         {/if}
-        {#if $user.guessedBoth}
+        {#if $user.gameWon}
             <h1 style="color: var(--white)">{todaysData.artist} - {todaysData.album}</h1>
             <h2 style="color: var(--black); margin-bottom: 2rem">Well done!<br> You got it on guess #{$user.lastGuessNo}</h2>
         {/if}
@@ -171,7 +171,7 @@
         </div>
     </div>
 </div>
-<button id="btnSubmit" on:click={submit} disabled={$user.guessedBoth}>Submit</button>
+<button id="btnSubmit" on:click={submit} disabled={$user.gameWon}>Submit</button>
 
 <style>
     .modal-wrapper {
@@ -183,6 +183,7 @@
     }
     .modal-finish-wrapper {
         width: 100%;
+        min-height: 100%;
         position: absolute;
         background-color: var(--gray-lightest);
         z-index: 9999;

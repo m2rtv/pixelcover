@@ -18,7 +18,7 @@ let userData = JSON.parse(browser && localStorage.getItem("user")) || {
     lastGuessAlbum: '',
     guessedArtist: undefined,
     guessedAlbum: undefined,
-    guessedBoth: false,
+    gameWon: false,
     gameLost: false,
 }
 export let user = writable(browser && userData);
@@ -41,7 +41,7 @@ stats.subscribe(
 )
 
 let Data = {
-    May312022: {
+    Jun12022: {
         date: todaysDate,
         artist: 'Kendrick Lamar',
         artist2: 'Kendrick Lamar',
