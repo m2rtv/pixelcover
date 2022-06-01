@@ -109,8 +109,8 @@
     <div id="modal-guide" class="modal">
         <h1>How to play</h1>
         <h2>Pixelcover is a daily quiz about the art of album covers.</h2>
-        <p>The game starts off with a heavily pixelated (4x4) album cover. You have 8 tries to guess the artist and the album name.</p>
-        <p>With each guess, the image gets enhanced a little — you'll also get some hints along the way.</p>
+        <p>The game starts off with a heavily pixelated (4x4 pixels) album cover. You have 10 tries to guess the artist and the album name.</p>
+        <p>With each guess, the image gets enhanced a little.</p>
         <img src="pixelcovers-example.gif" alt="">
         <p>If nothing comes to mind, just click "Submit" without filling out the textfields.</p>
         <p>You get 1 point for artist, and 1 for album name. So 2 points in total.</p>
