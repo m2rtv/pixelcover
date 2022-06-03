@@ -41,7 +41,7 @@ stats.subscribe(
 )
 
 let Data = {
-    Jun22022: {
+    Jun32022: {
         date: todaysDate,
         artist: 'Kendrick Lamar',
         artist2: 'Kendrick Lamar',
