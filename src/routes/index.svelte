@@ -19,6 +19,7 @@
         `${todaysData.date}-36px.png`,
     ]
     let albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`;
+    let largestNumber;
 
     // Reset user data, if new day
     if (todaysData.date != $user.lastDate) {
@@ -26,25 +27,26 @@
         $user.lastGuessNo = 0;
         $user.lastGuessArtist = '';
         $user.lastGuessAlbum = '';
-        $user.guessedArtist = undefined;
-        $user.guessedAlbum = undefined;
+        $user.guessedArtist = false;
+        $user.guessedAlbum = false;
         $user.gameWon = false;
     }
 
     let submit = () => {
         // Check if any of the answers is correct
         if ($user.lastGuessArtist.toLowerCase().trim() == todaysData.artist.toLowerCase() || $user.lastGuessArtist.toLowerCase().trim() == todaysData.artist2.toLowerCase()) {
-            if($user.guessedArtist == false) {
+            if($user.guessedArtist == false || $user.guessedArtist == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
             }
+            console.log(typeof $user.lastGuessNo)
             $user.guessedArtist = true;
         } else {
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
         if ($user.lastGuessAlbum.toLowerCase().trim() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album2.toLowerCase()) {
-            if($user.guessedAlbum == false) {
+            if($user.guessedAlbum == false || $user.guessedAlbum == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
             }
@@ -64,13 +66,19 @@
             $user.gameLost = true;
             $stats.gamesLost+=1;
         }
-
         // Check if both answers are correct
-        if($user.guessedArtist == true && $user.guessedAlbum == true) {
+        if ($user.guessedArtist == true && $user.guessedAlbum == true) {
             $user.gameWon = true;
-            $stats.gamesWon+=1;
+            $stats.gamesWon += 1;
+            $stats.playCount += 1;
+            largestNumber = biggestNumberInArray($stats.pointsDist);
         }
-
+    }
+    
+    // Calc stats
+    if ($user.guessedArtist == true && $user.guessedAlbum == true) {
+        largestNumber = biggestNumberInArray($stats.pointsDist);
+        $stats.winPerc = $stats.gamesWon * 100 / $stats.playCount;
     }
 
     let guideOpen = true;
@@ -78,7 +86,12 @@
 		$user.firstVisit = false;
         guideOpen = false;
 	}
-
+    
+    function biggestNumberInArray(arr) {
+        const max = Math.max(...arr);
+        return max;
+    }
+    console.log(largestNumber)
 </script>
 
 <!-- <Nav /> -->
@@ -101,6 +114,39 @@
         <p>{todaysData.info}</p>
         <p><a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=Ebynq45CScec7Z2Ij50H7A">Listen on Spotify</a></p>
         <!-- <button id="btnSubmit" on:click={guideClose}>Got it, lets play!</button> -->
+        <div class="subpage-wrapper">
+            <h2>Statistics</h2>
+            <div class="stats-wrapper">
+                <div class="stat">
+                    <p>Points</p>
+                    <h3>{$stats.totalPoints}</h3>
+                </div>
+                <div class="stat">
+                    <p>Played</p>
+                    <h3>{$stats.playCount}</h3>
+                </div>
+                <div class="stat">
+                    <p>Win %</p>
+                    <h3>{$stats.winPerc}</h3>
+                </div>
+                <div class="stat">
+                    <p>Streak</p>
+                    <h3>{$stats.streak}</h3>
+                </div>
+            </div>
+            <h2>Points distribution</h2>
+            {#each $stats.pointsDist as point, i}
+                <div class="points-item">
+                    <div class="points-meta">
+                        <p>Guess #{i+1}</p>
+                        <p>{point}</p>
+                    </div>
+                    <div class="points-bar-bg">
+                        <div class="points-bar" style="width: {point*100/largestNumber}%"></div>
+                    </div>
+                </div>
+            {/each}
+        </div>
     </div>
 </div>
 {/if}
@@ -375,6 +421,42 @@
     #btnSubmit:disabled {
         background-color: var(--gray-dark);
         cursor: not-allowed;
+    }
+
+    /* STATS STYLES */
+
+    .subpage-wrapper h2 {
+        color: var(--white);
+        margin-bottom: .5rem;
+        letter-spacing: -0.75px;
+    }
+    .stats-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .points-item {
+        margin-bottom: .75rem;
+    }
+    .stat p, .points-meta p {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--black);
+    }
+    .points-meta {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .points-bar-bg {
+        width: 100%;
+        height: 4px;
+        background-color: var(--gray-light);
+    }
+    .points-bar {
+        height: 4px;
+        background-color: var(--black);
     }
 
     /* BREAKPOINTS */
