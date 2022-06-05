@@ -18,18 +18,29 @@
         `${todaysData.date}-32px.png`,
         `${todaysData.date}-36px.png`,
     ]
-    let albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`;
+    $:albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`;
     let largestNumber;
+
+    // Save yesterdays date — this is for streak calculation
+    let yesterday = new Date();
+    yesterday.setUTCDate(yesterday.getDate() - 1)
+    let ddY = String(yesterday.getUTCDate());
+    let mmY = String(yesterday.getUTCMonth());
+    let monthsY = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    let mmmY = monthsY[mmY];
+    let yyyyY = yesterday.getUTCFullYear();
+
+    let yesterdaysDate = mmmY + ddY + yyyyY;
 
     // Reset user data, if new day
     if (todaysData.date != $user.lastDate) {
-        $user.lastDate = todaysData.date;
         $user.lastGuessNo = 0;
         $user.lastGuessArtist = '';
         $user.lastGuessAlbum = '';
         $user.guessedArtist = false;
         $user.guessedAlbum = false;
         $user.gameWon = false;
+        $user.gameLost = false;
     }
 
     let submit = () => {
@@ -39,7 +50,6 @@
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
             }
-            console.log(typeof $user.lastGuessNo)
             $user.guessedArtist = true;
         } else {
             $user.lastGuessArtist = '';
@@ -64,7 +74,12 @@
             // @ts-ignore
             document.getElementById("btnSubmit").disabled = true; 
             $user.gameLost = true;
-            $stats.gamesLost+=1;
+            $stats.gamesLost += 1;
+            $stats.playCount += 1;
+            $user.lastDate = todaysData.date;
+            $stats.winPerc = Math.round($stats.gamesWon * 100 / $stats.playCount);
+            $stats.streak = 0;
+            largestNumber = biggestNumberInArray($stats.pointsDist);
         }
         // Check if both answers are correct
         if ($user.guessedArtist == true && $user.guessedAlbum == true) {
@@ -72,14 +87,30 @@
             $stats.gamesWon += 1;
             $stats.playCount += 1;
             largestNumber = biggestNumberInArray($stats.pointsDist);
+            if (yesterdaysDate == $user.lastDate) {
+                $stats.streak += 1;
+                if ($stats.maxStreak < $stats.streak) {
+                    $stats.maxStreak = $stats.streak;
+                }
+            } else {
+                $stats.streak += 1;
+                if ($stats.maxStreak < $stats.streak) {
+                    $stats.maxStreak = $stats.streak;
+                }
+            }
+            $user.lastDate = todaysData.date;
+            $stats.winPerc = Math.round($stats.gamesWon * 100 / $stats.playCount);
         }
     }
-    
-    // Calc stats
+
+    // Calc points distribution on page render
     if ($user.guessedArtist == true && $user.guessedAlbum == true) {
         largestNumber = biggestNumberInArray($stats.pointsDist);
-        $stats.winPerc = $stats.gamesWon * 100 / $stats.playCount;
     }
+    // Calc points distribution on page render
+    if ($user.guessedArtist == false && $user.guessedAlbum == false) {
+        largestNumber = biggestNumberInArray($stats.pointsDist);
+    }    
 
     let guideOpen = true;
     function guideClose(){
@@ -133,6 +164,10 @@
             <div class="stat">
                 <p>Streak</p>
                 <h3>{$stats.streak}</h3>
+            </div>
+            <div class="stat">
+                <p>Max Str</p>
+                <h3>{$stats.maxStreak}</h3>
             </div>
         </div>
         <h2>Points distribution</h2>
