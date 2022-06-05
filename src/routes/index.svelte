@@ -33,7 +33,7 @@
 
     let submit = () => {
         // Check if any of the answers is correct
-        if ($user.lastGuessArtist.toLowerCase() == todaysData.artist.toLowerCase() || $user.lastGuessArtist.toLowerCase() == todaysData.artist2.toLowerCase()) {
+        if ($user.lastGuessArtist.toLowerCase().trim() == todaysData.artist.toLowerCase() || $user.lastGuessArtist.toLowerCase().trim() == todaysData.artist2.toLowerCase()) {
             if($user.guessedArtist == false) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
@@ -43,7 +43,7 @@
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
-        if ($user.lastGuessAlbum.toLowerCase() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase() == todaysData.album2.toLowerCase()) {
+        if ($user.lastGuessAlbum.toLowerCase().trim() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album2.toLowerCase()) {
             if($user.guessedAlbum == false) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
@@ -59,6 +59,7 @@
             $user.lastGuessNo += 1;
             albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
         } else {
+            // @ts-ignore
             document.getElementById("btnSubmit").disabled = true; 
             $user.gameLost = true;
             $stats.gamesLost+=1;
@@ -258,6 +259,9 @@
         letter-spacing: -0.75px;
         color: var(--white);
     }
+    .info-wrapper h2 {
+        display: none;
+    }
     .progress-wrapper {
         margin-top: .875rem;
         position: sticky;
@@ -388,6 +392,9 @@
             display: grid;
             grid-template-columns: 1fr 2fr;
             padding: 5rem 0rem 9.5rem 0rem;
+        }
+        .info-wrapper h2 {
+            display: block;
         }
         .info-wrapper, .form-wrapper {
             padding-left: 5rem;
