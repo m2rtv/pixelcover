@@ -91,50 +91,52 @@
         const max = Math.max(...arr);
         return max;
     }
-    console.log(largestNumber)
 </script>
 
 <!-- <Nav /> -->
 {#if $user.gameWon || $user.gameLost}
-<div class="modal-finish-wrapper">
-    <div id="modal-finish">
+<div class="modal-wrapper">
+    <div class="modal">
         {#if $user.gameLost}
-            <h1 style="color: var(--white)">Correct answer:</h1>
-            <h1 style="color: var(--white)">{todaysData.artist} - {todaysData.album}</h1>
+            <h1>Correct answer:</h1>
+            <h1>{todaysData.artist} - {todaysData.album}</h1>
         {/if}
         {#if $user.gameWon}
-            <h1 style="color: var(--white)">{todaysData.artist} - {todaysData.album}</h1>
-            <h2 style="color: var(--black); margin-bottom: 2rem">Well done!<br> You got it on guess #{$user.lastGuessNo}</h2>
+            <h1>{todaysData.artist} - {todaysData.album}</h1>
+            <h2>Well done! You got it on guess #{$user.lastGuessNo}</h2>
         {/if}
         {#if $user.gameLost}
-            <h2 style="color: var(--black); margin-bottom: 2rem">It's ok. We can't know all the things in the world, right?</h2>
+            <h2>It's ok. We can't know all the things in the world, right?</h2>
         {/if}
         <p>Check back tomorrow for a new round. The puzzle will be updated at midnight, UTC time.</p>
         <img src="/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
         <p>{todaysData.info}</p>
         <p><a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=Ebynq45CScec7Z2Ij50H7A">Listen on Spotify</a></p>
         <!-- <button id="btnSubmit" on:click={guideClose}>Got it, lets play!</button> -->
-        <div class="subpage-wrapper">
-            <h2>Statistics</h2>
-            <div class="stats-wrapper">
-                <div class="stat">
-                    <p>Points</p>
-                    <h3>{$stats.totalPoints}</h3>
-                </div>
-                <div class="stat">
-                    <p>Played</p>
-                    <h3>{$stats.playCount}</h3>
-                </div>
-                <div class="stat">
-                    <p>Win %</p>
-                    <h3>{$stats.winPerc}</h3>
-                </div>
-                <div class="stat">
-                    <p>Streak</p>
-                    <h3>{$stats.streak}</h3>
-                </div>
+    </div>
+    <div class="separator"></div>
+    <div class="modal stats">
+        <h2>Statistics</h2>
+        <div class="stats-wrapper">
+            <div class="stat">
+                <p>Points</p>
+                <h3>{$stats.totalPoints}</h3>
             </div>
-            <h2>Points distribution</h2>
+            <div class="stat">
+                <p>Played</p>
+                <h3>{$stats.playCount}</h3>
+            </div>
+            <div class="stat">
+                <p>Win %</p>
+                <h3>{$stats.winPerc}</h3>
+            </div>
+            <div class="stat">
+                <p>Streak</p>
+                <h3>{$stats.streak}</h3>
+            </div>
+        </div>
+        <h2>Points distribution</h2>
+        <div class="points-wrapper">
             {#each $stats.pointsDist as point, i}
                 <div class="points-item">
                     <div class="points-meta">
@@ -151,9 +153,10 @@
 </div>
 {/if}
 
+<!-- Guide screen -->
 {#if $user.firstVisit}
 <div class="modal-wrapper">
-    <div id="modal-guide" class="modal">
+    <div class="modal">
         <h1>How to play</h1>
         <h2>Pixelcover is a daily quiz about the art of album covers.</h2>
         <p>The game starts off with a heavily pixelated (4x4 pixels) album cover. You have 10 tries to guess the artist and the album name.</p>
@@ -229,38 +232,27 @@
         background-color: var(--gray-lightest);
         z-index: 9999;
     }
-    .modal-finish-wrapper {
-        width: 100%;
-        min-height: 100%;
-        position: absolute;
-        background-color: var(--gray-lightest);
-        z-index: 9999;
-    }
-    #modal-finish {
+    .modal {
         max-width: 600px;
         margin: 0 auto;
-        padding: 4rem 2rem 8rem 2rem;
+        padding: 0rem 2rem 0rem 2rem;
     }
-    #modal-finish {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 4rem 2rem 8rem 2rem;
+    .modal:first-child {
+        padding-top: 4rem;
     }
-    #modal-finish img {
+    .modal:last-child {
+        padding-bottom: 6rem;
+    }
+    .modal img {
         margin: 2rem auto;
         width: 100%;
         max-width: 400px;
     }
-    #modal-finish p {
+    .modal p {
         margin-bottom: 1rem;
     }
-    #modal-finish p a {
+    .modal p a {
         color: var(--black);
-    }
-    .modal {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 4rem 2rem 8rem 2rem;
     }
     .modal h1 {
         color: var(--white);
@@ -269,21 +261,10 @@
         color: var(--black);
         padding-bottom: 1rem;
     }
-    .modal p {
-        margin-bottom: 1rem;
-    }
-    .modal .p-small {
-        font-size: 0.875rem;
-        color: var(--gray-dark);
-    }
     .modal img {
         width: 100%;
         max-width: 400px;
         margin: 2rem auto;
-    }
-    
-    .p-small a {
-        color: var(--gray-dark);
     }
     .wrapper {
         width: 100%;
@@ -425,9 +406,9 @@
 
     /* STATS STYLES */
 
-    .subpage-wrapper h2 {
+    .stats h2 {
         color: var(--white);
-        margin-bottom: .5rem;
+        line-height: 100%;
         letter-spacing: -0.75px;
     }
     .stats-wrapper {
@@ -437,12 +418,26 @@
         margin-bottom: 2rem;
     }
     .points-item {
-        margin-bottom: .75rem;
+        margin-bottom: 1rem;
     }
-    .stat p, .points-meta p {
+    @media (min-width: 1024px) {
+        .points-item {
+            margin-bottom: 1.25rem;
+        }
+    }
+    .stat p {
         font-size: 0.75rem;
+        line-height: 110%;
+        font-weight: 600;
+        color: var(--gray-dark);
+        margin-bottom: 0rem;
+    }
+    .points-meta p {
+        font-size: 0.75rem;
+        line-height: 110%;
         font-weight: 600;
         color: var(--black);
+        margin-bottom: 0.25rem;
     }
     .points-meta {
         width: 100%;
@@ -457,6 +452,11 @@
     .points-bar {
         height: 4px;
         background-color: var(--black);
+    }
+    @media (min-width: 1024px) {
+        .stat p, .points-meta p {
+            font-size: 0.875rem;
+        }
     }
 
     /* BREAKPOINTS */
