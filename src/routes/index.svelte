@@ -67,7 +67,7 @@
         }
 
         // Enhance image
-        if ($user.lastGuessNo < albumImgArr.length-1) {
+        if ($user.lastGuessNo < albumImgArr.length) {
             $user.lastGuessNo += 1;
             albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
         } else {
@@ -112,10 +112,18 @@
         largestNumber = biggestNumberInArray($stats.pointsDist);
     }    
 
-    let guideOpen = true;
-    function guideClose(){
-		$user.firstVisit = false;
-        guideOpen = false;
+    let guideOpen;
+    if ($user.firstVisit === true) {
+        guideOpen = true;
+    } else {
+        guideOpen = false
+    }
+
+    function guideToggle(){
+        if ($user.firstVisit == true) {
+            $user.firstVisit = false;
+        }
+        guideOpen = !guideOpen;
 	}
     
     function biggestNumberInArray(arr) {
@@ -128,7 +136,7 @@
 {#if $user.gameWon || $user.gameLost}
 <div class="modal-wrapper">
     <div class="modal">
-        {#if $user.gameLost}
+        {#if $user.gameLost || $user.guessedArtist == true && $user.guessedAlbum == false || $user.guessedArtist == false && $user.guessedAlbum == true}
             <h1>Correct answer:</h1>
             <h1>{todaysData.artist} - {todaysData.album}</h1>
         {/if}
@@ -136,14 +144,17 @@
             <h1>{todaysData.artist} - {todaysData.album}</h1>
             <h2>Well done! You got it on guess #{$user.lastGuessNo}</h2>
         {/if}
-        {#if $user.gameLost}
+        {#if $user.guessedArtist == true && $user.guessedAlbum == false || $user.guessedArtist == false && $user.guessedAlbum == true}
+            <h2>Almost! At least you guessed one of them.</h2>
+        {/if}
+        {#if $user.guessedArtist == false && $user.guessedAlbum == false}
             <h2>It's ok. We can't know all the things in the world, right?</h2>
         {/if}
         <p>Check back tomorrow for a new round. The puzzle will be updated at midnight, UTC time.</p>
         <img src="/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
         <p>{todaysData.info}</p>
         <p><a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=Ebynq45CScec7Z2Ij50H7A">Listen on Spotify</a></p>
-        <!-- <button id="btnSubmit" on:click={guideClose}>Got it, lets play!</button> -->
+        <!-- <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button> -->
     </div>
     <div class="separator"></div>
     <div class="modal stats">
@@ -189,7 +200,7 @@
 {/if}
 
 <!-- Guide screen -->
-{#if $user.firstVisit}
+{#if guideOpen == true}
 <div class="modal-wrapper">
     <div class="modal">
         <h1>How to play</h1>
@@ -203,7 +214,7 @@
         <p>Pixelcover is a daily game. New puzzle will be available at midnight, UTC time.</p>
         <p>Don't worry too much if you can't guess these albums — maybe you can discover some good music, art or learn something new.</p>
         <!-- <p class="p-small">Pixelcovers is a project by <a href="https://twitter.com/m2rt" target="_blank">Märt Villemsaar</a>.</p> -->
-        <button id="btnSubmit" on:click={guideClose}>Got it, lets play!</button>
+        <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button>
     </div>
 </div>
 {/if}
@@ -213,6 +224,9 @@
     {/if} -->
     <div class="info-wrapper">
         <h1>Pixelcover.xyz</h1>
+        <nav>
+            <p on:click={guideToggle}>?</p>
+        </nav>
         <h2>Daily quiz about album artworks</h2>
         <div class="progress-wrapper">
             <div class="progress-bar-bg">
@@ -230,15 +244,15 @@
         <div class="form-artist">
             <input type="text" bind:value={$user.lastGuessArtist} placeholder="Artist" disabled={$user.guessedArtist}>
             {#if $user.guessedArtist}
-            <svg class="icon-answer-correct" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 7L8.5 13.5L19 1" stroke="#1A1919" stroke-width="3"/>
-            </svg>
+                <svg class="icon-answer-correct" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 7L8.5 13.5L19 1" stroke="#1A1919" stroke-width="3"/>
+                </svg>
             {/if}
             {#if $user.guessedArtist == false && $user.lastGuessArtist == ''}
-            <svg class="icon-answer-incorrect" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.5 16L15.5 2" stroke="#F1EAE4" stroke-width="3"/>
-                <path d="M15.5 16L1.5 2" stroke="#F1EAE4" stroke-width="3"/>
-            </svg>
+                <svg class="icon-answer-incorrect" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 16L15.5 2" stroke="#F1EAE4" stroke-width="3"/>
+                    <path d="M15.5 16L1.5 2" stroke="#F1EAE4" stroke-width="3"/>
+                </svg>
             {/if}
         </div>
         <div class="form-album">
@@ -314,6 +328,19 @@
         line-height: 1.1;
         letter-spacing: -0.75px;
         color: var(--black);
+    }
+    nav {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    nav p {
+        font-size: 1.5rem;
+        line-height: 1.1;
+        letter-spacing: -0.75px;
+        color: var(--black);
+        font-weight: 700;
+        cursor: pointer;
     }
     h2 {
         font-size: 1.5rem;
@@ -539,8 +566,13 @@
         .form-wrapper {
             align-self: end;
         }
-        h1, h2 {
+        h1, h2, nav p {
             font-size: 2.5rem;
+        }
+        nav {
+            position: absolute;
+            top: 5rem;
+            right: 5rem;
         }
         input, button {
             font-size: 1.5rem;
