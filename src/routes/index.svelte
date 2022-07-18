@@ -3,6 +3,7 @@
     import todaysData from '../stores/data.js';
     import { user } from '../stores/data.js';
     import { stats } from '../stores/data.js';
+    import { SvelteToast, toast } from '@zerodevx/svelte-toast'
     // import Nav from './Nav.svelte';
 
     // Paths to pixelated cover photos
@@ -101,6 +102,12 @@
             $user.lastDate = todaysData.date;
             $stats.winPerc = Math.round($stats.gamesWon * 100 / $stats.playCount);
         }
+        // Check if it's hint time
+        if ($user.lastGuessNo == 3) {
+            toast.push(todaysData.hint1)
+        } else if ($user.lastGuessNo == 6) {
+            toast.push(todaysData.hint2)
+        }
     }
 
     // Calc points distribution on page render
@@ -130,9 +137,22 @@
         const max = Math.max(...arr);
         return max;
     }
+
+    const options = {
+        duration: 6000,       // duration of progress bar tween to the `next` value
+        initial: 0,           // initial progress bar value
+        next: 0,              // next progress value
+        pausable: true,      // pause progress bar tween on mouse hover
+        dismissable: true,    // allow dismiss with close button
+        reversed: false,      // insert new toast to bottom of stack
+        intro: { y: -200 },    // toast intro fly animation settings
+    }
+    
+    console.log()
 </script>
 
 <!-- <Nav /> -->
+<SvelteToast {options} />
 {#if $user.gameWon || $user.gameLost}
 <div class="modal-wrapper">
     <div class="modal">

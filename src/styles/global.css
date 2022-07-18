@@ -8,6 +8,15 @@
     --gray-lightest: #B8B1AB;
     --gray-dark: #5A5754;
     --black: #1A1A19;
+
+    --toastContainerTop: 2.5rem;
+    --toastContainerRight: auto;
+    --toastContainerBottom: auto;
+    --toastContainerLeft: calc(50vw - 8rem);
+    --toastBackground: var(--black);
+    --toastBarBackground: var(--gray-light);
+    --toastBarHeight: 4px;
+    --toastMsgPadding: 0.5rem 1rem;
 }
 
 /* 1. Use a more-intuitive box-sizing model. */
