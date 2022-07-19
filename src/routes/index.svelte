@@ -68,7 +68,7 @@
         }
 
         // Enhance image
-        if ($user.lastGuessNo < albumImgArr.length) {
+        if ($user.lastGuessNo < albumImgArr.length-1) {
             $user.lastGuessNo += 1;
             albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
         } else {
@@ -165,7 +165,7 @@
             <h2>Well done! You got it on guess #{$user.lastGuessNo}</h2>
         {/if}
         {#if $user.guessedArtist == true && $user.guessedAlbum == false || $user.guessedArtist == false && $user.guessedAlbum == true}
-            <h2>Almost! At least you guessed one of them.</h2>
+            <h2>Almost! You guessed one of them.</h2>
         {/if}
         {#if $user.guessedArtist == false && $user.guessedAlbum == false}
             <h2>It's ok. We can't know all the things in the world, right?</h2>
@@ -173,7 +173,8 @@
         <p>Check back tomorrow for a new round. The puzzle will be updated at midnight, UTC time.</p>
         <img src="/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
         <p>{todaysData.info}</p>
-        <p><a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=Ebynq45CScec7Z2Ij50H7A">Listen on Spotify</a></p>
+        <p><a href="{todaysData.spotify}">Listen on Spotify</a></p>
+        <p><a href="{todaysData.applemusic}">Listen on Apple Music</a></p>
         <!-- <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button> -->
     </div>
     <div class="separator"></div>
@@ -207,7 +208,6 @@
                 <div class="points-item">
                     <div class="points-meta">
                         <p>Guess #{i+1}</p>
-                        <p>{point}</p>
                     </div>
                     <div class="points-bar-bg">
                         <div class="points-bar" style="width: {point*100/largestNumber}%"></div>
