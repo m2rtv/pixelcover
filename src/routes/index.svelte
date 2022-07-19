@@ -224,15 +224,14 @@
 <div class="modal-wrapper">
     <div class="modal">
         <h1>How to play</h1>
-        <h2>Pixelcover is a daily quiz about the art of album covers.</h2>
-        <p>The game starts off with a heavily pixelated (4x4 pixels) album cover. You have 10 tries to guess the artist and the album name.</p>
-        <p>With each guess, the image gets enhanced a little.</p>
+        <h2>Pixelcover - a daily quiz to try and identify an artist's album art</h2>
+        <p>The game begins with a heavily pixelated (4x4 pixels) album cover and with each guess the picture becomes clearer.</p>
         <img src="pixelcovers-example.gif" alt="">
-        <p>If nothing comes to mind, just click "Submit" without filling out the textfields.</p>
-        <p>Capitalization of letters do not matter, but be mindful of making typos.</p>
-        <p>You get 1 point for artist, and 1 for album name. So 2 points in total.</p>
-        <p>Pixelcover is a daily game. New puzzle will be available at midnight, UTC time.</p>
-        <p>Don't worry too much if you can't guess these albums — maybe you can discover some good music, art or learn something new.</p>
+        <p>If you can't think of what the image might be, you can leave the textfield blank and just click "Submit".</p>
+        <p>Capitalization won't affect the answer, but spelling will so watch out for typos.</p>
+        <p>1 point is awarded identifying the artist, and another for the album name. 2 points in total.</p>
+        <p>Pixelcover is a daily game with a new puzzle becoming available at midnight, (UTC time) every night.</p>
+        <p>Even if you don't guess the right album — you still might discover some good music, art or even learn something new.</p>
         <!-- <p class="p-small">Pixelcovers is a project by <a href="https://twitter.com/m2rt" target="_blank">Märt Villemsaar</a>.</p> -->
         <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button>
     </div>
