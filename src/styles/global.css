@@ -12,11 +12,13 @@
     --toastContainerTop: 2.5rem;
     --toastContainerRight: auto;
     --toastContainerBottom: auto;
-    --toastContainerLeft: calc(50vw - 8rem);
+    --toastContainerLeft: calc(50vw - 12rem);
     --toastBackground: var(--black);
-    --toastBarBackground: var(--gray-light);
+    --toastBarBackground: var(--black);
     --toastBarHeight: 4px;
     --toastMsgPadding: 0.5rem 1rem;
+    --toastWidth: 24rem;
+    --toastColor: var(--white);
 }
 
 /* 1. Use a more-intuitive box-sizing model. */

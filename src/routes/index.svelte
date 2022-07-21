@@ -72,6 +72,7 @@
             $user.lastGuessNo += 1;
             albumImg = `/albumArt/${todaysData.date}/${albumImgArr[$user.lastGuessNo]}`
         } else {
+            $user.lastGuessNo += 1;
             // @ts-ignore
             document.getElementById("btnSubmit").disabled = true; 
             $user.gameLost = true;
@@ -81,6 +82,7 @@
             $stats.winPerc = Math.round($stats.gamesWon * 100 / $stats.playCount);
             $stats.streak = 0;
             largestNumber = biggestNumberInArray($stats.pointsDist);
+            toast.pop(0)
         }
         // Check if both answers are correct
         if ($user.guessedArtist == true && $user.guessedAlbum == true) {
@@ -101,6 +103,7 @@
             }
             $user.lastDate = todaysData.date;
             $stats.winPerc = Math.round($stats.gamesWon * 100 / $stats.playCount);
+            toast.pop(0)
         }
         // Check if it's hint time
         if ($user.lastGuessNo == 3) {
@@ -138,6 +141,36 @@
         return max;
     }
 
+    let today = new Date();
+    
+
+    function copyResult() {
+        let asciiGuessCount;
+        if ($user.lastGuessNo == 1) {
+            asciiGuessCount = "▓░░░░░░░░░";
+        } else if ($user.lastGuessNo == 2) {
+            asciiGuessCount = "▓▓░░░░░░░░";
+        } else if ($user.lastGuessNo == 3) {
+            asciiGuessCount = "▓▓▓░░░░░░░";
+        } else if ($user.lastGuessNo == 4) {
+            asciiGuessCount = "▓▓▓▓░░░░░░";
+        } else if ($user.lastGuessNo == 5) {
+            asciiGuessCount = "▓▓▓▓▓░░░░░";
+        } else if ($user.lastGuessNo == 6) {
+            asciiGuessCount = "▓▓▓▓▓▓░░░░";
+        } else if ($user.lastGuessNo == 7) {
+            asciiGuessCount = "▓▓▓▓▓▓▓░░░";
+        } else if ($user.lastGuessNo == 8) {
+            asciiGuessCount = "▓▓▓▓▓▓▓▓░░";
+        } else if ($user.lastGuessNo == 9) {
+            asciiGuessCount = "▓▓▓▓▓▓▓▓▓░";
+        } else if ($user.lastGuessNo == 10) {
+            asciiGuessCount = "▓▓▓▓▓▓▓▓▓▓";
+        }
+        navigator.clipboard.writeText('Pixelcover ' + String(today.getUTCDate()) + '.' + String(today.getUTCMonth()) + '.' + yesterday.getUTCFullYear() + ' — ' + $user.lastGuessNo + '/10\n' + asciiGuessCount);
+        toast.push('Result copied to clipboard', { duration: 2000, initial: 1 })
+    }
+
     const options = {
         duration: 6000,       // duration of progress bar tween to the `next` value
         initial: 0,           // initial progress bar value
@@ -172,9 +205,12 @@
         {/if}
         <p>Check back tomorrow for a new round. The puzzle will be updated at midnight, UTC time.</p>
         <img src="/albumArt/{todaysData.date}/{todaysData.date}-full.jpg" alt="">
-        <p>{todaysData.info}</p>
-        <p><a href="{todaysData.spotify}">Listen on Spotify</a></p>
-        <p><a href="{todaysData.applemusic}">Listen on Apple Music</a></p>
+        <p style="margin-bottom: 1.5rem">{todaysData.info}</p>
+        {#if $user.gameWon == true}
+            <div class="btn btn-main" on:click={copyResult}>Share your result</div>
+        {/if}
+        <a href="{todaysData.spotify}" class="btn btn-secondary">Listen on Spotify</a>
+        <a href="{todaysData.applemusic}" class="btn btn-secondary">Listen on Apple Music</a>
         <!-- <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button> -->
     </div>
     <div class="separator"></div>
@@ -298,7 +334,7 @@
         min-height: 100%;
         position: absolute;
         background-color: var(--gray-lightest);
-        z-index: 9999;
+        z-index: 999;
     }
     .modal {
         max-width: 600px;
@@ -483,6 +519,29 @@
     #btnSubmit:disabled {
         background-color: var(--gray-dark);
         cursor: not-allowed;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+    .btn-main {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+    .btn-secondary {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        border: 2px solid var(--black);
+        color: var(--black);
+        text-decoration: none;
+        display: inline-block;
     }
 
     /* STATS STYLES */

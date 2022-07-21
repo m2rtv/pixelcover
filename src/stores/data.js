@@ -73,9 +73,21 @@ let Data = {
         album2: 'Thriller',
         hint1: 'Genre: Funk / Soul, Pop',
         hint2: 'Release date: 1982',
-        info: "The cover for Thriller features Jackson in a white suit that belonged to photographer Dick Zimmerman. The gatefold sleeve reveals a tiger cub at Jackson's leg, which, according to Zimmerman, Jackson kept away from his face, fearing he would be scratched. Another picture from the shoot, with Jackson embracing the cub, was used for the 2001 special edition of Thriller.",
+        info: 'The cover for Thriller features Jackson in a white suit that belonged to photographer Dick Zimmerman. The gatefold sleeve reveals a tiger cub at Jackson\'s leg, which, according to Zimmerman, Jackson kept away from his face, fearing he would be scratched. Another picture from the shoot, with Jackson embracing the cub, was used for the 2001 special edition of Thriller.',
         spotify: 'https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ?si=F98jSvMLSQqp1hQ4gnZD_g',
         applemusic: 'https://music.apple.com/ee/album/thriller/269572838',
+    },
+    Jul222022: {
+        date: todaysDate,
+        artist: 'Nirvana',
+        artist2: 'Nirvana',
+        album: 'Nevermind',
+        album2: 'Nevermind',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1991',
+        info: 'This, one of the most famous album covers in popular music was shot by photographer Kirk Weddle. The fishhook with a dollar bill was added later on Kurt Cobain\'s direction. People at Geffen Records were concerned that the infant\'s penis, visible in the photo, would cause offense, and prepared an alternate cover without it; they relented when Cobain said the only compromise he would accept would be a sticker covering the penis reading: "If you\'re offended by this, you must be a closet pedophile." The cover also features the iconic Nirvana logo, using the Onyx typeface. It was done by former Sub-Pop Art Director Lisa Orth, who\'s mainly working on generative art now.',
+        spotify: 'https://open.spotify.com/album/2UJcKiJxNryhL050F5Z1Fk?si=kDkKff8VT_eRvfkL1DXp6w',
+        applemusic: 'https://music.apple.com/ee/album/nevermind/1440783617',
     },
 }
 let todaysData = Data[todaysDate];
