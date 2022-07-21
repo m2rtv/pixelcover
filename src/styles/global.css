@@ -12,12 +12,12 @@
     --toastContainerTop: 2.5rem;
     --toastContainerRight: auto;
     --toastContainerBottom: auto;
-    --toastContainerLeft: calc(50vw - 12rem);
+    --toastContainerLeft: calc(50vw - 10rem);
     --toastBackground: var(--black);
     --toastBarBackground: var(--black);
     --toastBarHeight: 4px;
     --toastMsgPadding: 0.5rem 1rem;
-    --toastWidth: 24rem;
+    --toastWidth: 20rem;
     --toastColor: var(--white);
 }
 
