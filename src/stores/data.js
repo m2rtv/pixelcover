@@ -89,6 +89,30 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2UJcKiJxNryhL050F5Z1Fk?si=kDkKff8VT_eRvfkL1DXp6w',
         applemusic: 'https://music.apple.com/ee/album/nevermind/1440783617',
     },
+    Jul232022: {
+        date: todaysDate,
+        artist: 'Tame Impala',
+        artist2: 'Tame Impala',
+        album: 'Currents',
+        album2: 'Currents',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 2015',
+        info: 'The cover art for Currents and its accompanying singles was created by Kentucky-based artist and musician Robert Beatty. Kevin Parker (Tame Impala) has said Currents\' designs are based on a diagram of vortex shedding he remembered while trying to visualise the album\'s themes. Beatty described how Parker\'s ideas for the album artwork "were all based on turbulent flow, the way liquid or air flows around objects."',
+        spotify: 'https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv?si=QvQZC3McQOeJVGv_nET2jg',
+        applemusic: 'https://music.apple.com/ee/album/currents/1440838039',
+    },
+    Jul242022: {
+        date: todaysDate,
+        artist: 'Gorillaz',
+        artist2: 'Gorillaz',
+        album: 'Demon Days',
+        album2: 'Demon Days',
+        hint1: 'Genre: Electronic, Hip Hop, Rock, Funk / Soul',
+        hint2: 'Release date: 2005',
+        info: 'The front cover of "Demon Days" features profiles of Gorillaz\' fictional characters Murdoc, 2D, Noodle and Russel, which were designed by Jamie Hewlett. This rather simple 4x4 layout could easily be a spoof of The Beatles "Let it be" cover.',
+        spotify: 'https://open.spotify.com/album/0bUTHlWbkSQysoM3VsWldT?si=EWxJcAPGR3mKPtLVhqSZrg',
+        applemusic: 'https://music.apple.com/ee/album/demon-days/850571319',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
