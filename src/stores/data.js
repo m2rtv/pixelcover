@@ -145,7 +145,7 @@ let Data = {
         album2: 'Score',
         hint1: 'Genre: Hip Hop',
         hint2: 'Release date: 1996',
-        info: '🔥',
+        info: 'One of the best selling albums of all time. Cover photos by Marc Baptiste.',
         spotify: 'https://open.spotify.com/album/4z6F5s3RVaOsekuaegbLfD?si=lV4K4iDmTaC8yY21JQuYzA',
         applemusic: 'https://music.apple.com/ee/album/the-score/281701670',
     },
