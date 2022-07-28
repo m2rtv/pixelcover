@@ -161,6 +161,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=pLWu1lAsRx6r8u23lPcQmQ',
         applemusic: 'https://music.apple.com/ee/album/abbey-road-remastered/1441164426',
     },
+    Jul292022: {
+        date: todaysDate,
+        artist: 'Talking Heads',
+        artist2: 'Talkingheads',
+        album: 'Remain in light',
+        album2: 'Remain in light',
+        hint1: 'Genre: Electronic, Rock',
+        hint2: 'Release date: 1980',
+        info: 'Initial name for the album was planned as "Melody attack", but the cover design process made them realize it did not fit with the music. It was one of the first computer-designed record jackets. The process was tortuous because computer power was limited in the early 1980s and the mainframe alone took up several rooms.',
+        spotify: 'https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG?si=sJX0wluhT7ucBdCOT8yqeQ',
+        applemusic: 'https://music.apple.com/ee/album/remain-in-light-deluxe-version/124922154',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
