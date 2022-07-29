@@ -173,6 +173,30 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3AQgdwMNCiN7awXch5fAaG?si=sJX0wluhT7ucBdCOT8yqeQ',
         applemusic: 'https://music.apple.com/ee/album/remain-in-light-deluxe-version/124922154',
     },
+    Jul302022: {
+        date: todaysDate,
+        artist: 'The Prodigy',
+        artist2: 'Prodigy',
+        album: 'The fat of the land',
+        album2: 'Fat of the land',
+        hint1: 'Genre: Electronic',
+        hint2: 'Release date: 1997',
+        info: 'Although the cover itself is a bit confusing, it\'s the first time the famous ant logo made it\'s appearance. The album title comes from the old English phrase "living off the fat of the land", which means living well or being wealthy.',
+        spotify: 'https://open.spotify.com/album/4fdgcEVMdJe0KVgupMNJAP?si=sUY4RQnBQHeaZdUbAbkQZQ',
+        applemusic: 'https://music.apple.com/ee/album/the-fat-of-the-land/1450123945',
+    },
+    Jul312022: {
+        date: todaysDate,
+        artist: 'Grace Jones',
+        artist2: 'Grace Jones',
+        album: 'Island Life',
+        album2: 'Island Life',
+        hint1: 'Genre: Reggae, Funk / Soul, Pop',
+        hint2: 'Release date: 1985',
+        info: 'This compilation album cover was created by photographer, illustrator and graphic designer Jean-Paul Goude, who was Jones\' partner at the time. This impossibly graceful pose is actually a montage of separate images, following Goude\'s ideas on creating credible illusions with his cut-and-paint technique.',
+        spotify: 'https://open.spotify.com/album/0IgaRsWGL9c4bovxkwU7YI?si=sON_y1cZQV-le2A-9543Kg',
+        applemusic: 'https://music.apple.com/ee/album/island-life/1564504203',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
