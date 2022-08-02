@@ -245,6 +245,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=HmXE1cIBQae5TMISk0-6jQ',
         applemusic: 'https://music.apple.com/ee/album/rumours/594061854',
     },
+    Aug52022: {
+        date: todaysDate,
+        artist: 'Bruce Springsteen',
+        artist2: 'Bruce Springsteen',
+        album: 'Born in the USA',
+        album2: 'Born in the U.S.A.',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1984',
+        info: 'Springsteen\'s butt, blue jeans and american flag. Shot by legendary photographer Annie Leibovitz.',
+        spotify: 'https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=HmXE1cIBQae5TMISk0-6jQ',
+        applemusic: 'https://music.apple.com/ee/album/rumours/594061854',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
