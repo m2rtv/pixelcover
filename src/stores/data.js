@@ -254,8 +254,8 @@ let Data = {
         hint1: 'Genre: Rock',
         hint2: 'Release date: 1984',
         info: 'Springsteen\'s butt, blue jeans and american flag. Shot by legendary photographer Annie Leibovitz.',
-        spotify: 'https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=HmXE1cIBQae5TMISk0-6jQ',
-        applemusic: 'https://music.apple.com/ee/album/rumours/594061854',
+        spotify: 'https://open.spotify.com/album/0PMasrHdpaoIRuHuhHp72O?si=-PPHAdLERXKS9q22fE7E-Q',
+        applemusic: 'https://music.apple.com/ee/album/born-in-the-u-s-a/203708420',
     },
 }
 let todaysData = Data[todaysDate];
