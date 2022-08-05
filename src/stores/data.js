@@ -257,6 +257,30 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0PMasrHdpaoIRuHuhHp72O?si=-PPHAdLERXKS9q22fE7E-Q',
         applemusic: 'https://music.apple.com/ee/album/born-in-the-u-s-a/203708420',
     },
+    Aug62022: {
+        date: todaysDate,
+        artist: 'Aphex Twin',
+        artist2: 'Aphex Twin',
+        album: 'Selected Ambient Works 85-92',
+        album2: 'Selected ambient works',
+        hint1: 'Genre: Electronic',
+        hint2: 'Release date: 1992',
+        info: 'The album\'s sleeve prominently displays the Aphex Twin symbol, designed by Paul Nicholson who was also a stage dancer at several of James\'s live gigs around this period. Nicholson stated that the duo\'s intention for the logo was to be an "amorphic and soft form with no sharp lines".',
+        spotify: 'https://open.spotify.com/album/7aNclGRxTysfh6z0d8671k?si=BgmMi34VQOKTcsREw1yIZA',
+        applemusic: 'https://music.apple.com/ee/album/selected-ambient-works-85-92/1108845101',
+    },
+    Aug72022: {
+        date: todaysDate,
+        artist: 'N.W.A',
+        artist2: 'NWA',
+        album: 'Straight Outta Compton',
+        album2: 'Straight out of Compton',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Release date: 1988',
+        info: 'This, now iconic cover photo was shot by Eric Poppleton. He and the group were just wandering the streets and trying different locations. At one point, they strolled down an alley. Poppleton hopped on the ground. "We were just trying stuff. It wasn\'t lit. It was raw, just like those guys," he says. "Photographically, I just laid on the ground and looked up and all these guys stood over me with a gun." (Source: CNN)',
+        spotify: 'https://open.spotify.com/album/0Y7qkJVZ06tS2GUCDptzyW?si=tyoqODFOT5m4xzzZY6sgJQ',
+        applemusic: 'https://music.apple.com/ee/album/straight-outta-compton/1440816032',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
