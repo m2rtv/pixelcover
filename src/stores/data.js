@@ -281,6 +281,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0Y7qkJVZ06tS2GUCDptzyW?si=tyoqODFOT5m4xzzZY6sgJQ',
         applemusic: 'https://music.apple.com/ee/album/straight-outta-compton/1440816032',
     },
+    Aug82022: {
+        date: todaysDate,
+        artist: 'Prince And The Revolution',
+        artist2: 'Prince',
+        album: 'Purple Rain',
+        album2: 'Purple Rain',
+        hint1: 'Genre: Rock, Funk / Soul, Pop',
+        hint2: 'Release date: 1984',
+        info: 'The album cover was photographed at the Warner Bros Studio Backlot in California. The area known as Hennesy St, designed to look like a New York tenement area, was the location of the balcony where the album photo was taken.',
+        spotify: 'https://open.spotify.com/album/7nXJ5k4XgRj5OLg9m8V3zc?si=DSgHCJ56TDCAA-GPHPT7Xw',
+        applemusic: 'https://music.apple.com/ee/album/purple-rain-soundtrack-2015-paisley-park-remaster/214145442',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
