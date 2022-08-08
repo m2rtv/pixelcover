@@ -293,6 +293,30 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7nXJ5k4XgRj5OLg9m8V3zc?si=DSgHCJ56TDCAA-GPHPT7Xw',
         applemusic: 'https://music.apple.com/ee/album/purple-rain-soundtrack-2015-paisley-park-remaster/214145442',
     },
+    Aug92022: {
+        date: todaysDate,
+        artist: 'Billie Eilish',
+        artist2: 'Billie Eilish',
+        album: 'Happier than ever',
+        album2: 'Happier than ever',
+        hint1: 'Genre: Electronic, Rock, Pop',
+        hint2: 'Release date: 2021',
+        info: 'There\'s also an alternative cover of this release, where Eilish teamed up with Italian fashion house Gucci for an eco-friendly limited edition vinyl. It was designed by Alessandro Michele and has a "psychedelic pattern" in the background.',
+        spotify: 'https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp?si=G4KPaDOcQ0Kw9PKF_cUKPQ',
+        applemusic: 'https://music.apple.com/ee/album/happier-than-ever/1564530719',
+    },
+    Aug102022: {
+        date: todaysDate,
+        artist: 'Joy Division',
+        artist2: 'Joy Division',
+        album: 'Unknown Pleasures',
+        album2: 'Unknown Pleasures',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1979',
+        info: 'Designed by Factory Records co-founder Peter Saville. The cover image is a “stacked plot” of the radio emissions given out by a pulsar, a “rotating neutron star”. Originally named CP 1919, the pulsar was discovered in November 1967 by student Jocelyn Bell Burnell and her supervisor Antony Hewish at Cambridge University.',
+        spotify: 'https://open.spotify.com/album/5Dgqy4bBg09Rdw7CQM545s?si=VqF6q0PETwWQZAeeGLem9A',
+        applemusic: 'https://music.apple.com/ee/album/unknown-pleasures-2019-master/1476702180',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
