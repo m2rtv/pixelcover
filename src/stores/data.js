@@ -317,6 +317,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5Dgqy4bBg09Rdw7CQM545s?si=VqF6q0PETwWQZAeeGLem9A',
         applemusic: 'https://music.apple.com/ee/album/unknown-pleasures-2019-master/1476702180',
     },
+    Aug112022: {
+        date: todaysDate,
+        artist: 'Lorde',
+        artist2: 'Lorde',
+        album: 'Solar Power',
+        album2: 'Solar Power',
+        hint1: 'Genre: Pop',
+        hint2: 'Release date: 2021',
+        info: 'In an interview with Stephen Colbert, Lorde revealed that the album cover was photographed by her friend Ophelia on the beach while she jumped over them. Colbert could not show the cover on TV, with Lorde saying that it is "a little hardcore, but it was so joyful to me" and "a little bit feral". In some markets, including mainland China, Hong Kong, Japan, Saudi Arabia, and the United Arab Emirates, Lorde\'s buttocks are censored by a bright sunlight lens flare.',
+        spotify: 'https://open.spotify.com/album/3lK2JRwfIOn2NaYtgEGTmZ?si=IOGpNs8BSXG_SGuBx43e6Q',
+        applemusic: 'https://music.apple.com/ee/album/solar-power-deluxe-edition/1592682009',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
