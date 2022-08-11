@@ -329,6 +329,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3lK2JRwfIOn2NaYtgEGTmZ?si=IOGpNs8BSXG_SGuBx43e6Q',
         applemusic: 'https://music.apple.com/ee/album/solar-power-deluxe-edition/1592682009',
     },
+    Aug122022: {
+        date: todaysDate,
+        artist: 'Queen',
+        artist2: 'Queen',
+        album: 'Queen II',
+        album2: 'Queen 2',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1974',
+        info: 'Probably the most famous images of the band, which would later be brought to life for the "Bohemian Rhapsody" music video. It was inspired by a similar photograph of Marlene Dietrich from the 1932 film Shanghai Express. Shot by Mick Rock.',
+        spotify: 'https://open.spotify.com/album/48MhNEYxMJvcBbqz85UTQP?si=914r-891QxWx0XwrDbfmlw',
+        applemusic: 'https://music.apple.com/ee/album/queen-ii-deluxe-edition/1441458110',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
