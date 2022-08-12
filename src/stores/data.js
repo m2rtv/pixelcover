@@ -334,7 +334,7 @@ let Data = {
         artist: 'Queen',
         artist2: 'Queen',
         album: 'Queen II',
-        album2: 'Queen 2',
+        album2: 'II',
         hint1: 'Genre: Rock',
         hint2: 'Release date: 1974',
         info: 'Probably the most famous images of the band, which would later be brought to life for the "Bohemian Rhapsody" music video. It was inspired by a similar photograph of Marlene Dietrich from the 1932 film Shanghai Express. Shot by Mick Rock.',
