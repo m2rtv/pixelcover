@@ -365,6 +365,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3ls7tE9D2SIvjTmRuEtsQY?si=1I0GCrj8Qn6RrzKYbCOxAg',
         applemusic: 'https://music.apple.com/ee/album/dare-love-and-dancing/724302878',
     },
+    Aug152022: {
+        date: todaysDate,
+        artist: 'The Beach Boys',
+        artist2: 'Beach Boys',
+        album: 'Pet Sounds',
+        album2: 'Pet Sounds',
+        hint1: 'Genre: Rock, Pop',
+        hint2: 'Release date: 1966',
+        info: 'Just the boys feeding some goats in the zoo. Apparently the band members did not like that cover very much. Photo was shot by George Jerman and texts are written in Cooper Black font (Vox has a really good short-film of Cooper on YouTube)',
+        spotify: 'https://open.spotify.com/album/6GphKx2QAPRoVGWE9D7ou8?si=pmIqrzm-RyucCmBP5Pgb6w',
+        applemusic: 'https://music.apple.com/ee/album/pet-sounds/1440841241',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
