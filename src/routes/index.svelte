@@ -56,7 +56,7 @@
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
-        if ($user.lastGuessAlbum.toLowerCase().trim() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album2.toLowerCase()) {
+        if ($user.lastGuessAlbum.toLowerCase().trim() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album2.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album3.toLowerCase()) {
             if($user.guessedAlbum == false || $user.guessedAlbum == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
