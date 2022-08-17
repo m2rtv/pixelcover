@@ -393,7 +393,7 @@ let Data = {
         date: todaysDate,
         artist: 'David Bowie',
         artist2: 'David Bowie',
-        album: '"Heroes"',
+        album: '“Heroes”',
         album2: 'Heroes',
         hint1: 'Genre: Electronic, Rock',
         hint2: 'Release date: 1977',
