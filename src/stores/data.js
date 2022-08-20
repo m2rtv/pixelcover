@@ -433,9 +433,21 @@ let Data = {
         album2: 'Never mind the bollocks',
         hint1: 'Genre: Punk',
         hint2: 'Release date: 1977',
-        info: 'The title of the album created a lot of stir at the time. Records shops were prohibited to showcase the album sleeve or posters and cover up the word "bollocks". Sex Pistols\' and the overall punk movement aesthetics can be credited largely to fashion designers Malcolm McLaren and Vivienne Westwood.',
+        info: 'The title of the album created a lot of stir at the time. Record shops were prohibited to showcase the album sleeve or posters and cover up the word "bollocks". Sex Pistols\' and the overall punk movement aesthetics can be credited largely to fashion designers Malcolm McLaren and Vivienne Westwood.',
         spotify: 'https://open.spotify.com/album/6ggO3YVhyonYuFWUPBRyIv?si=EhvNMHHzT2-eRexjztcmCw',
         applemusic: 'https://music.apple.com/ee/album/never-mind-the-bollocks-heres-the-sex-pistols/1440810369',
+    },
+    Aug212022: {
+        date: todaysDate,
+        artist: 'FKA Twigs',
+        artist2: 'FKA Twigs',
+        album: 'LP1',
+        album2: 'LP 1',
+        hint1: 'Genre: Electronic',
+        hint2: 'Release date: 2014',
+        info: 'This heavily manipulated portrait of Tahliah Barnett (FKA Twigs) is made by Jesse Kanda. The style feels like a weird mix of porcelain dolls and manga characters — which somehow visualizes her music quite well. They worked together on music videos as well.',
+        spotify: 'https://open.spotify.com/album/25PQxi9SR1OODB5XG6m48J?si=KBn9zGuFQRCNm5t-r7vZKA',
+        applemusic: 'https://music.apple.com/ee/album/lp1/1540694437',
     },
 }
 let todaysData = Data[todaysDate];
