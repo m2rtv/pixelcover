@@ -461,6 +461,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5duyQokC4FMcWPYTV9Gpf9?si=BzoxcAW4SHmR-tRJKIA_ng',
         applemusic: 'https://music.apple.com/ee/album/21/403037872',
     },
+    Aug232022: {
+        date: todaysDate,
+        artist: 'Blink 182',
+        artist2: 'Blink-182',
+        album: 'Enema of the state',
+        album2: 'Enema of the state',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1999',
+        info: 'The cover artwork features porn star Janine Lindemulder dressed in a nurse uniform, pulling on a rubber glove. The trio was oblivious to the fact that Lindemulder worked in the porn industry. The original cover had a red cross on the hat, but this was removed on the pressure of American Red Cross.',
+        spotify: 'https://open.spotify.com/album/652N05EcNH1a4bIlUixQE2?si=xYInHoEQTHOuj6HmKIaegw',
+        applemusic: 'https://music.apple.com/ee/album/enema-of-the-state/1440839912',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
