@@ -449,6 +449,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/25PQxi9SR1OODB5XG6m48J?si=KBn9zGuFQRCNm5t-r7vZKA',
         applemusic: 'https://music.apple.com/ee/album/lp1/1540694437',
     },
+    Aug222022: {
+        date: todaysDate,
+        artist: 'Adele',
+        artist2: 'Adele',
+        album: '21',
+        album2: '21',
+        hint1: 'Genre: Jazz, Funk / Soul, Blues, Pop',
+        hint2: 'Release date: 2011',
+        info: 'Photographed by Lauren Dukhoff. She works almost exclusively with the medium format film camera (Mamiya 645).',
+        spotify: 'https://open.spotify.com/album/5duyQokC4FMcWPYTV9Gpf9?si=BzoxcAW4SHmR-tRJKIA_ng',
+        applemusic: 'https://music.apple.com/ee/album/21/403037872',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
