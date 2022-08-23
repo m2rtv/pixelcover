@@ -473,6 +473,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/652N05EcNH1a4bIlUixQE2?si=xYInHoEQTHOuj6HmKIaegw',
         applemusic: 'https://music.apple.com/ee/album/enema-of-the-state/1440839912',
     },
+    Aug242022: {
+        date: todaysDate,
+        artist: 'Marvin Gaye',
+        artist2: 'Marvin Gaye',
+        album: 'What\'s going on',
+        album2: 'What’s going on',
+        hint1: 'Genre: Funk / Soul',
+        hint2: 'Release date: 1971',
+        info: 'The cover was designed by Motown art director Curtis McNair and photographed by Jim Hendin. McNair designed more than a hundred album covers in his role as Motown’s art director. In an interview for The Charlotte Observer, McNair was asked to choose the cover of which he is most proud, and immediately named What’s Going On.',
+        spotify: 'https://open.spotify.com/album/2v6ANhWhZBUKkg6pJJBs3B?si=JVPAy9YeRyyMYvsp2dQUdg',
+        applemusic: 'https://music.apple.com/ee/album/whats-going-on/1538081586',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
