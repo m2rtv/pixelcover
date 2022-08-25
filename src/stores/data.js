@@ -491,7 +491,7 @@ let Data = {
         artist2: 'Streets',
         album: 'Original pirate material',
         album2: 'Original pirate material',
-        hint1: 'Genre: Electsronic, Hip Hop, UK Garage',
+        hint1: 'Genre: Electronic, Hip Hop, UK Garage',
         hint2: 'Release date: 2002',
         info: 'The cover artwork depicts the south face of the Kestrel House tower block on City Road, London at night. The photo was taken in 1995 by German photographer Rut Blees Luxemburg using an eight-minute exposure. It also features The Streets lighter logo. Each of his albums has one, but in different color and it has always been a Clipper lighter. While touring, they sold them as a merchandise.',
         spotify: 'https://open.spotify.com/album/0hkZGxfsFypXbjq15hM6U9?si=R2ty4xl6Rxm-rooqg0fRXQ',
