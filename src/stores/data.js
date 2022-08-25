@@ -521,6 +521,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0Tg76MY2wNK4j37iCb6qyH?si=78gnqBcoQLK9VgSL9b_CVA',
         applemusic: 'https://music.apple.com/ee/album/violator-deluxe/1174246686',
     },
+    Aug282022: {
+        date: todaysDate,
+        artist: 'Kanye West',
+        artist2: 'Kanye West',
+        album: 'My beautiful dark twisted fantasy',
+        album2: 'My beautiful dark twisted fantasy',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Release date: 2010',
+        info: 'Virgil Abloh grabs the credits as Art Director for this one. The painting is made by American visual artist George Condo, who works in painting, drawing, sculpture and printmaking. The final design has been censored/pixelated and resembles quite a lot of this game. Condo also produced four alternate copies of the album cover that, although not included on the actual cover of the record, came included with certain productions of the record on vinyl and as individual posters.',
+        spotify: 'https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv?si=GxQvr3CDTLWKDhDhSlHOJw',
+        applemusic: 'https://music.apple.com/ee/album/my-beautiful-dark-twisted-fantasy/1440742903',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
