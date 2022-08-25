@@ -497,6 +497,30 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0hkZGxfsFypXbjq15hM6U9?si=R2ty4xl6Rxm-rooqg0fRXQ',
         applemusic: 'https://music.apple.com/ee/album/original-pirate-material/63836809',
     },
+    Aug262022: {
+        date: todaysDate,
+        artist: 'Rihanna',
+        artist2: 'Rihanna',
+        album: 'Anti',
+        album2: 'Anti',
+        hint1: 'Genre: R&B, Hip Hop, Pop',
+        hint2: 'Release date: 2016',
+        info: '“Anti” cover art is part of a series of artworks called “Blind” and made by Israeli-born artist Roy Nachum. Most of Nachum’s works include subjects with obstructed eyesight and corresponding messages in Braille.',
+        spotify: 'https://open.spotify.com/album/4UlGauD7ROb3YbVOFMgW5u?si=DLR8gTrPT_KYtm6AhrWPtA',
+        applemusic: 'https://music.apple.com/ee/album/anti-deluxe/1440933869',
+    },
+    Aug272022: {
+        date: todaysDate,
+        artist: 'Depeche Mode',
+        artist2: 'Depeche Mode',
+        album: 'Violator',
+        album2: 'Violator',
+        hint1: 'Genre: Electronic, Synth-Pop',
+        hint2: 'Release date: 1990',
+        info: 'This cover art was made by Depeche Mode\'s long-time collaborator Anton Corbijn. In his own words: “With Violator, I just painted a flower red and nailed it to a board and wrote under it \'Violator\'.” He’s also responsible for quite a lot of music videos for them.',
+        spotify: 'https://open.spotify.com/album/0Tg76MY2wNK4j37iCb6qyH?si=78gnqBcoQLK9VgSL9b_CVA',
+        applemusic: 'https://music.apple.com/ee/album/violator-deluxe/1174246686',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
