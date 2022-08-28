@@ -533,6 +533,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv?si=GxQvr3CDTLWKDhDhSlHOJw',
         applemusic: 'https://music.apple.com/ee/album/my-beautiful-dark-twisted-fantasy/1440742903',
     },
+    Aug292022: {
+        date: todaysDate,
+        artist: 'The Jimi Hendrix Experience',
+        artist2: 'Jimi Hendrix Experience',
+        album: 'Electric Ladyland',
+        album2: 'Electric Ladyland',
+        hint1: 'Genre: Rock',
+        hint2: 'Release date: 1968',
+        info: 'Hendrix had written to Reprise Records describing what he wanted for the cover art, but was mostly ignored. The company instead used a blurred red and yellow photo of his head while performing at Saville Theatre, taken by Karl Ferris. The intended artwork for the UK version of the album did not arrive in time to press the album, so a cover of 19 nude women lounging in front of a black background was issued from David Montgomery in its place.',
+        spotify: 'https://open.spotify.com/album/5z090LQztiqh13wYspQvKQ?si=lNKh58UfS-qDKsR7TY8yMQ',
+        applemusic: 'https://music.apple.com/ee/album/electric-ladyland/357652252',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
