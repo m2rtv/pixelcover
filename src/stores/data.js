@@ -545,6 +545,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5z090LQztiqh13wYspQvKQ?si=lNKh58UfS-qDKsR7TY8yMQ',
         applemusic: 'https://music.apple.com/ee/album/electric-ladyland/357652252',
     },
+    Aug302022: {
+        date: todaysDate,
+        artist: 'The Beastie Boys',
+        artist2: 'Beastie Boys',
+        album: 'Hello Nasty',
+        album2: 'Hello Nasty',
+        hint1: 'Genre: Hip Hop, Electronic',
+        hint2: 'Release date: 1998',
+        info: 'The cover art makes a reference to a song on the album called “Body Movin'", in which the lyric goes, \"MCA, where have you been? Packed like sardines in a tin.” Art director for this was Cey Adams, who co-founded the Drawing Board, Def Jam Recording's in-house visual design firm overseeing the visual style of Def Jam's artists as well as artists signed to MCA, Universal, Warner Bros., Bad Boy and BMG. He started out as a graffiti artist and was also featured in the legendary PBS documentary “Style Wars”.',
+        spotify: 'https://open.spotify.com/album/6eGYLONkDMja0MNtZWnRRB?si=SGv2LOKRTKeji5jQfrCJ6w',
+        applemusic: 'https://music.apple.com/ee/album/hello-nasty-deluxe/721224205',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
