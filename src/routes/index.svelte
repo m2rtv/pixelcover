@@ -211,6 +211,7 @@
         {/if}
         <a href="{todaysData.spotify}" class="btn btn-secondary">Listen on Spotify</a>
         <a href="{todaysData.applemusic}" class="btn btn-secondary">Listen on Apple Music</a>
+        <a href="https://instagram.com/pixelcover.xyz" class="btn btn-secondary">Follow us on Instagram</a>
         <!-- <button id="btnSubmit" on:click={guideToggle}>Got it, lets play!</button> -->
     </div>
     <div class="separator"></div>

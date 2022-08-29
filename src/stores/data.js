@@ -557,6 +557,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6eGYLONkDMja0MNtZWnRRB?si=SGv2LOKRTKeji5jQfrCJ6w',
         applemusic: 'https://music.apple.com/ee/album/hello-nasty-deluxe/721224205',
     },
+    Aug312022: {
+        date: todaysDate,
+        artist: 'Dua Lipa',
+        artist2: 'Dua Lipa',
+        album: 'Future Nostalgia',
+        album2: 'Future Nostalgia',
+        hint1: 'Genre: Electronic, Rock, Funk / Soul, Pop',
+        hint2: 'Release date: 2020',
+        info: 'The cover artwork of Future Nostalgia was shot by French photographer, Hugo Comte, who also handled the creative direction and the photographs associated with the album\'s campaign, with Guillaume Sbalchiero handling the design.',
+        spotify: 'https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI?si=0-ygIr-ATPKI2AP1MkV4GQ',
+        applemusic: 'https://music.apple.com/ee/album/future-nostalgia/1538003494',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
