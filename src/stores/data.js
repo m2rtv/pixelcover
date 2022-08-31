@@ -605,6 +605,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3ctW8o8ABBCNWWkdIvEGgV?si=k-jz3uljQGuGvb6haDscfQ',
         applemusic: 'https://music.apple.com/ee/album/renaissance/1630005298',
     },
+    Sep42022: {
+        date: todaysDate,
+        artist: 'Madonna',
+        artist2: 'Madonna',
+        album: 'Ray Of Light',
+        album2: 'Ray Of Light',
+        hint1: 'Genre: Electronic, Pop',
+        hint2: 'Release date: 1998',
+        info: 'The cover photo was taken by Peruvian photographer Mario Tosso. He and Madonna had previously collaborated for a Versace brand collection 2 years earlier. Madonna was impressed with the natural look Testino had captured, so she booked him again for the album\'s photoshoot. He recalled, "At 2pm she said, \'OK, I\'m tired. We\'re done\'. And I said, \'But I don\'t have the pictures yet\'. She said, \'You\'re working for me and I say we\'re done\'. I said, \'No, we carry on\'. The picture she used on the cover came after that".',
+        spotify: 'https://open.spotify.com/album/6cuNyrSmRjBeekioLdLkvI?si=QwDgu6DYTPmqoofI_DYfzw',
+        applemusic: 'https://music.apple.com/ee/album/ray-of-light/952887',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
