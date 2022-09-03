@@ -122,6 +122,7 @@
         largestNumber = biggestNumberInArray($stats.pointsDist);
     }    
 
+    // Check if it's a first visit and show guide
     let guideOpen;
     if ($user.firstVisit === true) {
         guideOpen = true;
