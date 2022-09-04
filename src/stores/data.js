@@ -617,6 +617,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6cuNyrSmRjBeekioLdLkvI?si=QwDgu6DYTPmqoofI_DYfzw',
         applemusic: 'https://music.apple.com/ee/album/ray-of-light/952887',
     },
+    Sep52022: {
+        date: todaysDate,
+        artist: 'Michael Jackson',
+        artist2: 'Michael Jackson',
+        album: 'Off The Wall',
+        album2: 'Off The Wall',
+        hint1: 'Genre: 	Funk / Soul, Pop',
+        hint2: 'Release date: 1979',
+        info: 'Michael Jackson’s breakthrough album, Off The Wall is photographed and designed by Mike Salisbury. He was also the one suggesting Jackson don a tuxedo with rolled-up pants based on Gene Kelly’s wardrobe in An American In Paris.',
+        spotify: 'https://open.spotify.com/album/2ZytN2cY4Zjrr9ukb2rqTP?si=9sVrKvlbS0qANG_-yINvPA',
+        applemusic: 'https://music.apple.com/ee/album/off-the-wall/186166282',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
