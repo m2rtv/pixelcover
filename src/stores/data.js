@@ -629,6 +629,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2ZytN2cY4Zjrr9ukb2rqTP?si=9sVrKvlbS0qANG_-yINvPA',
         applemusic: 'https://music.apple.com/ee/album/off-the-wall/186166282',
     },
+    Sep62022: {
+        date: todaysDate,
+        artist: 'The Black Keys',
+        artist2: 'Black Keys',
+        album: 'El Camino',
+        album2: 'El Camino',
+        hint1: 'Genre: 	Rock',
+        hint2: 'Release date: 2011',
+        info: 'The album was named after the Chevrolet El Camino, a coupé utility car. The vehicle in the cover image is a Plymouth Grand Voyager though — similar to one they toured in early in their career. Art Director for this is Michael Carney.',
+        spotify: 'https://open.spotify.com/album/5DLhV9yOvZ7IxVmljMXtNm?si=RXr-RClVRHijWv62m4WVng',
+        applemusic: 'https://music.apple.com/ee/album/el-camino/1052966287',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
