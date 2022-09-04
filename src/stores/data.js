@@ -641,6 +641,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5DLhV9yOvZ7IxVmljMXtNm?si=RXr-RClVRHijWv62m4WVng',
         applemusic: 'https://music.apple.com/ee/album/el-camino/1052966287',
     },
+    Sep72022: {
+        date: todaysDate,
+        artist: 'Aaliyah',
+        artist2: 'Aaliyah',
+        album: 'Aaliyah',
+        album2: 'Aaliyah',
+        hint1: 'Genre: 	R&B, Neo Soul',
+        hint2: 'Release date: 2001',
+        info: 'The album was named after the Chevrolet El Camino, a coupé utility car. The vehicle in the cover image is a Plymouth Grand Voyager though — similar to one they toured in early in their career. Art Director for this is Michael Carney.',
+        spotify: 'https://open.spotify.com/album/0cNaDPtbHC1PMJMRTY2GFc?si=imPPKcVLR4SW3DHHTbc7bw',
+        applemusic: 'https://music.apple.com/ee/album/aaliyah/1579620240',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
