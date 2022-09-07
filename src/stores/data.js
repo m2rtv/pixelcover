@@ -649,7 +649,7 @@ let Data = {
         album2: 'Aaliyah',
         hint1: 'Genre: 	R&B, Neo Soul',
         hint2: 'Release date: 2001',
-        info: 'The album was named after the Chevrolet El Camino, a coupé utility car. The vehicle in the cover image is a Plymouth Grand Voyager though — similar to one they toured in early in their career. Art Director for this is Michael Carney.',
+        info: 'While in Australia, Aaliyah did a photo shoot for the album with photographers Jeff Dunas, Jonathan Mannion, David LaChapelle, and Albert Watson. Ultimately, Watson\'s photo of Aaliyah posing directly at the camera was chosen by artwork designer Warren Fu to be the front cover, with Watson later explaining that it especially demonstrated "a symmetrical composition ... with a look of confidence and maturity."',
         spotify: 'https://open.spotify.com/album/0cNaDPtbHC1PMJMRTY2GFc?si=imPPKcVLR4SW3DHHTbc7bw',
         applemusic: 'https://music.apple.com/ee/album/aaliyah/1579620240',
     },
