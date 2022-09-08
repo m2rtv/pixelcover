@@ -697,7 +697,7 @@ let Data = {
         album2: 'Curtis',
         hint1: 'Genre: Funk / Soul',
         hint2: 'Release date: 1970',
-        info: 'Another one using the Cooper Black font on the front cover. Designer and photographed by Bob Cato, this might be one of the coolest album covers out there. IMO.',
+        info: 'Another cover using the Cooper Black font. Designed and photographed by Bob Cato, this might be one of the coolest album covers out there. IMHO.',
         spotify: 'https://open.spotify.com/album/3tgJmEz0R0ZsRSrpwafp4R?si=ufq-ntXMS3GvcOScpPSweg',
         applemusic: 'https://music.apple.com/ee/album/curtis-expanded-edition/29168201',
     },
