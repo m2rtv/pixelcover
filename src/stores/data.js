@@ -653,6 +653,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0cNaDPtbHC1PMJMRTY2GFc?si=imPPKcVLR4SW3DHHTbc7bw',
         applemusic: 'https://music.apple.com/ee/album/aaliyah/1579620240',
     },
+    Sep82022: {
+        date: todaysDate,
+        artist: 'Air',
+        artist2: 'Air',
+        album: 'Moon Safari',
+        album2: 'Moon Safari',
+        hint1: 'Genre: Electronic',
+        hint2: 'Release date: 1998',
+        info: 'Designed by American film and music video director, writer and graphic designer Mike Mills. He has also done quite a few music videos from that album. TIP! Check out his latest movie "C\'mon, C\'mon" if you haven\'t aready.',
+        spotify: 'https://open.spotify.com/album/5dmYtZVJ1bG9RyrZBRrkOA?si=SVw4MIGgRKOc3X9NhF6cag',
+        applemusic: 'https://music.apple.com/ee/album/moon-safari/697240234',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
