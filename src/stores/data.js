@@ -701,6 +701,18 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3tgJmEz0R0ZsRSrpwafp4R?si=ufq-ntXMS3GvcOScpPSweg',
         applemusic: 'https://music.apple.com/ee/album/curtis-expanded-edition/29168201',
     },
+    Sep122022: {
+        date: todaysDate,
+        artist: 'Green Day',
+        artist2: 'Green Day',
+        album: 'American Idiot',
+        album2: 'American Idiot',
+        hint1: 'Genre: Rock, Pop Punk',
+        hint2: 'Release date: 2004',
+        info: 'Green Day drew inspiration from Chinese communist propaganda art the band saw in art galleries on Melrose Avenue and recruited artist Chris Bilheimer to create the cover. After listening to the new music on his computer, Bilheimer took note of the lyric "And she\'s holding on my heart like a hand grenade" from "She\'s a Rebel" and the cover was created.',
+        spotify: 'https://open.spotify.com/album/3tgJmEz0R0ZsRSrpwafp4R?si=ufq-ntXMS3GvcOScpPSweg',
+        applemusic: 'https://music.apple.com/ee/album/curtis-expanded-edition/29168201',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
