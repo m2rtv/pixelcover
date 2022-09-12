@@ -106,10 +106,12 @@
             toast.pop(0)
         }
         // Check if it's hint time
-        if ($user.lastGuessNo == 3) {
+        if ($user.lastGuessNo == 2) {
             toast.push(todaysData.hint1)
-        } else if ($user.lastGuessNo == 6) {
+        } else if ($user.lastGuessNo == 4) {
             toast.push(todaysData.hint2)
+        } else if ($user.lastGuessNo == 6) {
+            toast.push(todaysData.hint3)
         }
     }
 
