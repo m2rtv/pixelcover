@@ -710,8 +710,20 @@ let Data = {
         hint1: 'Genre: Rock, Pop Punk',
         hint2: 'Release date: 2004',
         info: 'Green Day drew inspiration from Chinese communist propaganda art the band saw in art galleries on Melrose Avenue and recruited artist Chris Bilheimer to create the cover. After listening to the new music on his computer, Bilheimer took note of the lyric "And she\'s holding on my heart like a hand grenade" from "She\'s a Rebel" and the cover was created.',
-        spotify: 'https://open.spotify.com/album/3tgJmEz0R0ZsRSrpwafp4R?si=ufq-ntXMS3GvcOScpPSweg',
-        applemusic: 'https://music.apple.com/ee/album/curtis-expanded-edition/29168201',
+        spotify: 'https://open.spotify.com/album/5dN7F9DV0Qg1XRdIgW8rke?si=tBZn9bRKRWG8u_uD-gbzAw',
+        applemusic: 'https://music.apple.com/ee/album/american-idiot/1161539183',
+    },
+    Sep132022: {
+        date: todaysDate,
+        artist: 'Nas',
+        artist2: 'Nas',
+        album: 'Illmatic',
+        album2: 'Illmatic',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Release date: 1994',
+        info: 'This cover, designed by Aimee Macauley, features a photo of Nas as a child superimposed over a backdrop of a city block, taken by Danny Clinch. In a 1994 interview, Nas discussed the concept behind the photo of him at age 7, stating "That was the year I started to acknowledge everything [around me]. That\'s the year everything set off. That\'s the year I started seeing the future for myself and doing what was right. The ghetto makes you think. The world is ours.”',
+        spotify: 'https://open.spotify.com/album/3kEtdS2pH6hKcMU9Wioob1?si=HnUIFMN3SyaziiwWksYRUQ',
+        applemusic: 'https://music.apple.com/ee/album/illmatic/662324135',
     },
 }
 let todaysData = Data[todaysDate];
