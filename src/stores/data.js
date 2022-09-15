@@ -753,6 +753,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0fLhefnjlIV3pGNF9Wo8CD?si=YcvOgBP9RpeY-JfNNL-wow',
         applemusic: 'https://music.apple.com/ee/album/californication/945575406',
     },
+    Sep162022: {
+        date: todaysDate,
+        artist: 'Prince',
+        artist2: 'Prince',
+        album: 'Prince',
+        album2: 'Prince',
+        hint1: 'Genre: Funk / Soul, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1979',
+        info: 'Ever since his first album, Prince was adamant not to smile on his album covers. He wanted to be viewed as a serious artist. Many pictures were taken in the cover’s photo session at LA, in which Earth, Wind & Fire’s photographer Jurgen Reisch, captured countless shots of 20-year-old Prince striking a series of poses – some with a black leather jacket on and many more with him topless. The album’s logo was created by graphic artist Terry Taylor, finishing a simple but effective cover. Source: goldiesparade.co.uk',
+        spotify: 'https://open.spotify.com/album/6k7RVZ7bSL9ryReb8RLYRI?si=CJLmYGvlTAqeitZyiXPM2A',
+        applemusic: 'https://music.apple.com/ee/album/prince/332667239',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
