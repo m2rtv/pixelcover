@@ -766,6 +766,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6k7RVZ7bSL9ryReb8RLYRI?si=CJLmYGvlTAqeitZyiXPM2A',
         applemusic: 'https://music.apple.com/ee/album/prince/332667239',
     },
+    Sep172022: {
+        date: todaysDate,
+        artist: 'Burial',
+        artist2: 'Burial',
+        album: 'Untrue',
+        album2: 'Untrue',
+        hint1: 'Genre: Dubstep, UK Garage, Ambient',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2007',
+        info: 'This one is illustrated by the artist himself: “I’ve been drawing that same one since I was little. Just some moody kid with a cup of tea sitting at the 24 hour stand in the rain in the middle of the night when you are coming back from somewhere.” The all caps typeface used here is FB Agency.',
+        spotify: 'https://open.spotify.com/album/1C30LhZB9I48LdpVCRRYvq?si=E7c4iA0FTcS5RaM195fDmQ',
+        applemusic: 'https://music.apple.com/ee/album/untrue/1056902908',
+    },
+    Sep182022: {
+        date: todaysDate,
+        artist: 'Dr. Dre',
+        artist2: 'Dr Dre',
+        album: '2001',
+        album2: 'The Chronic 2001',
+        hint1: 'Genre: Hip Hop, Gangsta Rap',
+        hint2: 'Country: US / California',
+        hint3: 'Release date: 1999',
+        info: 'That outer glow and bevel and emboss really brings home that Y2K aesthetic. Designed by Jason Clark. The sans serif font used here is Russell Square.',
+        spotify: 'https://open.spotify.com/album/7q2B4M5EiBkqrlsNW8lB7N?si=ESOCg9LNQg6iEwe34zUfIA',
+        applemusic: 'https://music.apple.com/ee/album/2001/1440782221',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
