@@ -792,6 +792,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7q2B4M5EiBkqrlsNW8lB7N?si=ESOCg9LNQg6iEwe34zUfIA',
         applemusic: 'https://music.apple.com/ee/album/2001/1440782221',
     },
+    Sep192022: {
+        date: todaysDate,
+        artist: 'Korn',
+        artist2: 'Korn',
+        album: 'Follow The Leader',
+        album2: 'Follow the leader',
+        hint1: 'Genre: Nu Metal',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1998',
+        info: 'The artwork for Follow the Leader was done by Todd McFarlane Entertainment, with McFarlane and fellow Image Comics artists Greg Capullo (penciller) and Brian Haberlin (colorist) doing the album cover, and designer Brent Ashe handling the graphics work.',
+        spotify: 'https://open.spotify.com/album/0gsiszk6JWYwAyGvaTTud4?si=eSrWdLvFSNyysiVOD7R1fg',
+        applemusic: 'https://music.apple.com/ee/album/follow-the-leader/1165630592',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
