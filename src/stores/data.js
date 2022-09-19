@@ -805,6 +805,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0gsiszk6JWYwAyGvaTTud4?si=eSrWdLvFSNyysiVOD7R1fg',
         applemusic: 'https://music.apple.com/ee/album/follow-the-leader/1165630592',
     },
+    Sep202022: {
+        date: todaysDate,
+        artist: 'Post Malone',
+        artist2: 'Post Malone',
+        album: 'beerbongs & bentleys',
+        album2: 'Beerbongs And Bentleys',
+        hint1: 'Genre: Hip Hop, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2018',
+        info: 'That one looks like it could easily be a techno album from the beginning of 2000s. Designed by Darío Alva, Travis Brothers and Bryan Rivera. Vinyl version has a different design with a close-up of Post’s eye and a barbwire going through it.',
+        spotify: 'https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR?si=lxG27vWBR46s6x9bZZLeYw',
+        applemusic: 'https://music.apple.com/ee/album/beerbongs-bentleys/1373516902',
+    },
+    Sep222022: {
+        date: todaysDate,
+        artist: 'Miles Davis',
+        artist2: 'Miles Davis',
+        album: 'Bitches Brew',
+        album2: 'Bitches Brew',
+        hint1: 'Genre: Jazz',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1970',
+        info: 'One of my favourite painted covers (look up the whole gatefold), done by French artist Mati Klarwein. His art is pretty psychedelic, but he has said that: "I don’t take anything when I’m painting. When I take psychedelics I get very horny, and I start going out to nightclubs and cruising."',
+        spotify: 'https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO?si=GXm2-Kf1RGq-hiqVTv5Cyw',
+        applemusic: 'https://music.apple.com/ee/album/bitches-brew/168376392',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
