@@ -831,6 +831,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO?si=GXm2-Kf1RGq-hiqVTv5Cyw',
         applemusic: 'https://music.apple.com/ee/album/bitches-brew/168376392',
     },
+    Sep222022: {
+        date: todaysDate,
+        artist: 'Kate Bush',
+        artist2: 'Kate Bush',
+        album: 'Hounds Of Love',
+        album2: 'Hounds Of Love',
+        hint1: 'Genre: 	Electronic, Rock, Pop',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1985',
+        info: 'For the cover design, Bill Smith Studio paired a photograph taken by John Carder Bush (the artist’s brother) with a typeface ITC Zapf Chancery.',
+        spotify: 'https://open.spotify.com/album/5BWl0bB1q0TqyFmkBEupZy?si=vLzImTjFRLuvpFWN2WLzqQ',
+        applemusic: 'https://music.apple.com/ee/album/hounds-of-love/901279250',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
