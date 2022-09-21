@@ -818,7 +818,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR?si=lxG27vWBR46s6x9bZZLeYw',
         applemusic: 'https://music.apple.com/ee/album/beerbongs-bentleys/1373516902',
     },
-    Sep222022: {
+    Sep212022: {
         date: todaysDate,
         artist: 'Miles Davis',
         artist2: 'Miles Davis',
