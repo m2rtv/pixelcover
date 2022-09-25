@@ -883,6 +883,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1J8QW9qsMLx3staWaHpQmU?si=KT7cbqzTShq0dZF6PsaENw',
         applemusic: 'https://music.apple.com/ee/album/led-zeppelin-remastered/580708520',
     },
+    Sep262022: {
+        date: todaysDate,
+        artist: 'Travis Scott',
+        artist2: 'Travi$ Scott',
+        album: 'Astroworld',
+        album2: 'Astro world',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2018',
+        info: 'The cover was shot by American photographer David LaChapelle. A second cover features the same amusement park entrance at nighttime, replacing the family-friendly features with adult-themed content.',
+        spotify: 'https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I?si=r9TrBRlLTNian2Z2wcl7Rg',
+        applemusic: 'https://music.apple.com/ee/album/astroworld/1421241217',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
