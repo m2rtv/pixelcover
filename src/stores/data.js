@@ -896,6 +896,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I?si=r9TrBRlLTNian2Z2wcl7Rg',
         applemusic: 'https://music.apple.com/ee/album/astroworld/1421241217',
     },
+    Sep272022: {
+        date: todaysDate,
+        artist: 'Backstreet Boys',
+        artist2: 'BSB',
+        album: 'Millenium',
+        album2: 'Millenium',
+        hint1: 'Genre: Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1999',
+        info: 'Millennium debuted at number one on the Billboard 200, where it remained for 10 non-consecutive weeks. It sold 1,134,000 copies in its first week of release, breaking the previous Nielsen SoundScan record held by Garth Brooks for single-week record sales. This record was subsequently overtaken in 2000 by NSYNC with the release of No Strings Attached. Millennium sold nearly 500,000 copies in the US on its first day alone, setting a record for first-day sales, and became the best-selling album of 1999, selling 9,445,732 albums.',
+        spotify: 'https://open.spotify.com/album/5ySxm9hxBNss01WCL7GLyQ?si=BEfu7irBQ4Oml2uNF-R_Yw',
+        applemusic: 'https://music.apple.com/ee/album/millennium/283567119',
+    },
+    Sep282022: {
+        date: todaysDate,
+        artist: 'Amy Winehouse',
+        artist2: 'Amy Winehouse',
+        album: 'Back To Black',
+        album2: 'Back To Black',
+        hint1: 'Genre: Funk/Soul',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2006',
+        info: 'Photographed by Mischa Richter and designed by Alex Hutchinson. The US/Japan release has a similar typographic treatment, but with a different photo of Winehouse in a bath.',
+        spotify: 'https://open.spotify.com/album/097eYvf9NKjFnv4xA9s2oV?si=ilsxTiOMTXu5yizIzm-TMw',
+        applemusic: 'https://music.apple.com/ee/album/back-to-black/1422677780',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
