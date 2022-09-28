@@ -922,6 +922,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/097eYvf9NKjFnv4xA9s2oV?si=ilsxTiOMTXu5yizIzm-TMw',
         applemusic: 'https://music.apple.com/ee/album/back-to-black/1422677780',
     },
+    Sep292022: {
+        date: todaysDate,
+        artist: 'Ed Sheeran',
+        artist2: 'Ed Sheeran',
+        album: 'Divide',
+        album2: '÷',
+        hint1: 'Genre: Pop Rock, Acoustic, Soul',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2017',
+        info: 'Art direction and design by Charlotte Audery and Jonny Costello. The blue background painting is done by Sheeran himself. Most streamed album on Spotify — more than 12 billion as of today.',
+        spotify: 'https://open.spotify.com/album/3T4tUhGYeRNVUGevb0wThu?si=yF2Xe-YCRiGM0dle7Nn0ig',
+        applemusic: 'https://music.apple.com/ee/album/deluxe/1193701079',
+    },
+    Sep302022: {
+        date: todaysDate,
+        artist: 'Miles Davis',
+        artist2: 'Miles Davis',
+        album: 'Kind Of Blue',
+        album2: 'Kind Of Blue',
+        hint1: 'Genre: Jazz',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1959',
+        info: 'Cover photography by Jay Maisel. In 2009, Andy Baio commissioned a pixel art version of the original Kind of Blue album cover for the cover of a chiptune tribute album titled Kind of Bloop. Attorneys representing Maisel demanded damages and that the resulting image be removed from the chiptune album, resulting in an out-of-court settlement of $32,500 from Baio.',
+        spotify: 'https://open.spotify.com/album/1weenld61qoidwYuZ1GESA?si=4VaKIDg_T5q8dD6X4DAXyA',
+        applemusic: 'https://music.apple.com/ee/album/kind-of-blue/268443092',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
