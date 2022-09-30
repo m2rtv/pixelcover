@@ -948,6 +948,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1weenld61qoidwYuZ1GESA?si=4VaKIDg_T5q8dD6X4DAXyA',
         applemusic: 'https://music.apple.com/ee/album/kind-of-blue/268443092',
     },
+    Oct12022: {
+        date: todaysDate,
+        artist: 'King Crimson',
+        artist2: 'King Crimson',
+        album: 'In The Court Of The Crimson King',
+        album2: 'In The Court Of Crimson King',
+        hint1: 'Genre: Rock, Prog Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1969',
+        info: 'Barry Godber, a computer programmer, painted the design for the album cover. He used his own face, viewed through a mirror, as the model. Godber died in February 1970 from a heart attack, shortly after the album’s release. It was his only album cover; the original painting is now owned by Robert Fripp.',
+        spotify: 'https://open.spotify.com/album/6tVg2Wl9hVKMpHYcAl2V2M?si=tCgAkqgoT5y0BxwiESanIQ',
+        applemusic: 'https://music.apple.com/ee/album/in-the-court-of-the-crimson-king-expanded-edition/918534711',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
