@@ -961,6 +961,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6tVg2Wl9hVKMpHYcAl2V2M?si=tCgAkqgoT5y0BxwiESanIQ',
         applemusic: 'https://music.apple.com/ee/album/in-the-court-of-the-crimson-king-expanded-edition/918534711',
     },
+    Oct22022: {
+        date: todaysDate,
+        artist: 'Drake',
+        artist2: 'Drake',
+        album: 'Scorpion',
+        album2: 'Scorpion',
+        hint1: 'Genre: Hip Hop, R&B, Pop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2018',
+        info: 'Another streamers favourite — 10th most streamed album on Spotify with 8,5 billion streams total. Critics reviews are not in line with those numbers though. Spotify attracted some controversy from its subscribers for what they perceived to be excessive promotion, with Drake appearing in most of the service’s editorial playlists, including ones which he had nothing to do with, such as those for electronic dance music and even gospel music. Cover photo by Norman Wong.',
+        spotify: 'https://open.spotify.com/album/1ATL5GLyefJaxhQzSPVrLX?si=PRYIJvuAThuxxM9VZilVZg',
+        applemusic: 'https://music.apple.com/ee/album/scorpion/1418213110',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
