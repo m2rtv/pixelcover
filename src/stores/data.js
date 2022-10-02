@@ -974,6 +974,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1ATL5GLyefJaxhQzSPVrLX?si=PRYIJvuAThuxxM9VZilVZg',
         applemusic: 'https://music.apple.com/ee/album/scorpion/1418213110',
     },
+    Oct32022: {
+        date: todaysDate,
+        artist: 'Beyoncé',
+        artist2: 'Beyonce',
+        album: 'Beyoncé',
+        album2: 'Beyonce',
+        hint1: 'Genre: R&B, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2014',
+        info: 'Todd Tourso, who directed the videos for "Jealous" and "Heaven", served as the creative director for the entire project. Over three months he considered over a hundred options, only to proceed with his very first idea. He was inspired by the cover of Metallica’s eponymous fifth studio album (1991) to create a bold statement, specifically to deviate from a "beauty shot" of Beyoncé which he felt would be expected. They used a font similar to placards used in boxing matches to represent abrasive masculinity, which was contrasted by the greyish-pink font which they described as "a subversion of femininity".',
+        spotify: 'https://open.spotify.com/album/2UJwKSBUz6rtW4QLK74kQu?si=3yglwQ21TWuOxX0wboUVhQ',
+        applemusic: 'https://music.apple.com/ee/album/beyonc%C3%A9-platinum-edition/939775882',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
