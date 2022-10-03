@@ -987,6 +987,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2UJwKSBUz6rtW4QLK74kQu?si=3yglwQ21TWuOxX0wboUVhQ',
         applemusic: 'https://music.apple.com/ee/album/beyonc%C3%A9-platinum-edition/939775882',
     },
+    Oct42022: {
+        date: todaysDate,
+        artist: 'Aerosmith',
+        artist2: 'Aerosmith',
+        album: 'Get A Grip',
+        album2: 'Get A Grip',
+        hint1: 'Genre: Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1993',
+        info: 'Designed by noted album-cover artist Hugh Syme. Music critic Steven Hyden has referred to the album’s cover art as "the worst album cover ever", expressing surprise that Syme was responsible for it given his other work. An animal-rights group objected to the cover art, but the band confirmed the image had been digitally altered and did not depict an actual act of animal cruelty. A special edition of the album was released in a fabric-covered case made to resemble cowhide.',
+        spotify: 'https://open.spotify.com/album/1tuM8yBePaekEruGsH2J79?si=QZP0h6SeTYWwvlWQ-T5gNw',
+        applemusic: 'https://music.apple.com/ee/album/get-a-grip/1440861737',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
