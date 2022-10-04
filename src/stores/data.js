@@ -1000,6 +1000,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1tuM8yBePaekEruGsH2J79?si=QZP0h6SeTYWwvlWQ-T5gNw',
         applemusic: 'https://music.apple.com/ee/album/get-a-grip/1440861737',
     },
+    Oct52022: {
+        date: todaysDate,
+        artist: 'Adele',
+        artist2: 'Adele',
+        album: '25',
+        album2: '25',
+        hint1: 'Genre: Pop, Ballad, Blues',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2015',
+        info: 'Another one from Adele. Photography by Alasdair McLellan and Designed by Phil Lee – who’s also worked with artists like The XX, Jamie XX, FKA Twigs, Jungle etc.',
+        spotify: 'https://open.spotify.com/album/6TVfiWmo8KtflUAmkK9gGF?si=9FuoUVi2QFWudocMWtbIuQ',
+        applemusic: 'https://music.apple.com/ee/album/25/1051331933',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
