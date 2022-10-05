@@ -1034,7 +1034,7 @@ let Data = {
         album2: 'Maggot Brain',
         hint1: 'Genre: Funk, Rock',
         hint2: 'Country: US',
-        hint3: 'Release date: 2016',
+        hint3: 'Release date: 1971',
         info: 'Photographed by Joel Brodsky and features model Barbara Cheeseborough. The album’s liner notes are a polemic on fear provided by the Process Church of the Final Judgement, an obscure Satanist religious cult. According to author Rickey Vincent, the organization’s presumed association with mass-murderer Charles Manson, along with the album’s foreboding themes and striking artwork, lent Funkadelic the image of a "death-worshipping black rock band."',
         spotify: 'https://open.spotify.com/album/3ywVzrwMQ3Kq43N9zBdBQm?si=JprcrUnLQtKML-sErANcag',
         applemusic: 'https://music.apple.com/ee/album/maggot-brain/1595227414',
