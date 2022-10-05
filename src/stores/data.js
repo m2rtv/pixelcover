@@ -1013,6 +1013,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6TVfiWmo8KtflUAmkK9gGF?si=9FuoUVi2QFWudocMWtbIuQ',
         applemusic: 'https://music.apple.com/ee/album/25/1051331933',
     },
+    Oct62022: {
+        date: todaysDate,
+        artist: 'Frank Ocean',
+        artist2: 'Frank Ocean',
+        album: 'Blonde',
+        album2: 'Blond',
+        hint1: 'Genre: Contemporary R&B, Soul, Hip Hop, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2016',
+        info: 'Definitely the most confusing one we’ve had so far. This album has 3 different names and 3 different covers. The cover posted here is the most known out of them. Shot by German photographer Wolfgang Tillman.',
+        spotify: 'https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=acLRSaePTY2cDJ4Timj2RA',
+        applemusic: 'https://music.apple.com/ee/album/blonde/1146195596',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
