@@ -1026,6 +1026,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=acLRSaePTY2cDJ4Timj2RA',
         applemusic: 'https://music.apple.com/ee/album/blonde/1146195596',
     },
+    Oct72022: {
+        date: todaysDate,
+        artist: 'Funkadelic',
+        artist2: 'Funkadelic',
+        album: 'Maggot Brain',
+        album2: 'Maggot Brain',
+        hint1: 'Genre: Funk, Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2016',
+        info: 'Photographed by Joel Brodsky and features model Barbara Cheeseborough. The album’s liner notes are a polemic on fear provided by the Process Church of the Final Judgement, an obscure Satanist religious cult. According to author Rickey Vincent, the organization’s presumed association with mass-murderer Charles Manson, along with the album’s foreboding themes and striking artwork, lent Funkadelic the image of a "death-worshipping black rock band."',
+        spotify: 'https://open.spotify.com/album/3ywVzrwMQ3Kq43N9zBdBQm?si=JprcrUnLQtKML-sErANcag',
+        applemusic: 'https://music.apple.com/ee/album/maggot-brain/1595227414',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
