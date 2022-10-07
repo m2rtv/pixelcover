@@ -1039,6 +1039,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3ywVzrwMQ3Kq43N9zBdBQm?si=JprcrUnLQtKML-sErANcag',
         applemusic: 'https://music.apple.com/ee/album/maggot-brain/1595227414',
     },
+    Oct82022: {
+        date: todaysDate,
+        artist: 'Johnny Cash',
+        artist2: 'Johnny Cash',
+        album: 'At Folsom Prison',
+        album2: 'At Folsom Prison',
+        hint1: 'Genre: Country',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1968',
+        info: 'Cover photo by American photographer Jim Marshall (1936 – 2010), who worked with many influential musicians from the 60s and 70s. Earning the trust of his subjects, he had extended access to his subjects both on and off-stage. His photos appeared on the covers of over 500 albums and more were published in Rolling Stone.',
+        spotify: 'https://open.spotify.com/album/4TJIdlY9hGSSTO1kUs1neh?si=WjVBec-9Toas6e1M8ypFqw',
+        applemusic: 'https://music.apple.com/ee/album/at-folsom-prison-live/825516828',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
