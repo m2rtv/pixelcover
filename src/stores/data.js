@@ -1052,6 +1052,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4TJIdlY9hGSSTO1kUs1neh?si=WjVBec-9Toas6e1M8ypFqw',
         applemusic: 'https://music.apple.com/ee/album/at-folsom-prison-live/825516828',
     },
+    Oct92022: {
+        date: todaysDate,
+        artist: 'Sonic Youth',
+        artist2: 'Sonic Youth',
+        album: 'Dirty',
+        album2: 'Dirty',
+        hint1: 'Genre: Alternative Rock, Noise Rock, Grunge',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1992',
+        info: 'This album artwork is made by American artist Mike Kelley. He used lots of crocheted blankets, fabric dolls and other rag toys found at thrift stores and yard sales in multiple of his artworks. His art often examined class and gender issues as well as issues of normality, criminality and perversion.',
+        spotify: 'https://open.spotify.com/album/7oNRvhXwhNCfHEUGER5EhG?si=GcQ4mizDTv2VXrhKcL4lXg',
+        applemusic: 'https://music.apple.com/ee/album/dirty/1440833211',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
