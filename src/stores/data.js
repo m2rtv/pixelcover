@@ -1065,6 +1065,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7oNRvhXwhNCfHEUGER5EhG?si=GcQ4mizDTv2VXrhKcL4lXg',
         applemusic: 'https://music.apple.com/ee/album/dirty/1440833211',
     },
+    Oct102022: {
+        date: todaysDate,
+        artist: 'MGMT',
+        artist2: 'MGMT',
+        album: 'Oracular Spectacular',
+        album2: 'Oracular Spectacular',
+        hint1: 'Genre: Synth Pop, Indie Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2007',
+        info: 'Art Directed by Josh Cheuse and cover photo by Sam Fleischner, who has also directed some of their music videos. Prior to recording of this album, the band received a call from the A&R department of Columbia Records saying they were interested in their music, they thought it was a joke.',
+        spotify: 'https://open.spotify.com/album/6mm1Skz3JE6AXneya9Nyiv?si=lIVjVOEmTW6oheI5G3XQjg',
+        applemusic: 'https://music.apple.com/ee/album/oracular-spectacular/264720008',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
