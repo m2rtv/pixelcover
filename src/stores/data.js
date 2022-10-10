@@ -1078,6 +1078,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6mm1Skz3JE6AXneya9Nyiv?si=lIVjVOEmTW6oheI5G3XQjg',
         applemusic: 'https://music.apple.com/ee/album/oracular-spectacular/264720008',
     },
+    Oct112022: {
+        date: todaysDate,
+        artist: 'Ace Of Base',
+        artist2: 'Ace Of Base',
+        album: 'Happy Nation',
+        album2: 'The Sign',
+        hint1: 'Genre: Europop',
+        hint2: 'Country: Sweden',
+        hint3: 'Release date: 2007',
+        info: 'This is the American edition of their first album, incl. 4 new songs. Alternative title for this is “The Sign”. The album was was recorded and mixed within a few weeks to get it ready for a Christmas market.',
+        spotify: 'https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB?si=kz9QMERbSxGZ8ptWv7q69Q',
+        applemusic: 'https://music.apple.com/ee/album/the-sign-remastered/959563976',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
