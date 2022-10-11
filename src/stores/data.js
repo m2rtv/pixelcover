@@ -1091,6 +1091,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB?si=kz9QMERbSxGZ8ptWv7q69Q',
         applemusic: 'https://music.apple.com/ee/album/the-sign-remastered/959563976',
     },
+    Oct122022: {
+        date: todaysDate,
+        artist: 'Ramones',
+        artist2: 'Ramones',
+        album: 'Ramones',
+        album2: 'Ramones',
+        hint1: 'Genre: Punk Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1976',
+        info: 'Initially, the Ramones wanted an album cover similar to Meet the Beatles! (1964) and subsequently had pictures taken in that style by Danny Fields but their label was dissatisfied with the results. Later they chose a photo by Roberta Bayley, a photographer for Punk magazine. The black and white photograph on the front of the album was originally in an issue of Punk.',
+        spotify: 'https://open.spotify.com/album/3ToX9inehiXTv17hpaOyie?si=go1IZv4nRSCzzwBD_-m3bw',
+        applemusic: 'https://music.apple.com/ee/album/ramones-40th-anniversary-deluxe-edition/1127410202',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
