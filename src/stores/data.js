@@ -1094,9 +1094,9 @@ let Data = {
     Oct122022: {
         date: todaysDate,
         artist: 'Ramones',
-        artist2: 'Ramones',
+        artist2: 'The Ramones',
         album: 'Ramones',
-        album2: 'Ramones',
+        album2: 'The Ramones',
         hint1: 'Genre: Punk Rock',
         hint2: 'Country: US',
         hint3: 'Release date: 1976',
