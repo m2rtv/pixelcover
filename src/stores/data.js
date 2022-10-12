@@ -1104,6 +1104,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3ToX9inehiXTv17hpaOyie?si=go1IZv4nRSCzzwBD_-m3bw',
         applemusic: 'https://music.apple.com/ee/album/ramones-40th-anniversary-deluxe-edition/1127410202',
     },
+    Oct132022: {
+        date: todaysDate,
+        artist: 'The Jimi Hendrix Experience',
+        artist2: 'Jimi Hendrix',
+        album: 'Are You Experienced',
+        album2: 'Are You Experienced',
+        hint1: 'Genre: Psychedelic Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1967',
+        info: 'The initial UK cover was actually a different one. But Jimi Hendrix did not like that, so he asked photographer Karl Ferris to create a more "psychedelic" cover for the US release. The photoshoot took 2 days, but the selected photo was the first one taken.',
+        spotify: 'https://open.spotify.com/album/7rSZXXHHvIhF4yUFdaOCy9?si=sY_O2xHiTnW4OXYV4UDOhg',
+        applemusic: 'https://music.apple.com/ee/album/are-you-experienced-deluxe-version/344789894',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
