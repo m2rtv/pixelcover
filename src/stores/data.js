@@ -1117,6 +1117,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7rSZXXHHvIhF4yUFdaOCy9?si=sY_O2xHiTnW4OXYV4UDOhg',
         applemusic: 'https://music.apple.com/ee/album/are-you-experienced-deluxe-version/344789894',
     },
+    Oct142022: {
+        date: todaysDate,
+        artist: 'Prince',
+        artist2: 'Prince',
+        album: '1999',
+        album2: '1999',
+        hint1: 'Genre: Rock, Funk / Soul, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1982',
+        info: 'The initial UK cover was actually a different one. But Jimi Hendrix did not like that, so he asked photographer Karl Ferris to create a more "psychedelic" cover for the US release. The photoshoot took 2 days, but the selected photo was the first one taken.',
+        spotify: 'https://open.spotify.com/album/3U1ht9EdWEI9nMvaqdQI67?si=lEHtb51pQdanNFDujTNSFA',
+        applemusic: 'https://music.apple.com/ee/album/1999/214145240',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
