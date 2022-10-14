@@ -1126,7 +1126,7 @@ let Data = {
         hint1: 'Genre: Rock, Funk / Soul, Pop',
         hint2: 'Country: US',
         hint3: 'Release date: 1982',
-        info: 'The initial UK cover was actually a different one. But Jimi Hendrix did not like that, so he asked photographer Karl Ferris to create a more "psychedelic" cover for the US release. The photoshoot took 2 days, but the selected photo was the first one taken.',
+        info: 'The album’s cover features elements from the front cover of Prince’s previous album, Controversy; namely the eyes and the "Rude Boy" pin in the "1999", the jacket studs in the "R" and the smile in the "P". The "I" in "Prince" contains the words "and the Revolution" written backwards (as "dna eht noituloveR"), both acknowledging his backing band and foreshadowing the next four years of his career.',
         spotify: 'https://open.spotify.com/album/3U1ht9EdWEI9nMvaqdQI67?si=lEHtb51pQdanNFDujTNSFA',
         applemusic: 'https://music.apple.com/ee/album/1999/214145240',
     },
