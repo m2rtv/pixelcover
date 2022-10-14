@@ -1130,6 +1130,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3U1ht9EdWEI9nMvaqdQI67?si=lEHtb51pQdanNFDujTNSFA',
         applemusic: 'https://music.apple.com/ee/album/1999/214145240',
     },
+    Oct152022: {
+        date: todaysDate,
+        artist: 'De La Soul',
+        artist2: 'De La Soul',
+        album: '3 Feet High And Rising',
+        album2: 'Three Feet High And Rising',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1989',
+        info: 'The album’s artwork was designed by Toby Mott’s and Paul Spencer’s radical British art collective the Grey Organisation (GO). The artwork was quite a shift from the usual macho hip hop visual codes which dominate to this day.',
+        spotify: '',
+        applemusic: '',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
