@@ -1143,6 +1143,19 @@ let Data = {
         spotify: '',
         applemusic: '',
     },
+    Oct162022: {
+        date: todaysDate,
+        artist: 'Michael Jackson',
+        artist2: 'Michael Jackson',
+        album: 'Bad',
+        album2: 'Bad',
+        hint1: 'Genre: Pop, Funk / Soul, Pop Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1987',
+        info: 'Photographer Sam Emerson was personally chosen by Michael for the album cover. The initial photograph chosen for the cover was inspired by a portrait of actress Gloria Swanson with a veil across her face, taken in 1924. At the end a more conventional photo was chosen.',
+        spotify: 'https://open.spotify.com/album/24TAupSNVWSAHL0R7n71vm?si=CNJU7NYERsuouzhhX0vxIw',
+        applemusic: 'https://music.apple.com/ee/album/bad-25th-anniversary-edition/551515699',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
