@@ -1156,6 +1156,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/24TAupSNVWSAHL0R7n71vm?si=CNJU7NYERsuouzhhX0vxIw',
         applemusic: 'https://music.apple.com/ee/album/bad-25th-anniversary-edition/551515699',
     },
+    Oct172022: {
+        date: todaysDate,
+        artist: 'Red Hot Chili Peppers',
+        artist2: 'Red Hot Chilli Peppers',
+        album: 'Blood Sugar Sex Magik',
+        album2: 'Blood Sugar Sex Magic',
+        hint1: 'Genre: Rock, Funk Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1991',
+        info: 'Photography, paintings and art direction for Blood Sugar Sex Magik is credited to filmmaker Gus Van Sant. In the album cover booklet there’s also a photo-collage of various tattoos the band members have.',
+        spotify: 'https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg?si=SP9j0pnfTF2ojFeP-6TNIg',
+        applemusic: 'https://music.apple.com/ee/album/blood-sugar-sex-magik-deluxe-edition/948460531',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
