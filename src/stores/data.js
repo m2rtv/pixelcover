@@ -1169,6 +1169,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg?si=SP9j0pnfTF2ojFeP-6TNIg',
         applemusic: 'https://music.apple.com/ee/album/blood-sugar-sex-magik-deluxe-edition/948460531',
     },
+    Oct182022: {
+        date: todaysDate,
+        artist: 'Nirvana',
+        artist2: 'Nirvana',
+        album: 'In Utero',
+        album2: 'In Utero',
+        hint1: 'Genre: Grunge, Alternative Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1993',
+        info: 'The art director for In Utero was Robert Fisher, who had designed all of Nirvana’s releases on DGC. Most of the ideas for the artwork for the album and related singles came from Cobain. He also created the collage on the back cover, that consists of model fetuses, a turtle shell and models of turtles, and body parts lying in a bed of orchids and lilies. The collage had been set up on the floor of Cobain’s living room and was photographed by Charles Peterson after an unexpected call from Cobain.',
+        spotify: 'https://open.spotify.com/album/7wOOA7l306K8HfBKfPoafr?si=XMdWEljLSwCirMkQU9Qo5w',
+        applemusic: 'https://music.apple.com/ee/album/in-utero-20th-anniversary-edition/1440858699',
+    },
+    Oct192022: {
+        date: todaysDate,
+        artist: 'The Weeknd',
+        artist2: 'Weeknd',
+        album: 'Beauty Behind the Madness',
+        album2: 'Beauty Behind Madness',
+        hint1: 'Genre: Contemporary R&B, Soul, Pop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2015',
+        info: 'Beauty Behind the Madness sold 412,000 album-equivalent units in its first week and was the most-streamed album in 2015, with over 60 million streams. Album cover created by multi-media artist Kalen Hollomon.',
+        spotify: 'https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=9gEWoqkHS8KWnwkJX8JtGg',
+        applemusic: 'https://music.apple.com/ee/album/beauty-behind-the-madness/1440826239',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
