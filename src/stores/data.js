@@ -1195,6 +1195,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=9gEWoqkHS8KWnwkJX8JtGg',
         applemusic: 'https://music.apple.com/ee/album/beauty-behind-the-madness/1440826239',
     },
+    Oct202022: {
+        date: todaysDate,
+        artist: 'Elton John',
+        artist2: 'Elton John',
+        album: 'Goodbye Yellow Brick Road',
+        album2: 'Goodbye Yellow Brick Road',
+        hint1: 'Genre: Pop Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1973',
+        info: 'Made by an English children’s book illustrator and author Ian Beck, this album is Elton John’s most popular and best-selling studio album.',
+        spotify: 'https://open.spotify.com/album/5WupqgR68HfuHt3BMJtgun?si=al5WsRFrQhC1S-nFIHbmIg',
+        applemusic: 'https://music.apple.com/ee/album/goodbye-yellow-brick-road-2014-remaster/1440863013',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
