@@ -1208,6 +1208,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5WupqgR68HfuHt3BMJtgun?si=al5WsRFrQhC1S-nFIHbmIg',
         applemusic: 'https://music.apple.com/ee/album/goodbye-yellow-brick-road-2014-remaster/1440863013',
     },
+    Oct212022: {
+        date: todaysDate,
+        artist: 'Jamie XX',
+        artist2: 'Jamie XX',
+        album: 'In Colour',
+        album2: 'In Color',
+        hint1: 'Genre: Electronic, UK Garage',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2015',
+        info: 'Designer for this one has been in this quiz multiple times — Phil Lee. He has also worked with artists like Adele, The XX, FKA Twigs, Jungle etc. Have a great weekend everyone!',
+        spotify: 'https://open.spotify.com/album/4gaNWHu5Caj3ItkYZ5i6uh?si=aObvqFmoRMGrz9jytV7YUQ',
+        applemusic: 'https://music.apple.com/ee/album/in-colour/1525506447',
+    },
+    Oct222022: {
+        date: todaysDate,
+        artist: 'Sonic Youth',
+        artist2: 'Sonic Youth',
+        album: 'Goo',
+        album2: 'Goo',
+        hint1: 'Genre: Alternative Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1990',
+        info: 'Cover created by Raymond Pettibon, who was also responsible for early covers for Black Flag. Cover depicts two sunglasses-wearing British mods, based on a photograph of Maureen Hindley and David Smith, two witnesses in the Moors murders trial.',
+        spotify: 'https://open.spotify.com/album/5iYYQwB0oH9FVyVlaOXZdr?si=dTHkTf-GQQ-3dMlULW7nUQ',
+        applemusic: 'https://music.apple.com/ee/album/goo/1440838993',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
