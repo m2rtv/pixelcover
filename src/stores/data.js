@@ -1234,6 +1234,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5iYYQwB0oH9FVyVlaOXZdr?si=dTHkTf-GQQ-3dMlULW7nUQ',
         applemusic: 'https://music.apple.com/ee/album/goo/1440838993',
     },
+    Oct232022: {
+        date: todaysDate,
+        artist: 'Björk',
+        artist2: 'Bjork',
+        album: 'Homogenic',
+        album2: 'Homogenic',
+        hint1: 'Genre: Electronic, IDM',
+        hint2: 'Country: Iceland',
+        hint3: 'Release date: 1997',
+        info: 'The album cover for Homogenic was produced by her close friend Alexander McQueen, who also directed one of the two music videos for "Alarm Call". On making of the cover, Björk recalls: “I had 10 kilos of hair on my head, and special contact lenses and a manicure that prevented me from eating with my fingers, and gaffer tape around my waist and high clogs so I couldn’t walk easily.”',
+        spotify: 'https://open.spotify.com/album/3knDOJUQBAATXsKYLWO4k8?si=cIU926YgRAmEAqk_eyU4Ag',
+        applemusic: 'https://music.apple.com/ee/album/homogenic/1395923200',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
