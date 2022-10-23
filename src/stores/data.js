@@ -1247,6 +1247,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3knDOJUQBAATXsKYLWO4k8?si=cIU926YgRAmEAqk_eyU4Ag',
         applemusic: 'https://music.apple.com/ee/album/homogenic/1395923200',
     },
+    Oct242022: {
+        date: todaysDate,
+        artist: 'Kanye West',
+        artist2: 'Kanye West',
+        album: 'The Life Of Pablo',
+        album2: 'Life Of Pablo',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2016',
+        info: 'Designed by Belgian artist Peter De Potter. On Spotify, “The Life of Pablo” is the most streamed album from Kanye (3,7B+ streams as of today).',
+        spotify: 'https://open.spotify.com/album/7gsWAHLeT0w7es6FofOXk1?si=4TcvNH3OS6iOW7MVnJBFGQ',
+        applemusic: 'https://music.apple.com/ee/album/the-life-of-pablo/1443063578',
+    },
+    Oct252022: {
+        date: todaysDate,
+        artist: 'Coldplay',
+        artist2: 'Coldplay',
+        album: 'Parachutes',
+        album2: 'Parachutes',
+        hint1: 'Genre: Pop Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2000',
+        info: 'The album’s cover features a photograph of a yellow globe taken with a disposable Kodak camera. The globe had been purchased from W H Smith for £10; it was featured in the music videos for "Shiver" and "Don’t Panic", and also accompanied the band on their tours.',
+        spotify: 'https://open.spotify.com/album/6ZG5lRT77aJ3btmArcykra?si=5WbHIgdWSxiPE0k-w8EBBQ',
+        applemusic: 'https://music.apple.com/ee/album/parachutes/1122782080',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
