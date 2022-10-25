@@ -1273,6 +1273,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6ZG5lRT77aJ3btmArcykra?si=5WbHIgdWSxiPE0k-w8EBBQ',
         applemusic: 'https://music.apple.com/ee/album/parachutes/1122782080',
     },
+    Oct262022: {
+        date: todaysDate,
+        artist: 'Massive Attack',
+        artist2: 'Massive Attack',
+        album: 'Mezzanine',
+        album2: 'Mezzanine',
+        hint1: 'Genre: Electronic, Trip Hop, Downtempo',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1998',
+        info: 'The cover art depicts a black stag beetle, photographed by British fashion photographer Nick Knight at the Natural History Museum in London. He has worked with artists like Björk, Lady Gaga and Kanye West. In 2016, he was commissioned to shoot official portraits of Queen Elizabeth and Prince Charles for the Queen’s 90th birthday.',
+        spotify: 'https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR?si=sXyEdgcNRlq-z2cPn10Ixw',
+        applemusic: 'https://music.apple.com/ee/album/mezzanine-deluxe/1428684976',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
