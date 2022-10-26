@@ -1286,6 +1286,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR?si=sXyEdgcNRlq-z2cPn10Ixw',
         applemusic: 'https://music.apple.com/ee/album/mezzanine-deluxe/1428684976',
     },
+    Oct272022: {
+        date: todaysDate,
+        artist: 'Grimes',
+        artist2: 'Grimes',
+        album: 'Visions',
+        album2: 'Visions',
+        hint1: 'Genre: Electronic, Pop, Synth-Pop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2012',
+        info: 'Visions’ album cover was designed by Grimes herself and took her fourteen hours while she watched films like Silence of the Lambs, The Shining, and Enter the Void. The line across the top reads "I love" in Russian. The two vertical lines of text below resemble Japanese kanji but do not actually mean anything. In the top right, there are the first two lines of the poem "But Listen, I Am Warning You" by Anna Akhmatova. The bottom right features lines from another poem by Anna Akmatova, "A Song of the Final Meeting".',
+        spotify: 'https://open.spotify.com/album/7aPolrSqVawIhC7iTo2b5F?si=gku5c55MTcKNwnuGB1yTRw',
+        applemusic: 'https://music.apple.com/ee/album/visions/501295144',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
