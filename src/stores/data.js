@@ -1299,6 +1299,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7aPolrSqVawIhC7iTo2b5F?si=gku5c55MTcKNwnuGB1yTRw',
         applemusic: 'https://music.apple.com/ee/album/visions/501295144',
     },
+    Oct282022: {
+        date: todaysDate,
+        artist: 'U2',
+        artist2: 'U2',
+        album: 'The Joshua Tree',
+        album2: 'Joshua Tree',
+        hint1: 'Genre: Rock, Pop Rock',
+        hint2: 'Country: Ireland',
+        hint3: 'Release date: 1987',
+        info: 'Designed by Steve Averill, the album sleeve was based on U2’s request to depict the record’s "imagery, and cinematic location" in the desert. Since the album’s provisional titles were The Desert Songs and The Two Americas, the initial concept for the sleeve was to represent where the desert met civilisation.',
+        spotify: 'https://open.spotify.com/album/5vBZRYu2GLA65nfxBvG1a7?si=T9l9xulpSeOj-0WhTegd_w',
+        applemusic: 'https://music.apple.com/ee/album/the-joshua-tree/1443155637',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
