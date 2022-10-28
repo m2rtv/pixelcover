@@ -1312,6 +1312,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5vBZRYu2GLA65nfxBvG1a7?si=T9l9xulpSeOj-0WhTegd_w',
         applemusic: 'https://music.apple.com/ee/album/the-joshua-tree/1443155637',
     },
+    Oct292022: {
+        date: todaysDate,
+        artist: 'Joy Division',
+        artist2: 'Joy Division',
+        album: 'Closer',
+        album2: 'Closer',
+        hint1: 'Genre: Post-Punk, New Wave',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1980',
+        info: 'The album cover was designed by Martyn Atkins and Peter Saville, with a photograph of the Appiani family tomb. The photograph was taken by Bernard Pierre Wolff in 1978. In a 2007 documentary on the band, designer Saville commented that he, upon learning of singer Ian Curtis’s suicide, expressed immediate concern over the album’s design as it depicted a funeral theme, remarking "we’ve got a tomb on the cover of the album!"',
+        spotify: 'https://open.spotify.com/album/0KBdfMTMxi0oD1oVqApTjr?si=aeGfL6ukScqzsl4qCYMNhA',
+        applemusic: 'https://music.apple.com/ee/album/closer-40th-anniversary-2020-digital-master/1512129942',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
