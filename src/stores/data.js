@@ -1325,6 +1325,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0KBdfMTMxi0oD1oVqApTjr?si=aeGfL6ukScqzsl4qCYMNhA',
         applemusic: 'https://music.apple.com/ee/album/closer-40th-anniversary-2020-digital-master/1512129942',
     },
+    Oct292022: {
+        date: todaysDate,
+        artist: 'Pink Floyd',
+        artist2: 'Pink Floyd',
+        album: 'The Wall',
+        album2: 'Wall',
+        hint1: 'Genre: Prog Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1979',
+        info: 'The album’s cover art is one of Pink Floyd’s most minimal. Black or red text reading "Pink Floyd The Wall" was stickered on top of the original 1979 physical releases.',
+        spotify: 'https://open.spotify.com/album/6WaIQHxEHtZL0RZ62AuY0g?si=-zM-lxvyQIOO3azy3rwmZg',
+        applemusic: 'https://music.apple.com/ee/album/the-wall-remastered/734978026',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
