@@ -1338,6 +1338,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6WaIQHxEHtZL0RZ62AuY0g?si=-zM-lxvyQIOO3azy3rwmZg',
         applemusic: 'https://music.apple.com/ee/album/the-wall-remastered/734978026',
     },
+    Oct312022: {
+        date: todaysDate,
+        artist: 'Janet Jackson',
+        artist2: 'Janet Jackson',
+        album: 'The Velvet Rope',
+        album2: 'Velvet Rope',
+        hint1: 'Genre: R&B, Pop, Soul',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1997',
+        info: 'The album’s artwork was photographed by Ellen von Unwerth. The Velvet Rope was titled as a metaphor for the emotional barricade preventing others from revealing their innermost thoughts; in comparison to the velvet rope used at film premieres and award shows, prohibiting access from spectators.',
+        spotify: 'https://open.spotify.com/album/6PpBVewnKKDvfYs3XhfA2Z?si=Gj9nWC02T8KWCmeKd0LAOA',
+        applemusic: 'https://music.apple.com/ee/album/the-velvet-rope-deluxe-edition/1646557266',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
