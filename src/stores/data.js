@@ -1325,7 +1325,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0KBdfMTMxi0oD1oVqApTjr?si=aeGfL6ukScqzsl4qCYMNhA',
         applemusic: 'https://music.apple.com/ee/album/closer-40th-anniversary-2020-digital-master/1512129942',
     },
-    Oct292022: {
+    Oct302022: {
         date: todaysDate,
         artist: 'Pink Floyd',
         artist2: 'Pink Floyd',
