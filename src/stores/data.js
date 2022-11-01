@@ -1351,6 +1351,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6PpBVewnKKDvfYs3XhfA2Z?si=Gj9nWC02T8KWCmeKd0LAOA',
         applemusic: 'https://music.apple.com/ee/album/the-velvet-rope-deluxe-edition/1646557266',
     },
+    Oct312022: {
+        date: todaysDate,
+        artist: 'Coldplay',
+        artist2: 'Coldplay',
+        album: 'A Rush Of Blood To The Head',
+        album2: 'Rush Of Blood To The Head',
+        hint1: 'Genre: Rock, Pop',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2002',
+        info: 'Designed by photographer Sølve Sundsbø, who was comissioned by Dazed and Confused magazine to make this image. It was made using a three-dimensional scanning machine - used to measure head sizes for USAF fighter jet helmets. After seeing the image in a publication, Chris Martin approached Sundsbø for proper permission to use the image as the cover. The album cover was among the ten chosen by the Royal Mail for a set of "Classic Album Cover" postage stamps issued in January 2010.',
+        spotify: 'https://open.spotify.com/album/0RHX9XECH8IVI3LNgWDpmQ?si=BGCIHY4PSFmcDcQ7e6nIlA',
+        applemusic: 'https://music.apple.com/ee/album/a-rush-of-blood-to-the-head/1122775993',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
