@@ -1351,7 +1351,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6PpBVewnKKDvfYs3XhfA2Z?si=Gj9nWC02T8KWCmeKd0LAOA',
         applemusic: 'https://music.apple.com/ee/album/the-velvet-rope-deluxe-edition/1646557266',
     },
-    Oct312022: {
+    Nov12022: {
         date: todaysDate,
         artist: 'Coldplay',
         artist2: 'Coldplay',
