@@ -1364,6 +1364,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0RHX9XECH8IVI3LNgWDpmQ?si=BGCIHY4PSFmcDcQ7e6nIlA',
         applemusic: 'https://music.apple.com/ee/album/a-rush-of-blood-to-the-head/1122775993',
     },
+    Nov22022: {
+        date: todaysDate,
+        artist: 'Frank Ocean',
+        artist2: 'Frank Ocean',
+        album: 'Channel Orange',
+        album2: 'Channel Orange',
+        hint1: 'Genre: Contemporary R&B, Soul, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2012',
+        info: 'The album artwork of Frank Ocean’s debut studio album Channel Orange was designed by Thomas Mastorakos, Aaron Martinez, and Phil Toselli. Typefaces used here are Orator and Cooper Black – the former was also used quite extensively on his former crew, Odd Future’s visuals.',
+        spotify: 'https://open.spotify.com/album/392p3shh2jkxUxY2VHvlH8?si=febgcyEsQ9i82A7bhrQAtw',
+        applemusic: 'https://music.apple.com/ee/album/channel-orange/1440765580',
+    },
+    Nov32022: {
+        date: todaysDate,
+        artist: 'Brian Eno',
+        artist2: 'Brian Eno',
+        album: 'Ambient 1: Music For Airports',
+        album2: 'Music For Airports',
+        hint1: 'Genre: Ambient, Minimalist',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1979',
+        info: 'Designed by the man himself. First album of the 4-part series, which all use similar visuals of topographic backgrounds and minimalistic use of Helvetica typeface throughout.',
+        spotify: 'https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa?si=Hlu4PyGjTOaZyTD7iruAWA',
+        applemusic: 'https://music.apple.com/ee/album/ambient-1-music-for-airports/724435863',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
