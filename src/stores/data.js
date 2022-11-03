@@ -1390,6 +1390,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa?si=Hlu4PyGjTOaZyTD7iruAWA',
         applemusic: 'https://music.apple.com/ee/album/ambient-1-music-for-airports/724435863',
     },
+    Nov42022: {
+        date: todaysDate,
+        artist: 'M.I.A.',
+        artist2: 'MIA',
+        album: 'Kala',
+        album2: 'Kala',
+        hint1: 'Genre: Electronic, Dance, World',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2007',
+        info: 'The album’s packaging includes photographs taken by M.I.A. and others in Liberia and Jamaica. The cover artwork is designed by Steve Loveridge. The album’s artwork was inspired by African art, from dictator fashion to old stickers on the back of cars.',
+        spotify: 'https://open.spotify.com/album/2xoj2gYed3IYmGWn3owSfu?si=O8khSV8pToqRu70DT2-8_Q',
+        applemusic: 'https://music.apple.com/ee/album/kala/296393419',
+    },
+    Nov52022: {
+        date: todaysDate,
+        artist: 'Lana Del Rey',
+        artist2: 'Lana Del Ray',
+        album: 'Born To Die',
+        album2: 'Born To Die',
+        hint1: 'Genre: Pop, Sadcore',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2012',
+        info: 'The photograph used on the cover for Born to Die was shot by Nicole Nodland, while Del Rey and David Bowden oversaw the overall direction for its packaging. In an interview with British GQ, Del Rey revealed she was sent to boarding school at age 14 to get sober from alcoholism and said much of the album is written about her experiences with alcohol while living in New York.',
+        spotify: 'https://open.spotify.com/album/4vXt6IpMcSnqonljffWlMI?si=iHhBYBhrTGmtZR1R9qWIPw',
+        applemusic: 'https://music.apple.com/ee/album/born-to-die/1440809572',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
