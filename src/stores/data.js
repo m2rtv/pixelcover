@@ -1416,6 +1416,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4vXt6IpMcSnqonljffWlMI?si=iHhBYBhrTGmtZR1R9qWIPw',
         applemusic: 'https://music.apple.com/ee/album/born-to-die/1440809572',
     },
+    Nov62022: {
+        date: todaysDate,
+        artist: 'David Bowie',
+        artist2: 'Ziggy Stardust',
+        album: 'The Rise And Fall Of Ziggy Stardust And The Spiders From Mars',
+        album2: 'Ziggy Stardust',
+        hint1: 'Genre: Rock, Glam Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1972',
+        info: 'The album cover photograph was taken in London, outside the home of furriers "K. West" by photographer Brian Ward in monochrome, and recoloured by illustrator Terry Pastor. Soon after Ziggy Stardust became a massive success, the directors of K. West were displeased with their company’s name appearing on a pop album. Tensions eased once the company became accustomed to tourists photographing themselves on the doorstep.',
+        spotify: 'https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56?si=vfet8iidRGmUN5lgusUKSg',
+        applemusic: 'https://music.apple.com/ee/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
