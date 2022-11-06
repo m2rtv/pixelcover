@@ -1429,6 +1429,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56?si=vfet8iidRGmUN5lgusUKSg',
         applemusic: 'https://music.apple.com/ee/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877',
     },
+    Nov62022: {
+        date: todaysDate,
+        artist: 'The Velvet Underground',
+        artist2: 'The Velvet Underground & Nico',
+        album: 'The Velvet Underground & Nico',
+        album2: 'The Velvet Underground And Nico',
+        hint1: 'Genre: Rock, Art/Garage/Experimental Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1967',
+        info: 'The album cover for The Velvet Underground & Nico is recognizable for featuring a Warhol print of a banana. Early copies of the album invited the owner to "Peel slowly and see", and peeling back the banana skin revealed a flesh-colored banana underneath. A special machine was needed to manufacture these covers (one of the causes of the album’s delayed release), but MGM paid for costs figuring that any ties to Warhol would boost sales of the album.',
+        spotify: 'https://open.spotify.com/album/4xwx0x7k6c5VuThz5qVqmV?si=g3AEuf48Rb-9DLGNE35iKw',
+        applemusic: 'https://music.apple.com/ee/album/the-velvet-underground-nico-45th-anniversary-edition/1440851613',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
