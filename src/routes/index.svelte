@@ -46,7 +46,7 @@
 
     let submit = () => {
         // Check if any of the answers is correct
-        if ($user.lastGuessArtist.toLowerCase().trim() == todaysData.artist.toLowerCase() || $user.lastGuessArtist.toLowerCase().trim() == todaysData.artist2.toLowerCase()) {
+        if ($user.lastGuessArtist.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') == todaysData.artist.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') || $user.lastGuessArtist.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') == todaysData.artist2.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ')) {
             if($user.guessedArtist == false || $user.guessedArtist == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
@@ -56,7 +56,7 @@
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
-        if ($user.lastGuessAlbum.toLowerCase().trim() == todaysData.album.toLowerCase() || $user.lastGuessAlbum.toLowerCase().trim() == todaysData.album2.toLowerCase()) {
+        if ($user.lastGuessAlbum.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') == todaysData.album.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') || $user.lastGuessAlbum.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ') == todaysData.album2.toLowerCase().replace('the', '').replace('&', 'and').trim().replace(/\s+/g, ' ')) {
             if($user.guessedAlbum == false || $user.guessedAlbum == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
