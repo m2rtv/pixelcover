@@ -1442,6 +1442,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4xwx0x7k6c5VuThz5qVqmV?si=g3AEuf48Rb-9DLGNE35iKw',
         applemusic: 'https://music.apple.com/ee/album/the-velvet-underground-nico-45th-anniversary-edition/1440851613',
     },
+    Nov82022: {
+        date: todaysDate,
+        artist: 'Tyler The Creator',
+        artist2: 'Tyler The Creator',
+        album: 'IGOR',
+        album2: 'IGOR',
+        hint1: 'Genre: Hip Hop, Neo Soul',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2019',
+        info: 'This, pink cover is for the digital version of the release designed by Phil Toselli. CD versions have an additional yellow, blue and green versions. There’s also a special edition vinyl cover illustrated by Lewis Rossignol and a different photo-only cover exclusively for Apple Music Presents live version.',
+        spotify: 'https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=xn_6_emSSl2x816tjXRfiw',
+        applemusic: 'https://music.apple.com/ee/album/igor/1463409338',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
