@@ -1429,7 +1429,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56?si=vfet8iidRGmUN5lgusUKSg',
         applemusic: 'https://music.apple.com/ee/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877',
     },
-    Nov62022: {
+    Nov72022: {
         date: todaysDate,
         artist: 'The Velvet Underground',
         artist2: 'The Velvet Underground & Nico',
