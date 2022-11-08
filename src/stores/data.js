@@ -1455,6 +1455,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=xn_6_emSSl2x816tjXRfiw',
         applemusic: 'https://music.apple.com/ee/album/igor/1463409338',
     },
+    Nov82022: {
+        date: todaysDate,
+        artist: 'Primal Scream',
+        artist2: 'Primal Scream',
+        album: 'Screamadelica',
+        album2: 'Screamadelica',
+        hint1: 'Genre: Alternative Rock, Alternative Dance',
+        hint2: 'Country: Scotland',
+        hint3: 'Release date: 1991',
+        info: 'The album cover for Screamadelica was painted by Creation Records’ in-house artist Paul Cannell. Cannell was inspired by a damp water spot he’d seen on the Creation Records offices ceiling after taking LSD. Screamadelica was among ten album covers chosen by the Royal Mail for a set of "Classic Album Cover" postage stamps issued in January 2010.',
+        spotify: 'https://open.spotify.com/album/5PORx6PL7CdOywSJuGVrnc?si=jvVnJqCcToCatY3jUkP__g',
+        applemusic: 'https://music.apple.com/ee/album/screamadelica/262848981',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
