@@ -1455,7 +1455,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=xn_6_emSSl2x816tjXRfiw',
         applemusic: 'https://music.apple.com/ee/album/igor/1463409338',
     },
-    Nov82022: {
+    Nov92022: {
         date: todaysDate,
         artist: 'Primal Scream',
         artist2: 'Primal Scream',
