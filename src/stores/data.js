@@ -1468,6 +1468,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5PORx6PL7CdOywSJuGVrnc?si=jvVnJqCcToCatY3jUkP__g',
         applemusic: 'https://music.apple.com/ee/album/screamadelica/262848981',
     },
+    Nov102022: {
+        date: todaysDate,
+        artist: 'Taylor Swift',
+        artist2: 'Taylor Swift',
+        album: 'Lover',
+        album2: 'Lover',
+        hint1: 'Genre: Pop, Electropop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2019',
+        info: 'Colombian photographer and collage artist Valheria Rocha, who worked with Swift on the album’s art direction and photography. By using cover art that deliberately looks like a fan-made product rather than art commissioned from professional graphic designers, Lover brought "a level of iconicness and relatability" to Swift’s audience because, according to Rocha, they could create their own versions of the cover art.',
+        spotify: 'https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq?si=gJRMPN4cQbSTLPIdj94yeA',
+        applemusic: 'https://music.apple.com/ee/album/lover/1468058165',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
