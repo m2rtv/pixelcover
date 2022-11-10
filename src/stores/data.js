@@ -1481,6 +1481,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq?si=gJRMPN4cQbSTLPIdj94yeA',
         applemusic: 'https://music.apple.com/ee/album/lover/1468058165',
     },
+    Nov112022: {
+        date: todaysDate,
+        artist: 'Beastie Boys',
+        artist2: 'Beastie Boys',
+        album: 'Licenced To Ill',
+        album2: 'Licenced To Ill',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1986',
+        info: 'The full album cover, front to back, features an American Airlines Boeing 727 with a Beastie Boys logo on its tail, which has crashed head-on into the side of a mountain, appearing as an extinguished joint. The idea for the album’s cover came from the album’s producer, Rick Rubin, after reading the Led Zeppelin biography Hammer of the Gods. The artwork was created by Stephen Byram and World B. Omes.',
+        spotify: 'https://open.spotify.com/album/11oR0ZuqB3ucZwb5TGbZxb?si=LPDtN-vvTEarZoPlX-ae2g',
+        applemusic: 'https://music.apple.com/ee/album/licensed-to-ill/1440912031',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
