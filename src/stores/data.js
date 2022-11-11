@@ -1485,7 +1485,7 @@ let Data = {
         date: todaysDate,
         artist: 'Beastie Boys',
         artist2: 'Beastie Boys',
-        album: 'Licenced To Ill',
+        album: 'Licensed To Ill',
         album2: 'Licenced To Ill',
         hint1: 'Genre: Hip Hop',
         hint2: 'Country: US',
