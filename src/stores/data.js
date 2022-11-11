@@ -1494,6 +1494,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/11oR0ZuqB3ucZwb5TGbZxb?si=LPDtN-vvTEarZoPlX-ae2g',
         applemusic: 'https://music.apple.com/ee/album/licensed-to-ill/1440912031',
     },
+    Nov122022: {
+        date: todaysDate,
+        artist: 'The Beatles',
+        artist2: 'Beatles',
+        album: 'Revolver',
+        album2: 'Revolver',
+        hint1: 'Genre: Rock, Pop, Psychedelia',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1966',
+        info: 'The album cover, designed by Klaus Voormann, combined Aubrey Beardsley-inspired line drawing with photo collage and won the 1967 Grammy Award for Best Album Cover, Graphic Arts.',
+        spotify: 'https://open.spotify.com/album/3PRoXYsngSwjEQWR5PsHWR?si=8pKAT_1eRrSyKqfVB8Rb7A',
+        applemusic: 'https://music.apple.com/ee/album/revolver/1441164670',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
