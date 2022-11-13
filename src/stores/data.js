@@ -1507,6 +1507,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3PRoXYsngSwjEQWR5PsHWR?si=8pKAT_1eRrSyKqfVB8Rb7A',
         applemusic: 'https://music.apple.com/ee/album/revolver/1441164670',
     },
+    Nov132022: {
+        date: todaysDate,
+        artist: 'Blur',
+        artist2: 'Blur',
+        album: 'Parklife',
+        album2: 'Parklife',
+        hint1: 'Genre: Britpop',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1994',
+        info: 'The album was originally going to be entitled London and the album cover shot was going to be of a fruit-and-vegetable cart. Albarn stated tongue-in-cheek, "That was the last time that Dave Balfe was, sort of, privy to any decision or creative process with us, and that was his final contribution: to call it London". The cover refers to the British pastime of greyhound racing.',
+        spotify: 'https://open.spotify.com/album/0YS25Dr3hMtMFlVTfuvzl4?si=gI5s5RLeQXmesN-Od45-mw',
+        applemusic: 'https://music.apple.com/ee/album/parklife/699665183',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
