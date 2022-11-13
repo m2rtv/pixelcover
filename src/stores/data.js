@@ -1529,7 +1529,7 @@ let Data = {
         hint1: 'Genre: Hip Hop, Funk/Soul',
         hint2: 'Country: US',
         hint3: 'Release date: 2000',
-        info: 'Big Boi and André 3000 photographed by Michael Lavine in front of the iconic black and white version of the US flag with rotated stars.',
+        info: 'Big Boi and André 3000 photographed by Michael Lavine in front of the iconic black and white version of the US flag with rotated stars. This album sits at the 64th spot on the Rolling Stone’s list of the 500 greatest albums of all time.',
         spotify: 'https://open.spotify.com/album/2tm3Ht61kqqRZtIYsBjxEj?si=HGnNObv1TGOqbu62N7EcKQ',
         applemusic: 'https://music.apple.com/ee/album/stankonia/255836651',
     },
