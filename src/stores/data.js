@@ -1520,6 +1520,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0YS25Dr3hMtMFlVTfuvzl4?si=gI5s5RLeQXmesN-Od45-mw',
         applemusic: 'https://music.apple.com/ee/album/parklife/699665183',
     },
+    Nov142022: {
+        date: todaysDate,
+        artist: 'Outkast',
+        artist2: 'Outkast',
+        album: 'Stankonia',
+        album2: 'Stankonia',
+        hint1: 'Genre: Hip Hop, Funk/Soul',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2000',
+        info: 'Big Boi and André 3000 photographed by Michael Lavine in front of the iconic black and white version of the US flag with rotated stars.',
+        spotify: 'https://open.spotify.com/album/2tm3Ht61kqqRZtIYsBjxEj?si=HGnNObv1TGOqbu62N7EcKQ',
+        applemusic: 'https://music.apple.com/ee/album/stankonia/255836651',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
