@@ -1533,6 +1533,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2tm3Ht61kqqRZtIYsBjxEj?si=HGnNObv1TGOqbu62N7EcKQ',
         applemusic: 'https://music.apple.com/ee/album/stankonia/255836651',
     },
+    Nov152022: {
+        date: todaysDate,
+        artist: 'The Clash',
+        artist2: 'Clash',
+        album: 'London Calling',
+        album2: 'London Calling',
+        hint1: 'Genre: Punk Rock, New Wave',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1979',
+        info: 'The cover photo was taken by Pennie Smith, artwork was designed by Lowry and was an homage to the design of Elvis Presley’s self-titled debut album. The cover was named the ninth best album cover of all time by Q magazine in 2001.',
+        spotify: 'https://open.spotify.com/album/6FCzvataOZh68j8OKzOt9a?si=6o7pLQdsQ-GblLPDrGmsVQ',
+        applemusic: 'https://music.apple.com/ee/album/london-calling/684811762',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
