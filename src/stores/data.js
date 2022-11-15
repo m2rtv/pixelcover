@@ -1546,6 +1546,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6FCzvataOZh68j8OKzOt9a?si=6o7pLQdsQ-GblLPDrGmsVQ',
         applemusic: 'https://music.apple.com/ee/album/london-calling/684811762',
     },
+    Nov162022: {
+        date: todaysDate,
+        artist: 'Björk',
+        artist2: 'Bjork',
+        album: 'Debut',
+        album2: 'Debut',
+        hint1: 'Genre: Alternative Dance, Electronic, House',
+        hint2: 'Country: Iceland',
+        hint3: 'Release date: 1993',
+        info: 'As the name suggest, the first album and also with the simplest cover of her career. Photographed by French fashion photographer Jean-Baptiste Mondino, who has also directed music videos for Madonna, Bowie and Sting to name a few.',
+        spotify: 'https://open.spotify.com/album/4ORsCg1x8p80RfW0vXA35N?si=YPYNvPKoTgKFLwYdC1C3Kw',
+        applemusic: 'https://music.apple.com/ee/album/debut/1396001351',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
