@@ -1559,6 +1559,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4ORsCg1x8p80RfW0vXA35N?si=YPYNvPKoTgKFLwYdC1C3Kw',
         applemusic: 'https://music.apple.com/ee/album/debut/1396001351',
     },
+    Nov172022: {
+        date: todaysDate,
+        artist: 'Kraftwerk',
+        artist2: 'Kraftwerk',
+        album: 'Computer World',
+        album2: 'Computerwelt',
+        hint1: 'Genre: Electronic, Synth-Pop, Electro',
+        hint2: 'Country: Germany',
+        hint3: 'Release date: 1981',
+        info: 'The cover shows a computer terminal, apparently based on one made by the Hazeltine Corporation. As was the case with the two previous albums, Computer World was released in both German- and English-language editions. Despite its theme, the production of the album was completely analogue and did not involve any computer technology.',
+        spotify: 'https://open.spotify.com/album/42hCHiMtfs7mfBTVX3V6k7?si=_oxWaQ5zTtqcw-PfxVRLww',
+        applemusic: 'https://music.apple.com/ee/album/computer-world-remastered/699901844',
+    },
+    Nov172022: {
+        date: todaysDate,
+        artist: 'Kraftwerk',
+        artist2: 'Kraftwerk',
+        album: 'Computer World',
+        album2: 'Computerwelt',
+        hint1: 'Genre: Electronic, Synth-Pop, Electro',
+        hint2: 'Country: Germany',
+        hint3: 'Release date: 1981',
+        info: 'The cover shows a computer terminal, apparently based on one made by the Hazeltine Corporation. As was the case with the two previous albums, Computer World was released in both German- and English-language editions. Despite its theme, the production of the album was completely analogue and did not involve any computer technology.',
+        spotify: 'https://open.spotify.com/album/42hCHiMtfs7mfBTVX3V6k7?si=_oxWaQ5zTtqcw-PfxVRLww',
+        applemusic: 'https://music.apple.com/ee/album/computer-world-remastered/699901844',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
