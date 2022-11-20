@@ -80,6 +80,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6NTrwu1XJ56jBPx7HMksbZ?si=rk3hKEBcT8Sbzup_-fwFpQ',
         applemusic: 'https://music.apple.com/ee/album/power-corruption-lies/1040981945',
     },
+    Nov212022: {
+        date: todaysDate,
+        artist: 'A Tribe Called Quest',
+        artist2: 'Tribe Called Quest',
+        album: 'The Low End Theory',
+        album2: 'Low End Theory',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1991',
+        info: '“Following up the sunny day illustration from their happy-go-lucky debut, Tribe went decidedly darker on the cover for the more mature (and classic) The Low End Theory. Painting the contours of an invisible model’s body with glow-in-the-dark paint, the red, green, and black image was sexy and Afrocentric all at once—a delicate balance that mirrored Tribe’s jazz-heavy sound at the time. The iconic imagery would continue to pop up throughout Tribe’s career (gracing the covers of their next two albums), making the painted lady hip-hop’s most recognizable mascot. Stripped-down, stylish, and original, The Low End Theory is everything a great rap album cover should be.” via Conplex. AD: ZombArt, Photography: Joe Gran1',
+        spotify: 'https://open.spotify.com/album/1p12OAWwudgMqfMzjMvl2a?si=QEj6ZLq6SXiStj36ilUPUw',
+        applemusic: 'https://music.apple.com/ee/album/the-low-end-theory/278911460',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
