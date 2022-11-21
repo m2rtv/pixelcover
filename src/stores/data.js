@@ -93,6 +93,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1p12OAWwudgMqfMzjMvl2a?si=QEj6ZLq6SXiStj36ilUPUw',
         applemusic: 'https://music.apple.com/ee/album/the-low-end-theory/278911460',
     },
+    Nov222022: {
+        date: todaysDate,
+        artist: 'Aphex Twin',
+        artist2: 'Aphex Twin',
+        album: 'Drukqs',
+        album2: 'Drugs',
+        hint1: 'Genre: Electronic, IDM, Classical',
+        hint2: 'Country: England (Irish-born)',
+        hint3: 'Release date: 2001',
+        info: 'Supposedly a photo from inside his Yamaha Disklavier, which was connected to a computer to control it, to give some tracks that “human, but not-quite” feel.',
+        spotify: 'https://open.spotify.com/album/1maoQPAmw44bbkNOxKlwsx?si=W0JU2tIWRtSOitgBtcH-_A',
+        applemusic: 'https://music.apple.com/ee/album/drukqs/282559693',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
