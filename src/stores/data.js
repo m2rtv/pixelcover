@@ -106,6 +106,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1maoQPAmw44bbkNOxKlwsx?si=W0JU2tIWRtSOitgBtcH-_A',
         applemusic: 'https://music.apple.com/ee/album/drukqs/282559693',
     },
+    Nov232022: {
+        date: todaysDate,
+        artist: 'Pet Shop Boys',
+        artist2: 'Pet Shop Boys',
+        album: 'Actually',
+        album2: 'Actually',
+        hint1: 'Genre: Synth-Pop',
+        hint2: 'Country: England',
+        hint3: 'Release date: 1987',
+        info: 'Designed by Pet Shop Boys’ long time collaborator Mark Farrow (@farrowlondon). Cover photo by Cindy Palmano. Although not released as a single, the track "Shopping" is frequently featured as background music in British television news and current affairs programmes dealing with retail business issues and as bumper music on home shopping shows. This is despite the fact that the song is actually a critique of privatisation in 1980s Britain, and has little to do with actual shopping.',
+        spotify: 'https://open.spotify.com/album/0p5QwhEke5P9mFY4CY9u4j?si=WwsS1dlVTmOt_8P9HrH8fw',
+        applemusic: 'https://music.apple.com/ee/album/actually-2018-remaster/1645128416',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
