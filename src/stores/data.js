@@ -119,6 +119,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0p5QwhEke5P9mFY4CY9u4j?si=WwsS1dlVTmOt_8P9HrH8fw',
         applemusic: 'https://music.apple.com/ee/album/actually-2018-remaster/1645128416',
     },
+    Nov242022: {
+        date: todaysDate,
+        artist: 'Public Enemy',
+        artist2: 'Public Enemy',
+        album: 'It Takes a Nation of Millions to Hold Us Back',
+        album2: 'It Takes a Nation',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1988',
+        info: '#15, and highest Hip Hop album in the Rolling Stones’ “500 greatest albums of all time” list. Cover photo by American photographer Glen E. Friedman who has worked with punk and hip hop artists like Black Flag, Dead Kennedys, Beastie Boys, Run-DMC, to name a few.',
+        spotify: 'https://open.spotify.com/album/03Mx6yaV7k4bsEmcTH8J49?si=471Ah5X-QeObDgJJPoGyaA',
+        applemusic: 'https://music.apple.com/ee/album/it-takes-a-nation-of-millions-to-hold-us-back/1440837788',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
