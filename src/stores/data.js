@@ -132,6 +132,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/03Mx6yaV7k4bsEmcTH8J49?si=471Ah5X-QeObDgJJPoGyaA',
         applemusic: 'https://music.apple.com/ee/album/it-takes-a-nation-of-millions-to-hold-us-back/1440837788',
     },
+    Nov252022: {
+        date: todaysDate,
+        artist: 'Radiohead',
+        artist2: 'Radiohead',
+        album: 'Kid A',
+        album2: 'Kid A',
+        hint1: 'Genre: Electronic, Alternative Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2000',
+        info: 'The Kid A artwork and packaging was created by Thom Yorke with Stanley Donwood, who has worked with Radiohead since their 1994 EP My Iron Lung. Donwood painted on large canvases with knives and sticks, then photographed the paintings and manipulated them with Photoshop. While working on the artwork, Yorke and Donwood became "obsessed" with the Worldwatch Institute website, which was full of "scary statistics about ice caps melting, and weather patterns changing"; this inspired them to use an image of a mountain range as the cover art.',
+        spotify: 'https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=IVtGhgEDRtuJJK-izC-ksg',
+        applemusic: 'https://music.apple.com/ee/album/kid-a/1097862870',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
