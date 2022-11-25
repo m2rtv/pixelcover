@@ -145,6 +145,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=IVtGhgEDRtuJJK-izC-ksg',
         applemusic: 'https://music.apple.com/ee/album/kid-a/1097862870',
     },
+    Nov252022: {
+        date: todaysDate,
+        artist: 'Solange',
+        artist2: 'Solange',
+        album: 'A Seat At The Table',
+        album2: 'Seat At The Table',
+        hint1: 'Genre: Neo Soul',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2016',
+        info: 'From the interview with her sister Beyoncé, Solange said about the cover: "I wanted to create an image that invited people to have an up-close and personal experience—and that really spoke to the album title—that communicated, through my eyes and my posture, like, “Come and get close. It’s not going to be pretty. It’s not going to be perfect. It’s going to get a little gritty, and it might get a little intense, but it’s a conversation we need to have.” I wanted to nod to the Mona Lisa and the stateliness, the sternness that that image has.”',
+        spotify: 'https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM?si=A9i2LbiPRIGnfa7KXN5OHQ',
+        applemusic: 'https://music.apple.com/ee/album/a-seat-at-the-table/1159507212',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
