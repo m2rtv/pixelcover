@@ -145,7 +145,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=IVtGhgEDRtuJJK-izC-ksg',
         applemusic: 'https://music.apple.com/ee/album/kid-a/1097862870',
     },
-    Nov252022: {
+    Nov262022: {
         date: todaysDate,
         artist: 'Solange',
         artist2: 'Solange',
