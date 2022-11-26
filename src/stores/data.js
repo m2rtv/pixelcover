@@ -158,6 +158,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM?si=A9i2LbiPRIGnfa7KXN5OHQ',
         applemusic: 'https://music.apple.com/ee/album/a-seat-at-the-table/1159507212',
     },
+    Nov272022: {
+        date: todaysDate,
+        artist: 'Mike Oldfield',
+        artist2: 'Mike Oldfield',
+        album: 'Tubular Bells',
+        album2: 'Tubular Bells',
+        hint1: 'Genre: Progressive Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1973',
+        info: 'The cover of Tubular Bells was created by designer and photographer Trevor Key. The backdrop was photographed in Sussex, England and the triangular "bent bell" on the front was inspired by the damage Oldfield had caused to the tubular bells while playing them on the record. Key was paid £100 for his work, but he went on to design several other sleeves for Virgin and Factory Records artists.',
+        spotify: 'https://open.spotify.com/album/0a3YQpBnRzJzNktOjb6Dum?si=xN5__0FAQ-C7juF2X0iU5Q',
+        applemusic: 'https://music.apple.com/ee/album/tubular-bells/1440852773',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
