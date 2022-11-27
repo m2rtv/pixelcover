@@ -171,6 +171,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0a3YQpBnRzJzNktOjb6Dum?si=xN5__0FAQ-C7juF2X0iU5Q',
         applemusic: 'https://music.apple.com/ee/album/tubular-bells/1440852773',
     },
+    Nov282022: {
+        date: todaysDate,
+        artist: 'Nine Inch Nails',
+        artist2: 'NIN',
+        album: 'The Downward Spiral',
+        album2: 'The Downward Spiral',
+        hint1: 'Genre: Industrial Rock, ALternative Rock',
+        hint2: 'Country: US (Ohio)',
+        hint3: 'Release date: 1994',
+        info: 'When Trent Reznor contacted British collagist Russell Mills in 1994 about creating a cover for The Downward Spiral, he had a list of words he wanted the art to evoke. Chief among them were "attrition," "wound," and "decay”. The result you see here is made of plaster, acrylics, oils, rusted metals, insects, moths, Mills’ blood, wax, varnishes, and surgical bandaging on a wooden panel.',
+        spotify: 'https://open.spotify.com/album/5I7lLu8xXJfGRdFUqHaLQU?si=AgNlsFZKS4acFlTXmh671Q',
+        applemusic: 'https://music.apple.com/ee/album/the-downward-spiral-deluxe-edition/1418210351',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
