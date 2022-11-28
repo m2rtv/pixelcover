@@ -184,6 +184,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5I7lLu8xXJfGRdFUqHaLQU?si=AgNlsFZKS4acFlTXmh671Q',
         applemusic: 'https://music.apple.com/ee/album/the-downward-spiral-deluxe-edition/1418210351',
     },
+    Nov292022: {
+        date: todaysDate,
+        artist: 'Outkast',
+        artist2: 'Outcast',
+        album: 'Aquemini',
+        album2: 'Aquemini',
+        hint1: 'Genre: Hip Hop, Southern Hip Hop',
+        hint2: 'Country: US (Atlanta, Georgia)',
+        hint3: 'Release date: 1998',
+        info: 'Illustrated by Greg Hawkins, designed and art directed by LaFace Records in-house designer D.L. Warfield. The former has worked on many covers for the record label — for TLC, Toni Braxton, Usher etc.',
+        spotify: 'https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28?si=bqhrtqZLT9GYfIqi5ZsyCw',
+        applemusic: 'https://music.apple.com/ee/album/aquemini/266365274',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
