@@ -197,6 +197,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28?si=bqhrtqZLT9GYfIqi5ZsyCw',
         applemusic: 'https://music.apple.com/ee/album/aquemini/266365274',
     },
+    Nov302022: {
+        date: todaysDate,
+        artist: 'Taylor Swift',
+        artist2: 'Taylor Swift',
+        album: 'Midnights',
+        album2: 'Midnights (3am Edition)',
+        hint1: 'Genre: Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2022',
+        info: 'The standard cover artwork takes inspiration from old-fashioned LP jackets whose songs were listed on the front cover. The typeface used here is Neue Haas Grotesk. Three limited-edition color variants of the physical album, featuring different cover artworks were also issued. Photographed by Beth Garrabrant (@bethgarrabrant)',
+        spotify: 'https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3?si=423W60w5T7mIcDUORUCV-w',
+        applemusic: 'https://music.apple.com/ee/album/midnights/1649434004',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
