@@ -210,6 +210,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3?si=423W60w5T7mIcDUORUCV-w',
         applemusic: 'https://music.apple.com/ee/album/midnights/1649434004',
     },
+    Dec12022: {
+        date: todaysDate,
+        artist: 'Beastie Boys',
+        artist2: 'Beastie Boys',
+        album: 'Check Your Head',
+        album2: 'Check Your Head',
+        hint1: 'Genre: Hip Hop, Rap Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1992',
+        info: 'The album was somewhat of a return by the Beastie Boys to their punk roots. It featured the trio playing their own instruments on the majority of the album, for the first time on record since their early EPs, due to the commercial failure of Paul’s Boutique. This inspired photographer Glen E. Friedman to shoot photos of the Beasties with their instrument cases, one of which was used as the cover of the album.',
+        spotify: 'https://open.spotify.com/album/7CSP7J60QKIBCqOV64qILq?si=JHAmELEHTxCGx-cRrhVuLw',
+        applemusic: 'https://music.apple.com/ee/album/check-your-head-deluxe-version-remastered/724303425',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
