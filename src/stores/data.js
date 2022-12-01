@@ -223,6 +223,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7CSP7J60QKIBCqOV64qILq?si=JHAmELEHTxCGx-cRrhVuLw',
         applemusic: 'https://music.apple.com/ee/album/check-your-head-deluxe-version-remastered/724303425',
     },
+    Dec22022: {
+        date: todaysDate,
+        artist: 'The Jimi Hendrix Experience',
+        artist2: 'Jimi Hendrix',
+        album: 'Axis: Bold As Love',
+        album2: 'Axis',
+        hint1: 'Genre: Psychedelic Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1967',
+        info: 'The album cover depicts Hendrix and the Experience as various forms of Vishnu, incorporating a painting of the musicians by Roger Law, from a photo-portrait by Karl Ferris. Hendrix expressed dismay at the choice of cover art. He stated that the cover would have been more appropriate had it highlighted his Native American heritage. Also, some Hindus have since expressed anger over the use of religious images for the album’s artwork.',
+        spotify: 'https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r?si=KzVVrZK8RIGAEF4po6qK-g',
+        applemusic: 'https://music.apple.com/ee/album/axis-bold-as-love/344562307',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
