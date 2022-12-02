@@ -236,6 +236,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3uFZf8rykoHo7XMIQVYW6r?si=KzVVrZK8RIGAEF4po6qK-g',
         applemusic: 'https://music.apple.com/ee/album/axis-bold-as-love/344562307',
     },
+    Dec32022: {
+        date: todaysDate,
+        artist: 'Spice Girls',
+        artist2: 'Spice Girls',
+        album: 'Spice',
+        album2: 'Spice',
+        hint1: 'Genre: Pop',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1996',
+        info: '“Spice” is considered to be the record that brought teen pop back, opening the doors for a wave of teen pop artists. Conceptually, the album centered on the idea of Girl Power, and the hype surrounding the group was compared to Beatlemania (it was dubbed "Spicemania").',
+        spotify: 'https://open.spotify.com/album/3x2jF7blR6bFHtk4MccsyJ?si=UuumCxZVSeO1h5oewyHXXQ',
+        applemusic: 'https://music.apple.com/ee/album/spice/723398173',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
