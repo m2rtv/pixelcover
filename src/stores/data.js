@@ -249,6 +249,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3x2jF7blR6bFHtk4MccsyJ?si=UuumCxZVSeO1h5oewyHXXQ',
         applemusic: 'https://music.apple.com/ee/album/spice/723398173',
     },
+    Dec42022: {
+        date: todaysDate,
+        artist: 'George Michael',
+        artist2: 'George Michael',
+        album: 'Faith',
+        album2: 'Faith',
+        hint1: 'Genre: Pop, Funk/Soul, Synth-Pop, Pop Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1987',
+        info: 'Cover photo by Russell Young. The symbols below the album name stand for: Faith, Music, Money, Religion, Love.',
+        spotify: 'https://open.spotify.com/album/34K1Kvskt9arWy8E1Gz3Lw?si=Iaq2FzFDTdyh-ij9UhEXBQ',
+        applemusic: 'https://music.apple.com/ee/album/faith-2010-remaster/395918916',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
