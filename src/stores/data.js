@@ -262,6 +262,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/34K1Kvskt9arWy8E1Gz3Lw?si=Iaq2FzFDTdyh-ij9UhEXBQ',
         applemusic: 'https://music.apple.com/ee/album/faith-2010-remaster/395918916',
     },
+    Dec52022: {
+        date: todaysDate,
+        artist: 'Dr. Dre',
+        artist2: 'Dr Dre',
+        album: 'The Chronic',
+        album2: 'Chronic',
+        hint1: 'Genre: Hip Hop, Gangsta Rap',
+        hint2: 'Country: US (Los Angeles, California)',
+        hint3: 'Release date: 1992',
+        info: 'Designed by Kimberly Holt, the cover is an homage to Zig-Zag rolling papers.',
+        spotify: '',
+        applemusic: '',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
