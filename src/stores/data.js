@@ -275,6 +275,19 @@ let Data = {
         spotify: '',
         applemusic: '',
     },
+    Dec62022: {
+        date: todaysDate,
+        artist: 'Daft Punk',
+        artist2: 'Daft Punk',
+        album: 'Homework',
+        album2: 'Homework',
+        hint1: 'Genre: House, Techno, Disco',
+        hint2: 'Country: France',
+        hint3: 'Release date: 1997',
+        info: 'The artwork for the front cover and inner sleeve was conceived by Daft Punk, photographed by artist and film producer Nicolas Hidiroglou. Homem-Christo had previously designed the Daft Punk wordmark, which was the basis for this image.',
+        spotify: 'https://open.spotify.com/album/5uRdvUR7xCnHmUW8n64n9y?si=a8CejEX7SK2njoV9s7GsTw',
+        applemusic: 'https://music.apple.com/ee/album/homework/696884422',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
