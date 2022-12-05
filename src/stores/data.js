@@ -288,6 +288,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5uRdvUR7xCnHmUW8n64n9y?si=a8CejEX7SK2njoV9s7GsTw',
         applemusic: 'https://music.apple.com/ee/album/homework/696884422',
     },
+    Dec72022: {
+        date: todaysDate,
+        artist: 'Black Sabbath',
+        artist2: 'Black Sabbath',
+        album: 'Master Of Reality',
+        album2: 'Masters Of Reality',
+        hint1: 'Genre: Heavy Metal, Doom Metal',
+        hint2: 'Country: England',
+        hint3: 'Release date: 1971',
+        info: 'The first editions of Master of Reality came in an “envelope sleeve” containing a poster of the band, and with the album’s title embossed in black lettering, visible in relief. On the first North American editions of the album incorrectly listed the album title as Masters of Reality. Art Director: Mike Stanford',
+        spotify: 'https://open.spotify.com/album/3kBG6q0aXKxzn01wKTwZr5?si=4kNylw7kQ82KvrfD2Zk_MA',
+        applemusic: 'https://music.apple.com/ee/album/master-of-reality-2009-remastered-version/1193822439',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
