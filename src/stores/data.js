@@ -301,6 +301,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3kBG6q0aXKxzn01wKTwZr5?si=4kNylw7kQ82KvrfD2Zk_MA',
         applemusic: 'https://music.apple.com/ee/album/master-of-reality-2009-remastered-version/1193822439',
     },
+    Dec82022: {
+        date: todaysDate,
+        artist: 'Madonna',
+        artist2: 'Madonna',
+        album: 'Madonna',
+        album2: 'Madonna',
+        hint1: 'Genre: Pop, Synth-Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1983',
+        info: 'The album cover was shot by photographer Gary Heery and directed by Carin Goldberg. The album was re-released in 1985 for the European market and re-packaged as Madonna: The First Album with a different artwork created by photographer George Holy. The cover features Madonna in similar style of dress to the original cover but this time with crucifix as her earrings.',
+        spotify: 'https://open.spotify.com/album/1DWWb4Q39mp1T3NgyscowF?si=yBOGU3YERuWrTrEKTWolVA',
+        applemusic: 'https://music.apple.com/ee/album/madonna-bonus-tracks-2001-remaster/80815644',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
