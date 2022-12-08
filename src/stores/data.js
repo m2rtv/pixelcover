@@ -314,6 +314,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1DWWb4Q39mp1T3NgyscowF?si=yBOGU3YERuWrTrEKTWolVA',
         applemusic: 'https://music.apple.com/ee/album/madonna-bonus-tracks-2001-remaster/80815644',
     },
+    Dec92022: {
+        date: todaysDate,
+        artist: 'David Bowie',
+        artist2: 'David Bowie',
+        album: 'David Bowie',
+        album2: 'Space Oddity',
+        hint1: 'Genre: Rock, Psychedelic Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1969',
+        info: 'The original UK cover artwork features a photograph by British photographer Vernon Dewhurst, exposed on top of a work by Victor Vasarely — a Hungarian-French artist, who is widely accepted as a "grandfather" and leader of the Op art movement. The artwork, was designed by Bowie and Lee, who enthusiastically collected Vasarely’s works.',
+        spotify: 'https://open.spotify.com/album/1ay9Z4R5ZYI2TY7WiDhNYQ?si=8C2YeIprQnOu5We72Ch9LA',
+        applemusic: 'https://music.apple.com/ee/album/david-bowie-2015-remaster/1039799506',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
