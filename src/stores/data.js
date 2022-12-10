@@ -327,6 +327,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1ay9Z4R5ZYI2TY7WiDhNYQ?si=8C2YeIprQnOu5We72Ch9LA',
         applemusic: 'https://music.apple.com/ee/album/david-bowie-2015-remaster/1039799506',
     },
+    Dec112022: {
+        date: todaysDate,
+        artist: 'Coldplay',
+        artist2: 'Coldplay',
+        album: 'Viva la Vida or Death and All His Friends',
+        album2: 'Viva la Vida',
+        hint1: 'Genre: Rock, Pop Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2008',
+        info: 'Viva la Vida takes its artwork from Eugène Delacroix’s 1830 painting Liberty Leading the People.',
+        spotify: 'https://open.spotify.com/album/1CEODgTmTwLyabvwd7HBty?si=9wxa4lYsTf-tpLOK_C8PQA',
+        applemusic: 'https://music.apple.com/ee/album/viva-la-vida-or-death-and-all-his-friends/1122773394',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
