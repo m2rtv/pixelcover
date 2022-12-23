@@ -56,7 +56,7 @@
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
-        if ($user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') == todaysData.album.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') || $user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') == todaysData.album2.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ')) {
+        if ($user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') == todaysData.album.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') || $user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') == todaysData.album2.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ')) {
             if($user.guessedAlbum == false || $user.guessedAlbum == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
