@@ -600,7 +600,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3ZdkT5buYFi1WQaB0XNNtf?si=tFW9CDzsQDKy5qqbskOV4g',
         applemusic: 'https://music.apple.com/ee/album/super-trouper-bonus-track-version/1440823811',
     },
-    Dec12023: {
+    Jan12023: {
         date: todaysDate,
         artist: 'Rick Astley',
         artist2: 'Rick Astley',
