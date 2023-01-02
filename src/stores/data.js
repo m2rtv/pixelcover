@@ -613,7 +613,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5Z9iiGl2FcIfa3BMiv6OIw?si=p6qqwVzgRSW1MBKJTyrGPA',
         applemusic: 'https://music.apple.com/ee/album/whenever-you-need-somebody-2022-remaster/1626265761',
     },
-    Jan22022: {
+    Jan22023: {
         date: todaysDate,
         artist: 'Green Day',
         artist2: 'Green Day',
