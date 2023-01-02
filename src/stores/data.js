@@ -626,7 +626,7 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4uG8q3GPuWHQlRbswMIRS6?si=8xJpXBt9SYWeNVePNJ-_cA',
         applemusic: 'https://music.apple.com/ee/album/dookie/1160081985',
     },
-    Dec002022: {
+    Jan002023: {
         date: todaysDate,
         artist: '',
         artist2: '',
