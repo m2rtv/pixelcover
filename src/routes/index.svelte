@@ -45,7 +45,7 @@
 
     // Remove all the characters that are not from the latin alphabet, or numbers
     function removeChar(str) {
-        return str.toLowerCase().replace(/[^A-Za-z0-9äöõüÄÖÕÜ]/g, "");
+        return str.toLowerCase().replace(/&/g,"and").replace(/[^A-Za-z0-9äöõüÄÖÕÜ]/g, "");
     }
 
     let submit = () => {
