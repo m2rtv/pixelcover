@@ -46,7 +46,34 @@
 
     let submit = () => {
         // Check if any of the answers is correct
-        if ($user.lastGuessArtist.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') == todaysData.artist.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') || $user.lastGuessArtist.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ') == todaysData.artist2.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').trim().replaceAll(/\s+/g, ' ')) {
+        if ($user.lastGuessArtist
+            .toLowerCase()
+            .replaceAll('the', '')
+            .replaceAll('&', 'and')
+            .replace(/[‘’'`]/g, "")
+            .trim()
+            .replaceAll(/\s+/g, ' ') 
+            == todaysData.artist
+            .toLowerCase()
+            .replaceAll('the', '')
+            .replaceAll('&', 'and')
+            .replace(/[‘’'`]/g, "")
+            .trim()
+            .replaceAll(/\s+/g, ' ') 
+            || $user.lastGuessArtist
+            .toLowerCase()
+            .replaceAll('the', '')
+            .replaceAll('&', 'and')
+            .replace(/[‘’'`]/g, "")
+            .trim()
+            .replaceAll(/\s+/g, ' ') 
+            == todaysData.artist2
+            .toLowerCase()
+            .replaceAll('the', '')
+            .replaceAll('&', 'and')
+            .replace(/[‘’'`]/g, "")
+            .trim()
+            .replaceAll(/\s+/g, ' ')) {
             if($user.guessedArtist == false || $user.guessedArtist == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
