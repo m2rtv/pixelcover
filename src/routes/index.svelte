@@ -4,7 +4,6 @@
     import { user } from '../stores/data.js';
     import { stats } from '../stores/data.js';
     import { SvelteToast, toast } from '@zerodevx/svelte-toast'
-    // import Nav from './Nav.svelte';
 
     // Paths to pixelated cover photos
     let albumImgArr = [
@@ -44,36 +43,14 @@
         $user.gameLost = false;
     }
 
+    // Remove all the characters that are not from the latin alphabet, or numbers
+    function removeChar(str) {
+        return str.toLowerCase().replace(/[^A-Za-z0-9äöõüÄÖÕÜ]/g, "");
+    }
+
     let submit = () => {
         // Check if any of the answers is correct
-        if ($user.lastGuessArtist
-            .toLowerCase()
-            .replaceAll('the', '')
-            .replaceAll('&', 'and')
-            .replace(/[‘’'`]/g, "")
-            .trim()
-            .replaceAll(/\s+/g, ' ') 
-            == todaysData.artist
-            .toLowerCase()
-            .replaceAll('the', '')
-            .replaceAll('&', 'and')
-            .replace(/[‘’'`]/g, "")
-            .trim()
-            .replaceAll(/\s+/g, ' ') 
-            || $user.lastGuessArtist
-            .toLowerCase()
-            .replaceAll('the', '')
-            .replaceAll('&', 'and')
-            .replace(/[‘’'`]/g, "")
-            .trim()
-            .replaceAll(/\s+/g, ' ') 
-            == todaysData.artist2
-            .toLowerCase()
-            .replaceAll('the', '')
-            .replaceAll('&', 'and')
-            .replace(/[‘’'`]/g, "")
-            .trim()
-            .replaceAll(/\s+/g, ' ')) {
+        if (removeChar($user.lastGuessArtist) == removeChar(todaysData.artist) || removeChar($user.lastGuessArtist) == removeChar(todaysData.artist2)) {
             if($user.guessedArtist == false || $user.guessedArtist == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
@@ -83,7 +60,7 @@
             $user.lastGuessArtist = '';
             $user.guessedArtist = false;
         }
-        if ($user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') == todaysData.album.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') || $user.lastGuessAlbum.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ') == todaysData.album2.toLowerCase().replaceAll('the', '').replaceAll('&', 'and').replaceAll('\'', '').replaceAll('’', '').trim().replaceAll(/\s+/g, ' ')) {
+        if (removeChar($user.lastGuessAlbum) == removeChar(todaysData.album) || removeChar($user.lastGuessAlbum) == removeChar(todaysData.album2)) {
             if($user.guessedAlbum == false || $user.guessedAlbum == undefined) {
                 $stats.pointsDist[$user.lastGuessNo] += 1;
                 $stats.totalPoints += 1;
@@ -210,11 +187,8 @@
         reversed: false,      // insert new toast to bottom of stack
         intro: { y: -200 },    // toast intro fly animation settings
     }
-    
-    console.log()
 </script>
 
-<!-- <Nav /> -->
 <SvelteToast {options} />
 {#if $user.gameWon || $user.gameLost}
 <div class="modal-wrapper">
