@@ -882,7 +882,7 @@ let Data = {
         hint1: 'Genre: Pop, Synth-Pop, R&B',
         hint2: 'Country: US',
         hint3: 'Release date: 2012',
-        info: 'Mario Hugo was commissioned to provide art direction, illustration, treatments, custom typography and album art design for Rihanna’s Unapologetic. The creative was developed through experimental processes including transfers and chemical treatment.',
+        info: 'Mario Hugo was commissioned to provide art direction, illustration, treatments, custom typography and album art design for Rihanna’s Unapologetic. The creative was developed through experimental processes including transfers and chemical treatment. The packaging features photography by Michael Muller and Melissa Forde.',
         spotify: 'https://open.spotify.com/album/5pLlGJrxuQO3jMoQe1XxZY?si=AY9BJnEFSaCd-fbs7kJ4Xg',
         applemusic: 'https://music.apple.com/ee/album/unapologetic-deluxe-version/1417177082',
     },
