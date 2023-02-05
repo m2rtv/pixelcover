@@ -1068,6 +1068,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6fmnT17jc2Sc69q3nza1eD?si=CS6_qGZlQnuNfyD90Zz7jQ',
         applemusic: 'https://music.apple.com/ee/album/true-blue/80815611?i=80815275',
     },
+    Feb62023: {
+        date: todaysDate,
+        artist: 'Paul Simon',
+        artist2: 'Paul Simon',
+        album: 'Graceland',
+        album2: 'Grace land',
+        hint1: 'Genre: Folk Rock, Pop Rock, African',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1986',
+        info: 'The cover art depicts an Ethiopian Christian icon from the collection of the Peabody Essex Museum dating to around 1500.',
+        spotify: 'https://open.spotify.com/album/4WoQ94qzwQj28n3nlSOVLB?si=EdWnFUhFRsy2yB4fp7QR5A',
+        applemusic: 'https://music.apple.com/ee/album/graceland/529574560',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
