@@ -1081,6 +1081,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4WoQ94qzwQj28n3nlSOVLB?si=EdWnFUhFRsy2yB4fp7QR5A',
         applemusic: 'https://music.apple.com/ee/album/graceland/529574560',
     },
+    Feb72023: {
+        date: todaysDate,
+        artist: 'LCD Soundsystem',
+        artist2: 'LCD Soundsystem',
+        album: 'This Is Happening',
+        album2: 'This Is Happening',
+        hint1: 'Genre: Dance, Electronic, Disco, Post-Punk',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2010',
+        info: 'Art directed by their long-time collaborator, Michael Vadino. Cover photo by Ruvan Wijesooriya. The first single, "Drunk Girls", was released in April 2010, with a music video directed by Spike Jonze.',
+        spotify: 'https://open.spotify.com/album/4hnqM0JK4CM1phwfq1Ldyz?si=LjibtvI6Rg6-ggUHdx8Giw',
+        applemusic: 'https://music.apple.com/ee/album/this-is-happening/693391469',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
