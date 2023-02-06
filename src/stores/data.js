@@ -1084,7 +1084,7 @@ let Data = {
     Feb72023: {
         date: todaysDate,
         artist: 'LCD Soundsystem',
-        artist2: 'LCD Soundsystem',
+        artist2: 'LCD Sound System',
         album: 'This Is Happening',
         album2: 'This Is Happening',
         hint1: 'Genre: Dance, Electronic, Disco, Post-Punk',
