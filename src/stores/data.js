@@ -1094,6 +1094,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4hnqM0JK4CM1phwfq1Ldyz?si=LjibtvI6Rg6-ggUHdx8Giw',
         applemusic: 'https://music.apple.com/ee/album/this-is-happening/693391469',
     },
+    Feb82023: {
+        date: todaysDate,
+        artist: 'Erykah Badu',
+        artist2: 'Erykah Badu',
+        album: 'Mama\'s Gun',
+        album2: 'Mamas Gun',
+        hint1: 'Genre: Neo Soul',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2000',
+        info: 'The cover takes on the colors of the reggae movement. The photo of the artist was taken by Robert Maxwell. The title is set in Amelia typeface, in yellow with a red flat shade.',
+        spotify: 'https://open.spotify.com/album/3cADvHRdKniF9ELCn1zbGH?si=0SlimKDdRuCntxID4GT7rQ',
+        applemusic: 'https://music.apple.com/ee/album/mamas-gun/1440755899',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
