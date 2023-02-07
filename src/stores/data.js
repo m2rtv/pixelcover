@@ -1107,6 +1107,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3cADvHRdKniF9ELCn1zbGH?si=0SlimKDdRuCntxID4GT7rQ',
         applemusic: 'https://music.apple.com/ee/album/mamas-gun/1440755899',
     },
+    Feb92023: {
+        date: todaysDate,
+        artist: 'A$AP Rocky',
+        artist2: 'Asap Rocky',
+        album: 'Long.Live.A$ap',
+        album2: 'Long.Live.ASAP',
+        hint1: 'Genre: Hip Hop, Cloud Rap',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2013',
+        info: 'Cover photo by Phil Knott. AD and design by Joe Perez, Creative Director Virgil Abloh. Fun story: Liam Gallagher once mistakenly referred to A$AP Rocky as "WhatsApp Ricky" during an interview.',
+        spotify: 'https://open.spotify.com/album/6rzMufuu8sLkIizM4q9c7J?si=ihE7coDIQsmFukyOIzFMkQ',
+        applemusic: 'https://music.apple.com/ee/album/long-live-a%24ap-deluxe-edition/1450690198',
+    },
+    Feb102023: {
+        date: todaysDate,
+        artist: 'HAIM',
+        artist2: 'HAIM',
+        album: 'Women in Music Pt. III',
+        album2: 'Women in Music Pt 3',
+        hint1: 'Genre: Soft Rock, plus a mix of everything else',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2020',
+        info: 'The album cover was shot at Canter’s Deli in Los Angeles by Paul Thomas Anderson, who also directed the music videos for all three singles and "The Steps", as well as for later directing the 2021 film Licorice Pizza which starred one of the band members — Alana Haim.',
+        spotify: 'https://open.spotify.com/album/79thwyFL6Uo6rgTp3YWEAf?si=TrwZtVPdShSKeaBnW0IHKw',
+        applemusic: 'https://music.apple.com/ee/album/women-in-music-pt-iii-expanded-edition/1553497808',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
