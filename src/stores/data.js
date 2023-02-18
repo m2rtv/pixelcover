@@ -1211,6 +1211,32 @@ let Data = {
         spotify: '',
         applemusic: 'https://music.apple.com/ee/album/blue/1492263092',
     },
+    Feb182023: {
+        date: todaysDate,
+        artist: 'Bob Dylan',
+        artist2: 'Bob Dylan',
+        album: 'Highway 61 Revisited',
+        album2: 'Highway 61',
+        hint1: 'Genre: Folk Rock, Blues Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1965',
+        info: 'The cover artwork was photographed by Daniel Kramer. Kramer captured Dylan sitting on the stoop of the apartment of his manager, Albert Grossman, located in Gramercy Park, New York, placing Dylan’s friend Bob Neuwirth behind Dylan "to give it extra color".',
+        spotify: 'https://open.spotify.com/album/6YabPKtZAjxwyWbuO9p4ZD?si=qDM2vm5VSuqH0EUEaXWbgg',
+        applemusic: 'https://music.apple.com/ee/album/highway-61-revisited/201281514',
+    },
+    Feb192023: {
+        date: todaysDate,
+        artist: 'Simon and Garfunkel',
+        artist2: 'Simon & Garfunkel',
+        album: 'Bridge over Troubled Water',
+        album2: 'Bridge over Troubled Water',
+        hint1: 'Genre: Folk Rock, Pop Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1970',
+        info: 'The typeface used here is Helvetica and designed by Tony Lane. He became an early art director for Rolling Stone magazine and designed Michael Jackson’s “Bad”.',
+        spotify: 'https://open.spotify.com/album/0JwHz5SSvpYWuuCNbtYZoV?si=kk-rju8kTcm2JhJi5KJU8w',
+        applemusic: 'https://music.apple.com/ee/album/bridge-over-troubled-water/324127933',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
