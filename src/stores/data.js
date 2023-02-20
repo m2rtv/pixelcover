@@ -1250,6 +1250,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4PgleR09JVnm3zY1fW3XBA?si=2M7ohB1fRYCVZ1jzRFnkhA',
         applemusic: 'https://music.apple.com/ee/album/24k-magic/1161503945',
     },
+    Feb212023: {
+        date: todaysDate,
+        artist: 'Olivia Rodrigo',
+        artist2: 'Olivia Rodrigo',
+        album: 'Sour',
+        album2: 'Sour',
+        hint1: 'Genre: Pop, Bedroom pop, Pop punk',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2021',
+        info: 'On the cover, the artist is positioned on a purble backdrop, where she sticks her tongue out, with her face covered in a variety of colorful stickers. The stickers on her tongue spell the album title. Photographed by Grant Spanier. In the alternative cover available for the Target-exclusive and vinyl editions of Sour, purple is again the dominant color, but stickers are not present.',
+        spotify: 'https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j?si=7mEufRpkSq-OI7lXPfiZRA',
+        applemusic: 'https://music.apple.com/ee/album/sour/1560735414',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
