@@ -1237,6 +1237,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0JwHz5SSvpYWuuCNbtYZoV?si=kk-rju8kTcm2JhJi5KJU8w',
         applemusic: 'https://music.apple.com/ee/album/bridge-over-troubled-water/324127933',
     },
+    Feb202023: {
+        date: todaysDate,
+        artist: 'Bruno Mars',
+        artist2: 'Bruno Mars',
+        album: '24K Magic',
+        album2: '24k Magic',
+        hint1: 'Genre: Pop, R&B, Funk',
+        hint2: 'Country: US, Hawaii',
+        hint3: 'Release date: 2016',
+        info: 'Mars and Greg "Giden’s Dad" Burke created the artwork, which was shot by Chinese photographer Kai Z. Feng. According to Mars, the cover art was inspired by a "musky cologne" advertisement and the Cadillac Allanté convertible that felt like "bootleg luxury".',
+        spotify: 'https://open.spotify.com/album/4PgleR09JVnm3zY1fW3XBA?si=2M7ohB1fRYCVZ1jzRFnkhA',
+        applemusic: 'https://music.apple.com/ee/album/24k-magic/1161503945',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
