@@ -1263,6 +1263,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j?si=7mEufRpkSq-OI7lXPfiZRA',
         applemusic: 'https://music.apple.com/ee/album/sour/1560735414',
     },
+    Feb222023: {
+        date: todaysDate,
+        artist: 'Jay-Z',
+        artist2: 'Jay-Z',
+        album: 'The Blueprint 3',
+        album2: 'The Blueprint III',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2009',
+        info: 'The cover consists of a large number of all-white instruments and recording tools stacked in a corner, with three red lines across the image. Rather than simply using Photoshop, the album’s design team carefully stacked all the equipment in a corner then used a projector to create the bars. They then painted red onto the equipment where the projection of the bars was, and replaced the projector with a camera to achieve the correct perspective for the image. Blueprint 3 would be Jay-Z’s first album cover that did not feature his face on it. Creative Direction by Greg Gigendad Burke.',
+        spotify: 'https://open.spotify.com/album/2CUT0104gySOIvqwtXeFsX?si=NvbqTC24TRmi2JrVjgkCrA',
+        applemusic: 'https://music.apple.com/ee/album/the-blueprint-3/1440932327',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
