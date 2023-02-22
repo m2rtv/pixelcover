@@ -1276,6 +1276,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2CUT0104gySOIvqwtXeFsX?si=NvbqTC24TRmi2JrVjgkCrA',
         applemusic: 'https://music.apple.com/ee/album/the-blueprint-3/1440932327',
     },
+    Feb232023: {
+        date: todaysDate,
+        artist: 'Ariana Grande',
+        artist2: 'Arian Grande',
+        album: 'Thank U, Next',
+        album2: 'Thank You, Next',
+        hint1: 'Genre: Pop, R&B, Trap',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2019',
+        info: 'The cover photo is shot by Alfredo Flores. The digital edition cover features a pink border, whilst the physical edition features a black border.',
+        spotify: 'https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw?si=WfXHQ9o2S8qRxV8YMvOsrQ',
+        applemusic: 'https://music.apple.com/ee/album/thank-u-next/1450330588',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
