@@ -1289,6 +1289,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw?si=WfXHQ9o2S8qRxV8YMvOsrQ',
         applemusic: 'https://music.apple.com/ee/album/thank-u-next/1450330588',
     },
+    Feb252023: {
+        date: todaysDate,
+        artist: 'Sia',
+        artist2: 'SIA',
+        album: 'This Is Acting',
+        album2: 'This Is Acting',
+        hint1: 'Genre: Pop, Dance-pop, Electropop',
+        hint2: 'Country: Australia',
+        hint3: 'Release date: 2016',
+        info: 'Art direction by the artist herself, along with the typograpgy that’s shown on the cover. Photographed by Erik Anders Lang. Deluxe edition of the album features Sia’s frequent dance collaborator, Maddie Ziegler on the cover.',
+        spotify: 'https://open.spotify.com/album/3Xz1Bcn4YP9bdqlsstMfuJ?si=pi303kZvQtGpFkmJdpQysA',
+        applemusic: 'https://music.apple.com/ee/album/this-is-acting/1055074478',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
