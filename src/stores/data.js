@@ -1302,6 +1302,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/3Xz1Bcn4YP9bdqlsstMfuJ?si=pi303kZvQtGpFkmJdpQysA',
         applemusic: 'https://music.apple.com/ee/album/this-is-acting/1055074478',
     },
+    Feb262023: {
+        date: todaysDate,
+        artist: 'Dolly Parton',
+        artist2: 'Dolly Parton',
+        album: 'Coat of Many Colors',
+        album2: 'Coat Of Many Colors',
+        hint1: 'Genre: Country, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1971',
+        info: 'The album’s title track, "Coat of Many Colors", tells of how Parton’s mother stitched together a coat for her daughter out of rags given to the family. As she sewed, she told her child the biblical story of Joseph and his coat of many colors. The excited child, "with patches on my britches and holes in both my shoes", rushed to school, "just to find the others laughing and making fun of me" for wearing a coat made of rags. Photograph of the cover painting shot by Les Leverett.',
+        spotify: 'https://open.spotify.com/album/17CT6ru3CyDXAi6xVaSUzg?si=bAWpN6ElQPyjOJdmK6gMtA',
+        applemusic: 'https://music.apple.com/ee/album/coat-of-many-colors/217532812',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
