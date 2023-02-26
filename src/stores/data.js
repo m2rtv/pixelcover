@@ -1315,6 +1315,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/17CT6ru3CyDXAi6xVaSUzg?si=bAWpN6ElQPyjOJdmK6gMtA',
         applemusic: 'https://music.apple.com/ee/album/coat-of-many-colors/217532812',
     },
+    Feb272023: {
+        date: todaysDate,
+        artist: 'Tears for Fears',
+        artist2: 'Tears for Fears',
+        album: 'Songs from the Big Chair',
+        album2: 'Songs From The Big Chair',
+        hint1: 'Genre: Synthpop, New Wave, Pop Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1985',
+        info: 'Originally, the album was to be titled The Working Hour, but Roland Orzabal fought to change it to Songs from the Big Chair, which was derived from the 1976 television film Sybil about a woman with multiple personality disorder who only feels safe when she is sitting in her analyst’s "big chair". The title of the album reflects the band’s view of being targeted by a hostile English music press at the time. Cover photo by Tim O’Sullivan.',
+        spotify: 'https://open.spotify.com/album/7y7459SFZReE5Wec4hejv5?si=4qtsdXP4SnCN01Tx5K2GgA',
+        applemusic: 'https://music.apple.com/ee/album/songs-from-the-big-chair/1440813508',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
