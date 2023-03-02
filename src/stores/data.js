@@ -1367,6 +1367,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/62U7xIHcID94o20Of5ea4D?si=Fb2voL1tQhS-G_XgBCG6fg',
         applemusic: 'https://music.apple.com/ee/album/toto-iv/185716551',
     },
+    Mar32023: {
+        date: todaysDate,
+        artist: 'Eagles',
+        artist2: 'The Eagles',
+        album: 'Hotel California',
+        album2: 'The Hotel California',
+        hint1: 'Genre: Rock, Country Rock, Pop Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1976',
+        info: 'The front cover artwork is a photograph of The Beverly Hills Hotel shot just before sunset by David Alexander with design and art direction by Kosh.[16] According to Kosh, Henley wanted him to find a place that can portray the Hotel California of the album title, and "portray it with a slightly sinister edge". ',
+        spotify: 'https://open.spotify.com/album/2widuo17g5CEC66IbzveRu?si=e2a7Dx8HQ92xSkEpuArp6w',
+        applemusic: 'https://music.apple.com/ee/album/hotel-california/635770200',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
