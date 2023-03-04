@@ -1380,6 +1380,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2widuo17g5CEC66IbzveRu?si=e2a7Dx8HQ92xSkEpuArp6w',
         applemusic: 'https://music.apple.com/ee/album/hotel-california/635770200',
     },
+    Mar52023: {
+        date: todaysDate,
+        artist: 'The Doors',
+        artist2: 'Doors',
+        album: 'The Best of The Doors',
+        album2: 'The Very Best of The Doors',
+        hint1: 'Genre: Rock, Psychedelic Rock, Blues Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1985 (Compilation album)',
+        info: 'Cover photo by Joel Brodsky',
+        spotify: '',
+        applemusic: '',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
