@@ -1393,6 +1393,19 @@ let Data = {
         spotify: '',
         applemusic: '',
     },
+    Mar62023: {
+        date: todaysDate,
+        artist: 'Harry Styles',
+        artist2: 'Harry Styles',
+        album: 'Harry\'s House',
+        album2: 'Harrys House',
+        hint1: 'Genre: Pop, Pop Rock, Pop Funk',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2022',
+        info: 'Photographed by Hanna Moon, Creative Director Molly Hawkins. The title is a reference to Joni Mitchell’s 1975 song “Harry’s House / Centerpiece.” from her album “The Hissing of Summer Lawns”.',
+        spotify: 'https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=0lM_r0rmTgGHq4zIDjm8AA',
+        applemusic: 'https://music.apple.com/ee/album/harrys-house/1615584999',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
