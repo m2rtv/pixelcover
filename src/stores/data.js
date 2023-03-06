@@ -1406,6 +1406,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=0lM_r0rmTgGHq4zIDjm8AA',
         applemusic: 'https://music.apple.com/ee/album/harrys-house/1615584999',
     },
+    Mar72023: {
+        date: todaysDate,
+        artist: 'Drake',
+        artist2: 'Drake',
+        album: 'If You\'re Reading This It\'s Too Late',
+        album2: 'If youre reading this its too late',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2015',
+        info: 'The album’s cover art was done by Canadian graffiti artist Jim Joe.',
+        spotify: 'https://open.spotify.com/album/0ptlfJfwGTy0Yvrk14JK1I?si=8Pw9ROEXSyGww025V71HEA',
+        applemusic: 'https://music.apple.com/ee/album/if-youre-reading-this-its-too-late/1440839718',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
