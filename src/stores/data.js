@@ -1458,6 +1458,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4tI4WJdTN5MzDMRMl2i7VR?si=AS1oWbpmR462EHltHi9shQ',
         applemusic: 'https://music.apple.com/ee/album/return-to-the-36-chambers/332667010',
     },
+    Mar112023: {
+        date: todaysDate,
+        artist: 'Blur',
+        artist2: 'Blur',
+        album: 'The Magic Whip',
+        album2: 'Magic Whip',
+        hint1: 'Genre: Alternative Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2015',
+        info: 'The album cover artwork has the words blur and magic whip written in Chinese. Art director Tony Hung, met with frontman Damon Albarn in early 2015 to discuss the album artwork and was shown photos and ephemera from the singer’s travels in Hong Kong. "The album title, The Magic Whip [Albarn] explained, was multifaceted," says Hung. "An ice cream in the UK, a firework in China and a \'whip\' in a political sense. These extremes would reflect the different textures, breadth, and depth of the album." Hung says that the band wanted a cover that touched on those themes and that also had a "rawer feel" to give a sense of how the record came together in Hong Kong (the band recorded quickly, in a small studio in the city).',
+        spotify: 'https://open.spotify.com/album/0nSzBICzQHea8grwfqa5Gb?si=zAONds1qQLO85_wM9StOxw',
+        applemusic: 'https://music.apple.com/ee/album/the-magic-whip/966943210',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
