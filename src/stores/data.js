@@ -1471,6 +1471,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/0nSzBICzQHea8grwfqa5Gb?si=zAONds1qQLO85_wM9StOxw',
         applemusic: 'https://music.apple.com/ee/album/the-magic-whip/966943210',
     },
+    Mar122023: {
+        date: todaysDate,
+        artist: 'Mos Def',
+        artist2: 'Mos Def',
+        album: 'Black on Both Sides',
+        album2: 'Black on Both Sides',
+        hint1: 'Genre: Hip Hop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1999',
+        info: 'Cover photo by Calablzitaz Tiernaz',
+        spotify: 'https://open.spotify.com/album/5gK2l2LgWY0BA4p9uy27z6?si=7R1pFFieQGWVMvHyEZ2RvQ',
+        applemusic: 'https://music.apple.com/ee/album/black-on-both-sides/1444213589',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
