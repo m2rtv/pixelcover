@@ -1484,6 +1484,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5gK2l2LgWY0BA4p9uy27z6?si=7R1pFFieQGWVMvHyEZ2RvQ',
         applemusic: 'https://music.apple.com/ee/album/black-on-both-sides/1444213589',
     },
+    Mar132023: {
+        date: todaysDate,
+        artist: 'Def Leppard',
+        artist2: 'Def Lepard',
+        album: 'Hysteria',
+        album2: 'Hysteria',
+        hint1: 'Genre: Hard Rock',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 1987',
+        info: 'Cover artwork by Andie Airfix, a British graphic designer who created album covers for Black Sabbath, Def Leppard, Judas Priest, Metallica, Philip Lynott, the Rolling Stones, Guns N’ Roses, Paul McCartney and Thompson Twins, among many others under his own company Satori.',
+        spotify: 'https://open.spotify.com/album/1ja2qzCrh6bZykcojbZs82?si=VIxeXTfxQj6LAd9DvuQIhQ',
+        applemusic: 'https://music.apple.com/ee/album/hysteria/1440903625',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
