@@ -1490,7 +1490,7 @@ let Data = {
         artist2: 'Def Lepard',
         album: 'Hysteria',
         album2: 'Hysteria',
-        hint1: 'Genre: Hard Rock',
+        hint1: 'Genre: Hard Rock, Glam Metal',
         hint2: 'Country: UK',
         hint3: 'Release date: 1987',
         info: 'Cover artwork by Andie Airfix, a British graphic designer who created album covers for Black Sabbath, Def Leppard, Judas Priest, Metallica, Philip Lynott, the Rolling Stones, Guns N’ Roses, Paul McCartney and Thompson Twins, among many others under his own company Satori.',
