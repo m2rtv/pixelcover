@@ -1497,6 +1497,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1ja2qzCrh6bZykcojbZs82?si=VIxeXTfxQj6LAd9DvuQIhQ',
         applemusic: 'https://music.apple.com/ee/album/hysteria/1440903625',
     },
+    Mar152023: {
+        date: todaysDate,
+        artist: 'Bob Dylan',
+        artist2: 'Bob Dylan',
+        album: 'Blonde on Blonde',
+        album2: 'Blonde on Blonde',
+        hint1: 'Genre: Folk Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 1966',
+        info: 'The photographer, Jerry Schatzberg, described how the photo was taken: “I wanted to find an interesting location outside of the studio. We went to the west side, where the Chelsea art galleries are now. At the time it was the meat packing district of New York and I liked the look of it. It was freezing and we were very cold. The frame he chose for the cover is blurred and out of focus. Of course everyone was trying to interpret the meaning, saying it must represent getting high on an LSD trip. It was none of the above; we were just cold and the two of us were shivering. There were other images that were sharp and in focus but, to his credit, Dylan liked that photograph.”',
+        spotify: 'https://open.spotify.com/album/4NP1rhnsPdYpnyJP0p0k0L?si=03lIuhPxRlOpAfLNScAe7g',
+        applemusic: 'https://music.apple.com/ee/album/blonde-on-blonde/178049863',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
