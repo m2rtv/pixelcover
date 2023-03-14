@@ -1502,7 +1502,7 @@ let Data = {
         artist: 'Bob Dylan',
         artist2: 'Bob Dylan',
         album: 'Blonde on Blonde',
-        album2: 'Blonde on Blonde',
+        album2: 'Blond on Blond',
         hint1: 'Genre: Folk Rock',
         hint2: 'Country: US',
         hint3: 'Release date: 1966',
