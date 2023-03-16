@@ -1523,6 +1523,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9?si=4wgHqWxCR2iwu7lbsH1zcQ',
         applemusic: 'https://music.apple.com/ee/album/arrival/1440820126?i=1440820841',
     },
+    Mar172023: {
+        date: todaysDate,
+        artist: 'Silk Sonic',
+        artist2: 'Bruno Mars and Anderson .Paak',
+        album: 'An Evening with Silk Sonic',
+        album2: 'An Evening with',
+        hint1: 'Genre: R&B, Soul, Funk, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2021',
+        info: '',
+        spotify: 'https://open.spotify.com/album/4VZ7jhV0wHpoNPCB7Vmiml?si=zr_Q-OBJQR-cL4NUzBcP-A',
+        applemusic: 'https://music.apple.com/ee/album/an-evening-with-silk-sonic/1611637679',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
