@@ -1510,6 +1510,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4NP1rhnsPdYpnyJP0p0k0L?si=03lIuhPxRlOpAfLNScAe7g',
         applemusic: 'https://music.apple.com/ee/album/blonde-on-blonde/178049863',
     },
+    Mar162023: {
+        date: todaysDate,
+        artist: 'ABBA',
+        artist2: 'ABBA',
+        album: 'Arrival',
+        album2: 'Arrival',
+        hint1: 'Genre: Pop',
+        hint2: 'Country: Sweden',
+        hint3: 'Release date: 1976',
+        info: 'The album cover shots were taken of the group posing in and out of a Bell 47 helicopter at the Barkarby Airport, northwest of Stockholm. The now-renowned "mirrored-B" copyrighted ABBA logo, an ambigram designed by Rune Söderqvist in 1976, was also premiered on the album cover.',
+        spotify: 'https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9?si=4wgHqWxCR2iwu7lbsH1zcQ',
+        applemusic: 'https://music.apple.com/ee/album/arrival/1440820126?i=1440820841',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
