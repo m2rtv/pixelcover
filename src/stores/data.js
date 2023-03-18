@@ -1571,7 +1571,7 @@ let Data = {
         hint1: 'Genre: Psychedelic Rock, Psychedelic Pop, Indie Rock',
         hint2: 'Country: Australia',
         hint3: 'Release date: 2020',
-        info: 'Photography, design and art concept by Neil Krug',
+        info: 'Photography, design and art concept by Neil Krug.',
         spotify: 'https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL?si=q3umD1bpR2O77xRXxLRh0A',
         applemusic: 'https://music.apple.com/ee/album/the-slow-rush/1497230760',
     },
