@@ -1549,6 +1549,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/64EKrS1Ubw2rQ9qn9QRUq3?si=gboLAflbRFO1CbFhD8ej5A',
         applemusic: 'https://music.apple.com/ee/album/volta/1396010696',
     },
+    Mar192023: {
+        date: todaysDate,
+        artist: 'Beyoncè',
+        artist2: 'Beyonce',
+        album: 'Dangerously in Love',
+        album2: 'Dangerously in Love',
+        hint1: 'Genre: R&B, Pop',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2003',
+        info: 'Beyoncé approached photographer Markus Klinko and asked for a diamond-themed portrait to be used as the cover artwork for Dangerously in Love, referencing his 2000 campaign for Diamond.com showing Laetitia Casta lying on diamond-studded spider web. Her mother and stylist Tina Knowles brought a rhinestone top designer Jose Barrera had repurposed from a pair of pants he designed for Cher, which she wore for her 1990 photoshoot for Vanity Fair; the top has since been included in a Rock and Roll Hall of Fame exhibition dedicated to Beyoncé.',
+        spotify: 'https://open.spotify.com/album/6oxVabMIqCMJRYN1GqR3Vf?si=GKUXkRQUQyWgr4CAtfcA8w',
+        applemusic: 'https://music.apple.com/ee/album/dangerously-in-love/201274359',
+    },
+    Mar202023: {
+        date: todaysDate,
+        artist: 'Tame Impala',
+        artist2: 'Tame Impala',
+        album: 'The Slow Rush',
+        album2: 'Slow Rush',
+        hint1: 'Genre: Psychedelic Rock, Psychedelic Pop, Indie Rock',
+        hint2: 'Country: Australia',
+        hint3: 'Release date: 2020',
+        info: 'Photography, design and art concept by Neil Krug',
+        spotify: 'https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL?si=q3umD1bpR2O77xRXxLRh0A',
+        applemusic: 'https://music.apple.com/ee/album/the-slow-rush/1497230760',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
