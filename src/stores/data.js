@@ -1536,6 +1536,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/4VZ7jhV0wHpoNPCB7Vmiml?si=zr_Q-OBJQR-cL4NUzBcP-A',
         applemusic: 'https://music.apple.com/ee/album/an-evening-with-silk-sonic/1611637679',
     },
+    Mar182023: {
+        date: todaysDate,
+        artist: 'Björk',
+        artist2: 'Bjork',
+        album: 'Volta',
+        album2: 'Volta',
+        hint1: 'Genre: Electronic, Experimental, Pop',
+        hint2: 'Country: Iceland',
+        hint3: 'Release date: 2007',
+        info: 'The colorful sculpture by Bernhard Wilhelm and photographed by Nick Knight.',
+        spotify: 'https://open.spotify.com/album/64EKrS1Ubw2rQ9qn9QRUq3?si=gboLAflbRFO1CbFhD8ej5A',
+        applemusic: 'https://music.apple.com/ee/album/volta/1396010696',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
