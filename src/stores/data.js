@@ -1575,6 +1575,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL?si=q3umD1bpR2O77xRXxLRh0A',
         applemusic: 'https://music.apple.com/ee/album/the-slow-rush/1497230760',
     },
+    Mar232023: {
+        date: todaysDate,
+        artist: 'The Weeknd',
+        artist2: 'Weeknd',
+        album: 'House of Balloons',
+        album2: 'House of Balloons',
+        hint1: 'Genre: R&B, Soul, Pop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2011',
+        info: 'In a new interview with Forbes, The Weeknd, and his creative director at XO, La Mar Taylor talk about how he snuck into the Ontario College of Art & Design University (OCAD) in 2011 to access the school’s Adobe software and make the artwork for the album.',
+        spotify: 'https://open.spotify.com/album/7zCODUHkfuRxsUjtuzNqbd?si=wEbbtXiMSJCXQBcRV8a_GQ',
+        applemusic: 'https://music.apple.com/ee/album/house-of-balloons-original/1558941834',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
