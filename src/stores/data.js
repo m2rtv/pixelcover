@@ -1588,6 +1588,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/7zCODUHkfuRxsUjtuzNqbd?si=wEbbtXiMSJCXQBcRV8a_GQ',
         applemusic: 'https://music.apple.com/ee/album/house-of-balloons-original/1558941834',
     },
+    Mar242023: {
+        date: todaysDate,
+        artist: 'Gnarls Barkley',
+        artist2: 'Gnarls Barkley',
+        album: 'St. Elsewhere',
+        album2: 'St Elsewhere',
+        hint1: 'Genre: Soul, Pop, Psychedelic Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2006',
+        info: 'Illustrated by Kam Tang, it includes many references to the albums songs. The SS stormtrooper helmet relates to "Storm Trooper”. The syringe relates to "St. Elsewhere," which is the name of a TV medical drama. The cherry bomb relates "Go Go Gadget Gospel," as both the image and title are Inspector Gadget references (another TV show).',
+        spotify: 'https://open.spotify.com/album/5I0Wf7lRLZArM1K2uQ1AEA?si=RKEJjcMIRcqow_JukZ1VwA',
+        applemusic: 'https://music.apple.com/ee/album/st-elsewhere/145545207',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
