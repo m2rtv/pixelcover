@@ -1601,6 +1601,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/5I0Wf7lRLZArM1K2uQ1AEA?si=RKEJjcMIRcqow_JukZ1VwA',
         applemusic: 'https://music.apple.com/ee/album/st-elsewhere/145545207',
     },
+    Mar262023: {
+        date: todaysDate,
+        artist: 'Mac DeMarco',
+        artist2: 'Mac De Marco',
+        album: '2',
+        album2: 'II',
+        hint1: 'Genre: Indie Rock, Lo-Fi, Indie Pop',
+        hint2: 'Country: Canada',
+        hint3: 'Release date: 2012',
+        info: 'In September 2014, DeMarco stated in a "What\'s in My Bag?" interview video at Amoeba Records in San Francisco, California that he had been inspired by the album art for Haruomi Hosono\'s Hosono House for the design of 2’s album cover. In the same interview, DeMarco also points out his cover’s striking but coincidental similarity to Bruce Springsteen\'s The River.',
+        spotify: 'https://open.spotify.com/album/2XgBQwGRxr4P7cHLDYiqrO?si=ZkSBdz9aQh-eKPMwIBERPw',
+        applemusic: 'https://music.apple.com/ee/album/2/561048714',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
