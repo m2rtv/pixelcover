@@ -1614,6 +1614,19 @@ let Data = {
         spotify: 'https://open.spotify.com/album/2XgBQwGRxr4P7cHLDYiqrO?si=ZkSBdz9aQh-eKPMwIBERPw',
         applemusic: 'https://music.apple.com/ee/album/2/561048714',
     },
+    Mar272023: {
+        date: todaysDate,
+        artist: 'Bon Iver',
+        artist2: 'Bon Iver',
+        album: 'For Emma, Forever Ago',
+        album2: 'For Emma',
+        hint1: 'Genre: Indie Folk, Indie Pop, Folk Rock',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2007',
+        info: 'While recording this debut album at the cabin in Wisconsin, singer-songwriter Justin Vernon had written to Kelly Crisp of the Rosebuds, concluding his letter with "bon iver," a misspelling of "bon hiver," which is French for "good winter." Its origins lie in an episode of Northern Exposure, wherein two characters greet one another.',
+        spotify: 'https://open.spotify.com/album/1r5JEclOv0s5S8GhFet0Wx?si=m7Rc_S56TiKZ4NuA6M3sVg',
+        applemusic: 'https://music.apple.com/ee/album/for-emma-forever-ago/1016407094',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
