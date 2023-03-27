@@ -1627,6 +1627,32 @@ let Data = {
         spotify: 'https://open.spotify.com/album/1r5JEclOv0s5S8GhFet0Wx?si=m7Rc_S56TiKZ4NuA6M3sVg',
         applemusic: 'https://music.apple.com/ee/album/for-emma-forever-ago/1016407094',
     },
+    Mar282023: {
+        date: todaysDate,
+        artist: 'J. Cole',
+        artist2: 'J.Cole',
+        album: '2014 Forest Hills Drive',
+        album2: '2014 Forest Hills Drive',
+        hint1: 'Genre: Hip Hop, Trap',
+        hint2: 'Country: US',
+        hint3: 'Release date: 2014',
+        info: 'Photographed by Anthony Blasko.',
+        spotify: 'https://open.spotify.com/album/0UMMIkurRUmkruZ3KGBLtG?si=10nYvg_DTMiU3840K_WPzA',
+        applemusic: 'https://music.apple.com/ee/album/2014-forest-hills-drive/1600766204',
+    },
+    Mar292023: {
+        date: todaysDate,
+        artist: 'Gorillaz',
+        artist2: 'Gorillas',
+        album: 'Gorillaz',
+        album2: 'Gorillas',
+        hint1: 'Genre: Alternative Rock, Electronic, Dub, Hip Hop',
+        hint2: 'Country: UK',
+        hint3: 'Release date: 2001',
+        info: 'Album cover made by Jamie Hewlett and his creative agency and design team Zombie Flesh Eaters.',
+        spotify: 'https://open.spotify.com/album/4tUxQkrduOE8sfgwJ5BI2F?si=RGUy1wuWQ7aniw0bA4YzQw',
+        applemusic: 'https://music.apple.com/ee/album/gorillaz/850576570',
+    },
 }
 let todaysData = Data[todaysDate];
 export default todaysData;
